@@ -17,8 +17,13 @@
 }
 
 html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 20px;
+  scroll-padding-top: 140px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
 }
 
 body {
@@ -98,19 +103,19 @@ img {
   display: flex;
   align-items: center;
   gap: 8px;
-  font-weight: 750;
+  font-weight: 500;
 }
 
 .serviceinner small {
   color: #9fb4c3;
   font-size: 11px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .serviceinner > a {
   margin-left: auto;
   color: #f2fbff;
-  font-weight: 750;
+  font-weight: 500;
 }
 
 .header {
@@ -136,7 +141,7 @@ img {
   gap: 11px;
   min-width: 0;
   font-size: 25px;
-  font-weight: 850;
+  font-weight: 700;
   letter-spacing: -.5px;
   line-height: 1;
 }
@@ -150,7 +155,7 @@ img {
   margin-top: 6px;
   color: #6e7c87;
   font-size: 8px;
-  font-weight: 800;
+  font-weight: 600;
   letter-spacing: 1px;
 }
 
@@ -214,6 +219,22 @@ img {
   background: #17486b;
 }
 
+.searchclear {
+  width: 32px;
+  flex: 0 0 auto;
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  font-size: 16px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.searchclear:hover {
+  color: var(--ink);
+}
+
+
 .headeractions {
   display: flex;
   align-items: center;
@@ -228,7 +249,7 @@ img {
   border-radius: 8px;
   background: transparent;
   color: var(--ink);
-  font-weight: 750;
+  font-weight: 500;
 }
 
 .linkbutton {
@@ -252,6 +273,7 @@ img {
   background: var(--navy);
   color: #fff;
   font-size: 11px;
+  font-weight: 600;
 }
 
 .nav {
@@ -288,7 +310,7 @@ img {
   background: transparent;
   color: #243d52;
   font-size: 13px;
-  font-weight: 750;
+  font-weight: 500;
   line-height: 1.2;
   white-space: nowrap;
 }
@@ -337,7 +359,7 @@ img {
   border-radius: 6px;
   color: #243d52;
   font-size: 13px;
-  font-weight: 650;
+  font-weight: 400;
 }
 
 .navdropdown a:hover,
@@ -368,7 +390,7 @@ img {
   margin: 0 0 10px;
   color: var(--teal);
   font-size: 11px;
-  font-weight: 850;
+  font-weight: 600;
   letter-spacing: 1.5px;
 }
 
@@ -378,6 +400,7 @@ img {
   font-size: clamp(36px, 5vw, 58px);
   line-height: 1.02;
   letter-spacing: -.8px;
+  font-weight: 700;
 }
 
 .lead {
@@ -407,7 +430,7 @@ img {
   border-radius: 999px;
   background: #fff;
   color: #275a78;
-  font-weight: 750;
+  font-weight: 500;
 }
 
 .heroimage {
@@ -425,7 +448,7 @@ img {
 }
 
 .section {
-  padding-block: 44px 6px;
+  padding-block: 44px 32px;
 }
 
 .categorygrid {
@@ -467,6 +490,7 @@ img {
 .category b {
   color: #18374d;
   font-size: 12px;
+  font-weight: 500;
 }
 
 .category small {
@@ -488,6 +512,7 @@ img {
   font-size: 26px;
   line-height: 1.15;
   letter-spacing: -.3px;
+  font-weight: 600;
 }
 
 .sectionhead > span,
@@ -495,7 +520,7 @@ img {
 .textlink {
   color: #2e7096;
   font-size: 12px;
-  font-weight: 800;
+  font-weight: 500;
 }
 
 .textlink {
@@ -574,7 +599,7 @@ img {
   background: #eaf7ef;
   color: var(--green);
   font-size: 10px;
-  font-weight: 850;
+  font-weight: 500;
 }
 
 .stock i {
@@ -622,7 +647,7 @@ img {
 .productbrand {
   color: var(--teal);
   font-size: 10px;
-  font-weight: 850;
+  font-weight: 600;
   letter-spacing: .7px;
   text-transform: uppercase;
 }
@@ -633,6 +658,7 @@ img {
   color: #17364d;
   font-size: 15px;
   line-height: 1.35;
+  font-weight: 500;
 }
 
 .sku {
@@ -654,6 +680,7 @@ img {
   color: #0f2c43;
   font-size: 18px;
   white-space: nowrap;
+  font-weight: 600;
 }
 
 .add,
@@ -668,7 +695,7 @@ img {
   background: var(--navy);
   color: #fff;
   font-size: 12px;
-  font-weight: 850;
+  font-weight: 500;
 }
 
 .add {
@@ -705,13 +732,15 @@ img {
   background: #fff;
   color: #344e61;
   font-size: 14px;
-  font-weight: 850;
+  font-weight: 500;
 }
 
 .brandlist button:hover,
-.brandlist button:focus-visible {
+.brandlist button:focus-visible,
+.brandlist button.active {
   border-color: #9ec6db;
   background: #eef5f9;
+  color: var(--navy);
 }
 
 .guidegrid {
@@ -747,6 +776,7 @@ img {
   margin: 0 0 6px;
   color: var(--navy);
   font-size: 15px;
+  font-weight: 600;
 }
 
 .guide p {
@@ -795,10 +825,15 @@ footer {
   gap: 8px;
 }
 
-.footergrid > div > b {
-  margin-bottom: 3px;
+
+.footergrid > div > b,
+.footergrid > div > h3 {
+  margin: 0 0 3px;
   color: #fff;
+  font-size: 14px;
+  font-weight: 600;
 }
+
 
 .footergrid button:not(.primaryaction) {
   border: 0;
@@ -867,6 +902,7 @@ dialog::backdrop {
   margin: 0;
   color: var(--navy);
   font-size: 22px;
+  font-weight: 600;
 }
 
 .dialoghead button,
@@ -909,6 +945,11 @@ dialog::backdrop {
   font-size: 12px;
 }
 
+.cartline b {
+  color: var(--ink);
+  font-weight: 500;
+}
+
 .cartline small {
   margin-top: 4px;
   color: var(--muted);
@@ -924,7 +965,7 @@ dialog::backdrop {
   min-width: 18px;
   text-align: center;
   font-size: 12px;
-  font-weight: 850;
+  font-weight: 500;
 }
 
 .carttotal {
@@ -932,6 +973,14 @@ dialog::backdrop {
   justify-content: space-between;
   padding-top: 16px;
   font-size: 16px;
+}
+
+.carttotal b {
+  font-weight: 500;
+}
+
+.carttotal strong {
+  font-weight: 600;
 }
 
 .primaryaction {
@@ -954,7 +1003,7 @@ dialog::backdrop {
   display: grid;
   gap: 6px;
   font-size: 12px;
-  font-weight: 800;
+  font-weight: 500;
 }
 
 .stackform input {
@@ -989,6 +1038,10 @@ dialog::backdrop {
   padding-top: 16px;
 }
 
+.productdetailgrid .eyebrow {
+  margin-top: 0;
+}
+
 .productdetailgrid img {
   width: 100%;
   height: 260px;
@@ -1016,7 +1069,9 @@ dialog::backdrop {
 
 .productmeta b {
   display: block;
-  color: var(--navy);
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 500;
 }
 
 .productactions {
@@ -1251,11 +1306,13 @@ dialog::backdrop {
 
   .cartline .qtycontrol {
     grid-column: 2;
+    grid-row: 2;
     justify-self: start;
   }
 
   .cartline > button[data-remove] {
     grid-column: 2;
+    grid-row: 3;
     justify-self: start;
   }
 }
