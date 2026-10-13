@@ -19,6 +19,20 @@ node --check js/app.js
 node --check js/catalog.js
 ```
 
+## Documentation
+
+Comprehensive project documentation designed for modern engineering and AI-native workflows is available in the `docs/` directory:
+
+- [Project Context and AI Guidelines](docs/PROJECT_CONTEXT.md): Repository manifest, constraints, and instructions for human and AI collaborators.
+- [Architecture and System Design](docs/ARCHITECTURE.md): Component breakdown, state management, and design patterns.
+- [Product Specification](docs/SPECIFICATION.md): Functional and non-functional requirements, target locale (de-CH), and user stories.
+- [Architecture Decision Records](docs/DECISIONS.md): ADRs documenting core technical and design choices.
+- [AI Development Log and Methodology](docs/AI_DEVELOPMENT_LOG.md): How the project was built, audited, and iterated using AI-native practices.
+- [Technical Audit and Remediation Log](docs/AUDIT_LOG.md): Itemized audit entries across P0 to P3 severity tiers with fix details.
+- [AI Prompt and Action Execution Log](docs/PROMPT_AND_ACTION_LOG.md): Step-by-step history of prompt cycles, tool calls, and diffs.
+- [Quality Assurance and Verification](docs/VERIFICATION_AND_QA.md): Testing procedures, validation scripts, and WCAG checklist.
+- [Image Audit](IMAGE_AUDIT.md): Asset handling and error fallback policies.
+
 ## Features
 
 - Sticky header with logo, accessible search bar (with clear button), account button, and cart badge.
