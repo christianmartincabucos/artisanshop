@@ -40,7 +40,23 @@
       <a class="category" href="#products" data-query="Kleingeräte"><img src="https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=400&q=80" alt="Kleine Haushaltsgeräte" data-fallback><b>Kleingeräte</b><small>398 Ersatzteile</small></a>
       <a class="category" href="#products" data-query="Zubehör"><img src="https://images.unsplash.com/photo-1581147036324-c1c89c2c8b5c?auto=format&fit=crop&w=400&q=80" alt="Werkzeug für Reparaturen" data-fallback><b>Zubehör</b><small>1.207 Ersatzteile</small></a>
     </div></section>
-    <section class="wrap section" id="products"><div class="sectionhead"><div><p class="eyebrow">UNSERE AUSWAHL</p><h2>Beliebte Ersatzteile</h2></div><span id="resultLabel">Ausgewählte Produkte</span></div><div class="productgrid" id="productGrid" aria-live="polite"></div><p class="empty" id="emptyState" hidden>Keine passenden Artikel gefunden. Bitte versuchen Sie einen anderen Suchbegriff.</p></section>
+    <section class="wrap section" id="products">
+      <div class="sectionhead">
+        <div><p class="eyebrow">UNSERE AUSWAHL</p><h2>Beliebte Ersatzteile</h2></div>
+        <div class="sectioncontrols">
+          <span id="resultLabel" aria-live="polite">Ausgewählte Produkte</span>
+          <label class="sr-only" for="sortSelect">Sortierung</label>
+          <select id="sortSelect" class="sortselect">
+            <option value="relevance">Relevanz</option>
+            <option value="price-asc">Preis aufsteigend</option>
+            <option value="price-desc">Preis absteigend</option>
+            <option value="name-asc">Name A–Z</option>
+          </select>
+        </div>
+      </div>
+      <div class="productgrid" id="productGrid" aria-live="polite"></div>
+      <p class="empty" id="emptyState" hidden>Keine passenden Artikel gefunden. Bitte versuchen Sie einen anderen Suchbegriff oder wählen Sie eine Kategorie.</p>
+    </section>
     <section class="wrap section brands" id="brands"><div class="sectionhead"><h2>Unsere Marken</h2><span>Passende Teile für viele Geräte</span></div><div class="brandlist" id="brandList"><button type="button" data-query="Bosch" aria-pressed="false">BOSCH</button><button type="button" data-query="Siemens" aria-pressed="false">SIEMENS</button><button type="button" data-query="Miele" aria-pressed="false">Miele</button><button type="button" data-query="Electrolux" aria-pressed="false">Electrolux</button><button type="button" data-query="Samsung" aria-pressed="false">SAMSUNG</button><button type="button" data-query="AEG" aria-pressed="false">AEG</button><button type="button" data-query="beko" aria-pressed="false">beko</button><button type="button" data-query="LG" aria-pressed="false">LG</button></div></section>
     <section class="wrap section" id="guides"><div class="sectionhead"><div><p class="eyebrow">SELBST REPARIEREN</p><h2>Reparaturanleitungen</h2></div><button class="textlink" type="button" data-info="guides">Alle Anleitungen ansehen <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-right"></use></svg></button></div><div class="guidegrid">
       <article class="guide"><img src="https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=600&q=80" alt="Waschmaschine bei einer Reparatur" data-fallback><div><h3>Türmanschette wechseln</h3><p>Schritt-für-Schritt-Anleitung für Ihre Waschmaschine.</p><button class="textlink" type="button" data-info="guide-washer">Jetzt ansehen <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-right"></use></svg></button></div></article>

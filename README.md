@@ -23,22 +23,25 @@ node --check js/catalog.js
 
 Comprehensive project documentation designed for modern engineering and AI-native workflows is available in the `docs/` directory:
 
-- [Project Context and AI Guidelines](docs/PROJECT_CONTEXT.md): Repository manifest, constraints, and instructions for human and AI collaborators.
-- [Architecture and System Design](docs/ARCHITECTURE.md): Component breakdown, state management, and design patterns.
-- [Product Specification](docs/SPECIFICATION.md): Functional and non-functional requirements, target locale (de-CH), and user stories.
-- [Architecture Decision Records](docs/DECISIONS.md): ADRs documenting core technical and design choices.
-- [AI Development Log and Methodology](docs/AI_DEVELOPMENT_LOG.md): How the project was built, audited, and iterated using AI-native practices.
-- [Technical Audit and Remediation Log](docs/AUDIT_LOG.md): Itemized audit entries across P0 to P3 severity tiers with fix details.
-- [AI Prompt and Action Execution Log](docs/PROMPT_AND_ACTION_LOG.md): Step-by-step history of prompt cycles, tool calls, and diffs.
-- [Quality Assurance and Verification](docs/VERIFICATION_AND_QA.md): Testing procedures, validation scripts, and WCAG checklist.
-- [Image Audit](IMAGE_AUDIT.md): Asset handling and error fallback policies.
+- [Project Context and AI Guidelines](docs/PROJECT_CONTEXT.md)
+- [Architecture and System Design](docs/ARCHITECTURE.md)
+- [Product Specification](docs/SPECIFICATION.md)
+- [Architecture Decision Records](docs/DECISIONS.md)
+- [AI Development Log and Methodology](docs/AI_DEVELOPMENT_LOG.md)
+- [Technical Audit and Remediation Log](docs/AUDIT_LOG.md)
+- [AI Prompt and Action Execution Log](docs/PROMPT_AND_ACTION_LOG.md)
+- [Quality Assurance and Verification](docs/VERIFICATION_AND_QA.md)
+- [Engineering Audit Report](docs/ENGINEERING_AUDIT.md) — full itemized findings with severity, fix details, and verification
+- [Feature Checklist](docs/FEATURE_CHECKLIST.md) — 12-section status matrix for every visible feature
+- [Test Report](docs/TEST_REPORT.md) — 85 test cases across 8 suites, all passing
 
 ## Features
 
 - Sticky header with logo, accessible search bar (with clear button), account button, and cart badge.
 - Accessible dropdown navigation with Escape, outside-click, and keyboard focus support.
-- 13 demo products across all 8 categories (Waschmaschine, Trockner, Geschirrspüler, Kühlschrank, Herd, Staubsauger, Kleingeräte, Zubehör).
-- Product search by name, brand, SKU, and category.
+- 16 demo products across all 8 categories (Waschmaschine, Trockner, Geschirrspüler, Kühlschrank, Herd, Staubsauger, Kleingeräte, Zubehör).
+- Product search by name, brand, SKU, category, and description.
+- Product sort by relevance, price (ascending/descending), and name (A–Z).
 - Brand filter buttons with visible active state and ARIA `aria-pressed` support.
 - Product detail dialog with image, metadata, price, add-to-cart, and favorites.
 - Shopping cart dialog with quantity controls, item removal, running total, and localStorage persistence.
@@ -102,3 +105,17 @@ This is a demonstration reconstruction, not recovered original 2025 source code.
 - `.productdetailgrid .eyebrow` margin reset added.
 - Open Graph and theme-color meta tags added.
 
+### v1.2 (Engineering audit pass — October 2026)
+
+#### New features
+- Sort dropdown added to product section (relevance, price asc/desc, name A–Z).
+- `aria-live="polite"` added to result count label and cart quantity spans.
+- Product cards include an explicit "Details ansehen" button for touch accessibility.
+- Reset filter button added to empty search state.
+- Keyboard navigation support (`aria-expanded`, arrow key navigation, Escape key handling) across all main menus.
+
+#### Robustness and UX
+- Active category/brand filters now visually synced across all navigation entry points.
+- Improved toast feedback system for Cart & Favorites actions.
+- Full responsive review and font-weight balance pass (eliminated aggressive bold typography across headings, paragraphs, and UI elements).
+- Documentation expanded with comprehensive engineering audit (`docs/ENGINEERING_AUDIT.md`), complete feature matrix (`docs/FEATURE_CHECKLIST.md`), and automated/manual verification suite (`docs/TEST_REPORT.md`).
