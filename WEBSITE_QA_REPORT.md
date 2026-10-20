@@ -6,8 +6,8 @@ Audit date: 2026-10-20. Workspace: recovered ArtisanShop static site.
 
 - Enumerated and directly requested **1,956 HTML routes** on the local server; each returned HTTP 200. No tested route returned a directory listing or an empty response.
 - `/produkte/` now serves a catalog with **1,218 product links** and no broken local links in that page. `/geraet/`, its 26 brand indexes, and `/whirlpool/` now have usable landing pages instead of directory listings or missing routes.
-- All **59 JavaScript files** passed `node --check`. `sitemap.xml` parses as XML; the country-state JSON endpoint parses; sampled CSS, JS, logo and fallback image assets returned successfully.
-- Replaced the malformed sitemap and added its entry to `robots.txt`; removed the injected casino-feed page and malformed JSON-as-HTML artifacts; added a custom `404.html`.
+- All **59 JavaScript files** passed `node --check`. The country-state JSON endpoint parses; sampled CSS, JS, logo and fallback image assets returned successfully.
+- Removed the unverified `artisanshop.ch` canonical/sitemap destination because it resolves to an unrelated casino site. Site URLs in page metadata now use local root-relative paths; sitemap publication is disabled until a verified production domain is configured. Also removed the injected casino-feed page and malformed JSON-as-HTML artifacts, and added a custom `404.html`.
 - Repaired same-site links to resolve locally where recovered files exist, fixed service navigation/assets, and added transparent fallback pages for missing company, account, cart/search and selected guide content.
 - No broken in-page fragment references were found in the full link scan.
 
@@ -26,7 +26,7 @@ Audit date: 2026-10-20. Workspace: recovered ArtisanShop static site.
 - `WEBSITE_UNRESOLVED_ROUTES.csv`: unresolved local route references.
 - `WEBSITE_MISSING_ASSETS.csv`: unresolved asset references.
 - `WEBSITE_BACKEND_DEPENDENCIES.csv`: server-dependent endpoints and reference counts.
-- `sitemap.xml` and `robots.txt`: regenerated sitemap and discovery pointer.
+- `robots.txt`: no sitemap URL is advertised until a verified destination is available.
 
 ## Status interpretation
 
