@@ -14,6 +14,6 @@ The static archive can render captured pages and the local product catalog. The 
 
 ## Recovery notes
 
-- `sitemap.xml` lists the captured public HTML routes.
+- Sitemap publication is disabled until a verified production domain is configured.
 - `404.html` gives a useful recovery-specific not-found page on hosts that support static 404 files.
 - `WEBSITE_QA_REPORT.md` and `WEBSITE_ROUTE_STATUS.csv` document the route, link, and resource checks.
