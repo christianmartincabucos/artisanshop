@@ -1,0 +1,1 @@
+/* artisan-critical-css stub */

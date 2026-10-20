@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[30082],{82:(e,s,t)=>{t.r(s),t.d(s,{default:()=>l});class l extends window.PluginBaseClass{init(){new IntersectionObserver(e=>{let[s]=e;null==s||s.target.classList.toggle("is-sticky",(null==s?void 0:s.intersectionRatio)<1)},{threshold:[1]}).observe(this.el)}}}}]);

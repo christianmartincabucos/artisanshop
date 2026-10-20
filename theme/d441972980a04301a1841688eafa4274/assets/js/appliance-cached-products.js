@@ -1,0 +1,1 @@
+/* appliance-cached-products stub */

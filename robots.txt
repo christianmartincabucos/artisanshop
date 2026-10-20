@@ -1,0 +1,27 @@
+User-agent: XoviBot
+User-agent: PetalBot
+User-agent: Yandex
+User-agent: DotBot
+User-agent: Semrush
+User-agent: SemrushBot
+User-agent: Scrapy
+User-agent: MegaIndex.ru/2.0
+User-agent: MegaIndex.ru
+User-agent: megaIndex.ru
+Disallow: /
+
+User-agent: *
+Allow: /
+Disallow: */?
+Disallow: */account/
+Disallow: */checkout/
+Disallow: */widgets/
+Disallow: */tracker/
+Disallow: */enrich/
+Disallow: */navigation/
+Disallow: */bundles/
+Disallow: /product/*/rating
+Disallow: */imprint$
+Disallow: */privacy$
+Disallow: */gtc$
+
