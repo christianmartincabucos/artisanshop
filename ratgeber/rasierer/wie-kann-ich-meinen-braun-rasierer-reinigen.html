@@ -223,7 +223,7 @@ color: #274533;
                     'frontend.cms.page': '/widgets/cms',
                     'frontend.cms.navigation.page': '/widgets/cms/navigation',
                     'frontend.account.addressbook': '/widgets/account/address-book',
-                    'frontend.country.country-data': '/country/country-state-data',
+                    'frontend.country.country-data': '/country/country-state-data.json',
                     'frontend.app-system.generate-token': '/app-system/Placeholder/generate-token',
                     };
                 window.salesChannelId = '018ebd44f64d72b68cb58c170238a4cc';
@@ -283,7 +283,7 @@ color: #274533;
                         
             <header class="header-main">
                     <div class="header-inner"><div class="container"><div class="row align-items-center header-row"><div class="col-auto header-logo-col"><div class="header-logo-main"><a class="header-logo-main-link"
-                       href="/"
+                       href="/kueche/"
                        title="Zur Startseite gehen"><img src="/media/48/44/5b/1747717464/artisanshop-header-logo.svg"
               alt="Zur Startseite gehen"
               width="56"
@@ -325,7 +325,7 @@ color: #274533;
                         title="Navigation"
                         data-off-canvas-menu="true"
                         aria-label="Menü"><span class="icon icon-stack"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24"><use xlink:href="#icons-default-stack" fill="#758CA3" fill-rule="evenodd" /></svg></span></button><a class="header-logo-main-link"
-               href="/"
+               href="/kueche/"
                title="Zur Startseite gehen"><img src="/media/48/44/5b/1747717464/artisanshop-header-logo.svg"
               alt="Zur Startseite gehen"
               width="56"
@@ -340,7 +340,7 @@ color: #274533;
                             d="M14.34,1A8.52,8.52,0,0,0,7.77,15L1.43,21.29a1,1,0,0,0,0,1.42,1,1,0,0,0,.71.29,1,1,0,0,0,.71-.29l6.38-6.38A8.52,8.52,0,1,0,14.34,1Zm0,15a6.52,6.52,0,1,1,6.52-6.52A6.53,6.53,0,0,1,14.34,16Z"/></svg></span><span class="icon icon-artisan icon-x icon-solid"><?xml version="1.0" encoding="utf-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path
                             d="M13.41,12l9.3-9.29a1,1,0,1,0-1.42-1.42L12,10.59,2.71,1.29A1,1,0,0,0,1.29,2.71L10.59,12l-9.3,9.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0L12,13.41l9.29,9.3a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42Z"/></svg></span></span><span class="header-search-toggle-name">
                     Suche
-                </span></button></div></div><div class="col-auto art-search-widget-col d-none d-lg-block"><div class="header-search-widget"><a href="/widgets/model-code"
+                </span></button></div></div><div class="col-auto art-search-widget-col d-none d-lg-block"><div class="header-search-widget"><a href="/service/kundenservice/"
                        title="So findest Du die Gerätenummer"
                        data-art-offcanvas-appliance-search="true">
                         Gerätenummer bestimmen
@@ -371,27 +371,27 @@ color: #274533;
                             Anmelden
                         </a><div class="account-menu-register">
                             oder <a href="/account/login"
-                                                                            title="Registrieren">registrieren</a></div></div><div class="account-menu-links"><div class="header-account-menu"><div class="card account-menu-inner"><div class="list-group list-group-flush account-aside-list-group"><a href="/account"
+                                                                            title="Registrieren">registrieren</a></div></div><div class="account-menu-links"><div class="header-account-menu"><div class="card account-menu-inner"><div class="list-group list-group-flush account-aside-list-group"><a href="/account/"
                                    title="Übersicht"
                                    class="list-group-item list-group-item-action account-aside-item">
                                     Übersicht
-                                </a><a href="/account/profile"
+                                </a><a href="/account/profile/"
                                    title="Persönliches Profil"
                                    class="list-group-item list-group-item-action account-aside-item">
                                     Persönliches Profil
-                                </a><a href="/account/address"
+                                </a><a href="/account/address/"
                                    title="Adressen"
                                    class="list-group-item list-group-item-action account-aside-item">
                                     Adressen
-                                </a><a href="/account/payment"
+                                </a><a href="/account/payment/"
                                    title="Zahlungsarten"
                                    class="list-group-item list-group-item-action account-aside-item">
                                     Zahlungsarten
-                                </a><a href="/account/order"
+                                </a><a href="/account/order/"
                                    title="Bestellungen"
                                    class="list-group-item list-group-item-action account-aside-item">
                                     Bestellungen
-                                </a><a href="/account/mollie/subscriptions" title="Abonnements" class="list-group-item list-group-item-action account-aside-item">
+                                </a><a href="/account/mollie/subscriptions/" title="Abonnements" class="list-group-item list-group-item-action account-aside-item">
                 Abonnements
             </a></div></div></div></div></div></div></div></div></div></div><div class="col-auto twt-register-col d-none d-md-block"><div class="header-register"><a href="/account/login"
                    class="btn btn-outline-secondary"
@@ -1020,7 +1020,7 @@ color: #274533;
                 data-relevance="0"><a href="/haushalt/saugroboter/kabel-und-adapter/" itemprop="url"
                        class="text"><span itemprop="name">Kabel und Adapter</span></a></li><li class="item-menu-link" style="background: transparent"><a href="/haushalt/saugroboter/" itemprop="url" class="text text-decoration-underline"><span
                             itemprop="name">art.navigation.flyout.allCategory</span></a></li></ul></li></ul></li><li class="menu-item univers-item has-subitems item-menu-link"
-                data-relevance=""><a href="/ratgeber/" itemprop="url"
+                data-relevance=""><a href="/ratgeber/kaffeemaschine/" itemprop="url"
                        class="text"><img src="/media/14/15/a5/1718805078/repairguide-icon.svg?ts=1718805078"                          loading="lazy" width="20" height="20" class="category-thumbnails-small" alt="Ersatzteile" title="Ersatzteile" data-object-fit="cover"        /><span itemprop="name">Reparaturratgeber</span></a><span class="icon icon-arrow-medium-right icon-sm icon-dark"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16"><use transform="rotate(-90 8 8)" xlink:href="#icons-solid-arrow-medium-right" fill="#758CA3" fill-rule="evenodd" /></svg></span><ul class="level-menu-wrapper lvl2 univers-list"><li class="menu-item univers-item item-menu-link"
                 data-relevance=""><a href="/ratgeber/waschmaschine/" itemprop="url"
                        class="text"><span itemprop="name">Waschmaschine Ratgeber</span></a></li><li class="menu-item univers-item item-menu-link"
@@ -1058,7 +1058,7 @@ color: #274533;
                        class="text"><span itemprop="name">Geschirrspüler</span></a></li><li class="menu-item univers-item item-menu-link"
                 data-relevance=""><a href="/reparaturanleitungen/kuehlschrank/" itemprop="url"
                        class="text"><span itemprop="name">Kühlschrank</span></a></li><li class="menu-item univers-item item-menu-link"
-                data-relevance=""><a href="/navigation/01943b211ffb7ef0846481448e746ebc" itemprop="url"
+                data-relevance=""><a href="/haushalt/staubsauger/" itemprop="url"
                        class="text"><span itemprop="name">Staubsauger</span></a></li></ul></li></ul></li></ul></div><ul class="desktop-pane hidden"></ul></div><div class="menu-overlay"></div></div></div></div></div></div>            </header>
         
             
@@ -1547,7 +1547,7 @@ color: #274533;
 
                         
                         <div class="cms-block-container-row row cms-row mt-5">
-                                <div class="col-12 mb-4">Damit dein elektrischer Braun Rasierer immer hygienisch und leistungsfähig bleibt, solltest du ihn regelmäßig von den Verunreinigungen befreien. Aber wie oft den Braun Rasierer reinigen? Und wie am besten? Das erfährst du jetzt:<br><br><b>Tägliche Reinigung:</b> Nach jedem Rasieren solltest du den&nbsp;<a target="_self" href="/rasierer/scherkopf/braun/">Braun Scherkopf</a>&nbsp;abnehmen und vorsichtig ausklopfen, um lose Haare zu entfernen. Halte den&nbsp;<a target="_self" href="/rasierer/scherkopf/">Scherkopf</a>&nbsp;und den Rasierer unter fließendes, warmes Wasser und spüle beide gründlich ab. Für eine noch gründlichere Rasierer Reinigung kannst du etwas Flüssigseife auf den Scherkopf geben. Achte darauf, dass alle Seifenreste entfernt werden und alle Teile vollständig getrocknet sind, bevor du sie wieder zusammensetzt.<br><br><b>Wöchentliche Tiefenreinigung</b>: Neben der täglichen Reinigung wird zusätzlich eine Tiefenreinigung einmal pro Woche empfohlen. Nimm den Scherkopf ab und reinige diesen wie auch den Rasierer gründlich unter Wasser. Verwende zusätzlich eine kleine Bürste oder eine weiche Zahnbürste, um festsitzende Haare und Schmutzpartikel zu entfernen. Achte jedoch darauf, keine zu harten Bürsten zu verwenden, da sonst die feinen&nbsp;<a target="_self" href="/rasierer/rasierklingen/">Rasierklingen</a>&nbsp;beschädigt werden können. Wichtig ist auch hier, dass alle Teile getrocknet sind, bevor du den Rasierer wieder zusammen baust.<br><br><b>Reinigungsstation verwenden:</b> Für einige Rasierer, wie z.B. den Braun Series 9 oder 7, gibt es spezielle Braun&nbsp;<a target="_self" href="/rasierer/reinigung/">Reinigungsstationen</a>, die die Tiefenreinigung für dich übernehmen. Sie reinigen, desinfizieren und pflegen deinen Rasierer ganz automatisch für optimale Leistung.<br><br><b>Regelmäßiger Scherkopfwechsel:</b> Der Hersteller Braun empfiehlt den Scherkopf ihrer elektrischen Rasierer alle 18 Monate zu tauschen. Der Scherkopf inkl. Klingen verschleißt über die Nutzungsdauer, was zu unsauberen Rasuren und Hautirritationen führen kann.<br><br>Und solltest du einmal einen Defekt an deinem Braun Rasierer feststellen, dann muss es oft nicht direkt ein neuer Rasierer sein. Bei uns findest du die passenden&nbsp;<a target="_self" href="/rasierer/braun/">Braun Rasierer Ersatzteile</a>&nbsp;für eine einfache und kostengünstige Reparatur deines Rasierers.
+                                <div class="col-12 mb-4">Damit dein elektrischer Braun Rasierer immer hygienisch und leistungsfähig bleibt, solltest du ihn regelmäßig von den Verunreinigungen befreien. Aber wie oft den Braun Rasierer reinigen? Und wie am besten? Das erfährst du jetzt:<br><br><b>Tägliche Reinigung:</b> Nach jedem Rasieren solltest du den&nbsp;<a target="_self" href="/haushalt/rasierer/scherkopf/braun/">Braun Scherkopf</a>&nbsp;abnehmen und vorsichtig ausklopfen, um lose Haare zu entfernen. Halte den&nbsp;<a target="_self" href="/haushalt/rasierer/scherkopf/">Scherkopf</a>&nbsp;und den Rasierer unter fließendes, warmes Wasser und spüle beide gründlich ab. Für eine noch gründlichere Rasierer Reinigung kannst du etwas Flüssigseife auf den Scherkopf geben. Achte darauf, dass alle Seifenreste entfernt werden und alle Teile vollständig getrocknet sind, bevor du sie wieder zusammensetzt.<br><br><b>Wöchentliche Tiefenreinigung</b>: Neben der täglichen Reinigung wird zusätzlich eine Tiefenreinigung einmal pro Woche empfohlen. Nimm den Scherkopf ab und reinige diesen wie auch den Rasierer gründlich unter Wasser. Verwende zusätzlich eine kleine Bürste oder eine weiche Zahnbürste, um festsitzende Haare und Schmutzpartikel zu entfernen. Achte jedoch darauf, keine zu harten Bürsten zu verwenden, da sonst die feinen&nbsp;<a target="_self" href="/haushalt/rasierer/rasierklingen/">Rasierklingen</a>&nbsp;beschädigt werden können. Wichtig ist auch hier, dass alle Teile getrocknet sind, bevor du den Rasierer wieder zusammen baust.<br><br><b>Reinigungsstation verwenden:</b> Für einige Rasierer, wie z.B. den Braun Series 9 oder 7, gibt es spezielle Braun&nbsp;<a target="_self" href="/haushalt/rasierer/reinigung/">Reinigungsstationen</a>, die die Tiefenreinigung für dich übernehmen. Sie reinigen, desinfizieren und pflegen deinen Rasierer ganz automatisch für optimale Leistung.<br><br><b>Regelmäßiger Scherkopfwechsel:</b> Der Hersteller Braun empfiehlt den Scherkopf ihrer elektrischen Rasierer alle 18 Monate zu tauschen. Der Scherkopf inkl. Klingen verschleißt über die Nutzungsdauer, was zu unsauberen Rasuren und Hautirritationen führen kann.<br><br>Und solltest du einmal einen Defekt an deinem Braun Rasierer feststellen, dann muss es oft nicht direkt ein neuer Rasierer sein. Bei uns findest du die passenden&nbsp;<a target="_self" href="/haushalt/rasierer/braun/">Braun Rasierer Ersatzteile</a>&nbsp;für eine einfache und kostengünstige Reparatur deines Rasierers.
 </div>
     
                         </div>
@@ -1827,7 +1827,7 @@ color: #274533;
                         </button>
 
                         <ul class="dropdown-menu" aria-labelledby="domain-dropdown-menu">
-                                                                                                                                                                                                                                                                                            <li><a class="dropdown-item" href="https://www.artisanshop.de" rel="nofollow">
+                                                                                                                                                                                                                                                                                            <li><a class="dropdown-item" href="/kueche/" rel="nofollow">
                                                                                                 
         
         
@@ -2087,7 +2087,7 @@ color: #274533;
  
 
 														<div class="footer-logo is-payment-logo" role="listitem">
-											<a href="/#payment" title="">
+											<a href="/kueche/#payment" title="">
 																		                        
                         
                         
@@ -2101,7 +2101,7 @@ color: #274533;
 																	</a>
 									</div>
 																<div class="footer-logo is-payment-logo" role="listitem">
-											<a href="/#payment" title="">
+											<a href="/kueche/#payment" title="">
 																		                        
                         
                         
@@ -2115,7 +2115,7 @@ color: #274533;
 																	</a>
 									</div>
 																<div class="footer-logo is-payment-logo" role="listitem">
-											<a href="/#payment" title="">
+											<a href="/kueche/#payment" title="">
 																		                        
                         
                         
@@ -2129,7 +2129,7 @@ color: #274533;
 																	</a>
 									</div>
 																<div class="footer-logo is-payment-logo" role="listitem">
-											<a href="/#payment" title="Apple Pay">
+											<a href="/kueche/#payment" title="Apple Pay">
 																		                        
                         
                         

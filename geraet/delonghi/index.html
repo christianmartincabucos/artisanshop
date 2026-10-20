@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="de-CH"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Gerätemodelle: Delonghi | ArtisanShop</title><link rel="stylesheet" href="/theme/70f6c4feb09e74b6b88d7a2f53c717b2/css/all.css">
+<style>body{background:#f7f8f5;color:#274533}main{max-width:1100px;margin:2rem auto;padding:1rem}.panel{background:#fff;border:1px solid #dfe5df;border-radius:12px;padding:clamp(1rem,3vw,2rem)}ul{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:.75rem}li a{display:block;padding:1rem;border:1px solid #e0e5e0;border-radius:8px;color:#245e40;background:#fff}li a:hover,li a:focus{border-color:#36815a}input{width:100%;max-width:42rem;padding:.8rem;border:1px solid #748477;border-radius:6px;font:inherit}</style></head>
+<body><main><section class="panel"><h1>Gerätemodelle: Delonghi</h1><p>7 erfasste Modellseiten für Delonghi.</p><label for="model-search">Gerät suchen</label><br><input type="search" id="model-search" placeholder="Modell oder Gerätenummer eingeben" autocomplete="off"><p id="result-count" role="status" aria-live="polite">7 Einträge</p><ul id="entry-list">
+      <li class="entry"><a href="/geraet/delonghi/f28313.bk-0125304901.html">F28313.BK (0125304901) Ersatzteile</a></li>
+      <li class="entry"><a href="/geraet/delonghi/f818-0125842004.html">F818 (0125842004) Ersatzteile</a></li>
+      <li class="entry"><a href="/geraet/delonghi/f881-0125842000.html">F881 (0125842000) Ersatzteile</a></li>
+      <li class="entry"><a href="/geraet/delonghi/f895-0125890004.html">F895 (0125890004) Ersatzteile</a></li>
+      <li class="entry"><a href="/geraet/delonghi/f895-0125890008.html">F895 (0125890008) Ersatzteile</a></li>
+      <li class="entry"><a href="/geraet/delonghi/fritteuse-f884-f884.html">Fritteuse F884 (F884) Ersatzteile</a></li>
+      <li class="entry"><a href="/geraet/delonghi/fritteuse-f895-f895.html">Delonghi Fritteuse F895 (F895) Ersatzteile</a></li>
+</ul><p><a href="/kueche/">Startseite</a> · <a href="/produkte/">Produkte</a> · <a href="/service/">Service</a></p></section></main><script>
+const input=document.getElementById('model-search'),items=[...document.querySelectorAll('.entry')],count=document.getElementById('result-count');
+const norm=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase('de');
+input.addEventListener('input',()=>{{const q=norm(input.value.trim());let n=0;for(const li of items){{const ok=norm(li.textContent).includes(q);li.hidden=!ok;if(ok)n++;}}count.textContent=`${{n}} von {len(links)} Einträgen`;}});
+</script></body></html>

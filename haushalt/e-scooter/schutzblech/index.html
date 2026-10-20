@@ -28,7 +28,7 @@
 <meta name="theme-color" content="#fafafa">
 <link rel="alternate" hreflang="x-default" href="/haushalt/e-scooter/schutzblech/">
 <link rel="alternate" hreflang="de-CH" href="/haushalt/e-scooter/schutzblech/">
-<link rel="alternate" hreflang="de-DE" href="/e-scooter/schutzblech/">
+<link rel="alternate" hreflang="de-DE" href="/haushalt/e-scooter/schutzblech/">
 <link rel="shortcut icon" href="/media/e7/a3/26/1686549756/favicon.png?ts=1724642430">
 <link rel="apple-touch-icon" sizes="180x180" href="/media/e7/a3/26/1686549756/favicon.png?ts=1724642430">
 <title itemprop="name">E Scooter Schutzblech hinten und vorne passend nachbestellen...</title>
@@ -201,7 +201,7 @@ color: #274533;
                     'frontend.cms.page': '/widgets/cms',
                     'frontend.cms.navigation.page': '/widgets/cms/navigation',
                     'frontend.account.addressbook': '/widgets/account/address-book',
-                    'frontend.country.country-data': '/country/country-state-data',
+                    'frontend.country.country-data': '/country/country-state-data.json',
                     'frontend.app-system.generate-token': '/app-system/Placeholder/generate-token',
                     };
                 window.salesChannelId = '018ebd44f64d72b68cb58c170238a4cc';
@@ -251,7 +251,7 @@ Zum Hauptinhalt springen
 <div class="row align-items-center header-row">
 <div class="col-auto header-logo-col">
 <div class="header-logo-main">
-<a class="header-logo-main-link" href="/" title="Zur Startseite gehen">
+<a class="header-logo-main-link" href="/kueche/" title="Zur Startseite gehen">
 <img src="/media/48/44/5b/1747717464/artisanshop-header-logo.svg" alt="Zur Startseite gehen" width="250px" height="56px" class="img-fluid header-logo-main-img">
 </a>
 </div>
@@ -321,7 +321,7 @@ Suchen
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24"><use xlink:href="#icons-default-stack" fill="#758CA3" fill-rule="evenodd" /></svg>
 </span>
 </button>
-<a class="header-logo-main-link" href="/" title="Zur Startseite gehen">
+<a class="header-logo-main-link" href="/kueche/" title="Zur Startseite gehen">
 <img src="/media/48/44/5b/1747717464/artisanshop-header-logo.svg" alt="Zur Startseite gehen" width="250px" height="56px" class="img-fluid header-logo-main-img">
 </a>
 </div>
@@ -341,7 +341,7 @@ Suche
 </div>
 <div class="col-auto art-search-widget-col d-none d-lg-block">
 <div class="header-search-widget">
-<a href="/widgets/model-code" title="So findest Du die Gerätenummer" data-art-offcanvas-appliance-search="true">
+<a href="/service/kundenservice/" title="So findest Du die Gerätenummer" data-art-offcanvas-appliance-search="true">
 Gerätenummer bestimmen
 </a>
 </div>
@@ -390,22 +390,22 @@ oder <a href="/account/login" title="Registrieren">registrieren</a>
 <div class="header-account-menu">
 <div class="card account-menu-inner">
 <div class="list-group list-group-flush account-aside-list-group">
-<a href="/account" title="Übersicht" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/" title="Übersicht" class="list-group-item list-group-item-action account-aside-item">
 Übersicht
 </a>
-<a href="/account/profile" title="Persönliches Profil" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/profile/" title="Persönliches Profil" class="list-group-item list-group-item-action account-aside-item">
 Persönliches Profil
 </a>
-<a href="/account/address" title="Adressen" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/address/" title="Adressen" class="list-group-item list-group-item-action account-aside-item">
 Adressen
 </a>
-<a href="/account/payment" title="Zahlungsarten" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/payment/" title="Zahlungsarten" class="list-group-item list-group-item-action account-aside-item">
 Zahlungsarten
 </a>
-<a href="/account/order" title="Bestellungen" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/order/" title="Bestellungen" class="list-group-item list-group-item-action account-aside-item">
 Bestellungen
 </a>
-<a href="/account/mollie/subscriptions" title="Abonnements" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/mollie/subscriptions/" title="Abonnements" class="list-group-item list-group-item-action account-aside-item">
 Abonnements
 </a>
 </div>
@@ -2095,7 +2095,7 @@ registrieren
 </ul>
 </li>
 <li class="menu-item univers-item has-subitems item-menu-link" data-relevance>
-<a href="/ratgeber/" itemprop="url" class="text">
+<a href="/ratgeber/kaffeemaschine/" itemprop="url" class="text">
 <img src="/media/14/15/a5/1718805078/repairguide-icon.svg?ts=1718805078" loading="lazy" width="20px" class="category-thumbnails-small" alt="Schutzblech" title="Schutzblech" data-object-fit="cover" />
 <span itemprop="name">Reparaturratgeber</span>
 </a>
@@ -2391,8 +2391,8 @@ Schließen
 <ol class="breadcrumb__list" itemscope itemtype="http://schema.org/BreadcrumbList">
 <li class="breadcrumb__item breadcrumb__item--parent breadcrumb__item--first" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
 <div itemprop="item" class="breadcrumb__item-link">
-<a href="/" class="breadcrumb__item-link home-link" title itemprop="item">
-<link itemprop="url" href="/" />
+<a href="/kueche/" class="breadcrumb__item-link home-link" title itemprop="item">
+<link itemprop="url" href="/kueche/" />
 <span itemprop="name">Home</span>
 </a>
 <div class="breadcrumb-placeholder">
@@ -2451,7 +2451,7 @@ Schließen
 <div class="mb-5">
 <h1 class="page_content__title">E Scooter Schutzblech hinten und vorne</h1>
 <p class="page_content__description">
-Das E Scooter Schutzblech ist nicht nur nützlich, um den Fahrer vor Schmutz und Nässe zu bewahren. Es ist auch eine Sicherheitsvorkehrung, damit man nicht aus Versehen auf den rotierenden Reifen tritt und stürzt oder sich andere Fremdkörper verkanten und einen Unfall verursachen. Jedoch gehört das Schutzblech auch zu den Bauteilen eines E Scooters, das u.A. am häufigsten kaputt geht. In unserem Shop finden Sie das passende&nbsp;E Scooter Schutzblech hinten und vorne für Ihr Modell. Einfach Ihre Modellnummer&nbsp;eingeben und das passenden&nbsp;<a target="_self" href="/e-scooter/schutzblech/?manufacturerId=516581a2ce920b9bc16a9c5004a023b8">Xiaomi Schutzblech</a>&nbsp;oder&nbsp;<a target="_self" href="/haushalt/e-scooter/schutzblech/soflow/">SoFlow Schutzblech</a>&nbsp;für Ihren E-Scooter finden.
+Das E Scooter Schutzblech ist nicht nur nützlich, um den Fahrer vor Schmutz und Nässe zu bewahren. Es ist auch eine Sicherheitsvorkehrung, damit man nicht aus Versehen auf den rotierenden Reifen tritt und stürzt oder sich andere Fremdkörper verkanten und einen Unfall verursachen. Jedoch gehört das Schutzblech auch zu den Bauteilen eines E Scooters, das u.A. am häufigsten kaputt geht. In unserem Shop finden Sie das passende&nbsp;E Scooter Schutzblech hinten und vorne für Ihr Modell. Einfach Ihre Modellnummer&nbsp;eingeben und das passenden&nbsp;<a target="_self" href="/haushalt/e-scooter/schutzblech/?manufacturerId=516581a2ce920b9bc16a9c5004a023b8">Xiaomi Schutzblech</a>&nbsp;oder&nbsp;<a target="_self" href="/haushalt/e-scooter/schutzblech/soflow/">SoFlow Schutzblech</a>&nbsp;für Ihren E-Scooter finden.
 </p>
 </div>
 </div>
@@ -7580,7 +7580,7 @@ SoFlow SO1 Schutzblech vorne E-Scooter 80022105 Ersatzteil
 <div class="page_content__bottom">
 <div class="seo-text my-5">
 <div>
-<h2>Das passende E Scooter Schutzblech für Ihre Sicherheit im Straßenverkehr</h2>Ein E-Scooter Schutzblech ist mehr als nur ein reiner Spritzschutz – es ist ein wichtiges Bauteil des E-Scooters für Ihre Sicherheit auf der Straße. Ein Schutzblech integriert oft auch wichtige Komponenten wie&nbsp;<a href="/e-scooter/licht/" target="_self">Rücklichter</a>, Reflektoren oder die Halterung für das Kennzeichen, die alle entscheidend für Ihre Sichtbarkeit und Sicherheit im Straßenverkehr sind. Insbesondere bei Nacht oder schlechten Wetterverhältnissen sind diese Elemente unverzichtbar.<br><br>Fahren ohne Schutzblech ist nicht nur unkomfortabel, sondern auch gefährlich. Es besteht ein erhöhtes Risiko, dass Fremdkörper in den rotierenden Reifen geraten oder Sie versehentlich darauf treten, was schwerwiegende Unfälle verursachen kann. Daher raten wir dringend davon ab, ohne intaktes Schutzblech unterwegs zu sein. Ein beschädigtes Schutzblech sollte umgehend ersetzt werden, um Ihre Sicherheit und die anderer Verkehrsteilnehmer nicht zu gefährden.<br>Bei der Auswahl eines neuen Schutzblechs ist es wichtig, die Kompatibilität mit Ihrem E-Scooter-Modell zu prüfen. Nicht jedes Schutzblech passt zu jedem Modell, da die Montagepunkte und zusätzlichen Funktionen wie Licht und Reflektoren variieren können. Das falsche Schutzblech könnte nicht nur schwer zu installieren sein, sondern auch wichtige Sicherheitsfunktionen beeinträchtigen. In unserem Shop können Sie einfach Ihre Modellnummer eingeben, um schnell das passende E Scooter Schutzblech hinten und vorne zu finden.&nbsp;<br><br>Unser E Scooter Ersatzteile Sortiment bietet außerdem eine große Auswahl für&nbsp;<a href="/e-scooter/gehaeuse/" target="_self">Gehäuseteile</a>,&nbsp;<a href="/e-scooter/ladegeraet/" target="_self">Ladegeräte</a>,&nbsp;<a href="/e-scooter/gashebel/" target="_self">Gashebel</a>&nbsp;und vieles mehr für&nbsp;<a href="/e-scooter/?manufacturerId=516581a2ce920b9bc16a9c5004a023b8" target="_self">Xiaomi Scooter</a>,&nbsp;<a href="/e-scooter/soflow/" target="_self">SoFlow Scooter</a>&nbsp;etc. In unserem&nbsp;<a href="/ratgeber/e-scooter/" target="_self">E Scooter Ratgeber</a>&nbsp;bieten wir außerdem hilfreiche Tipps und Anleitungen für Ihr Gerät, damit Sie stets schnell und sicher mit Ihrem E Scooter unterwegs sind!&nbsp;
+<h2>Das passende E Scooter Schutzblech für Ihre Sicherheit im Straßenverkehr</h2>Ein E-Scooter Schutzblech ist mehr als nur ein reiner Spritzschutz – es ist ein wichtiges Bauteil des E-Scooters für Ihre Sicherheit auf der Straße. Ein Schutzblech integriert oft auch wichtige Komponenten wie&nbsp;<a href="/haushalt/e-scooter/licht/" target="_self">Rücklichter</a>, Reflektoren oder die Halterung für das Kennzeichen, die alle entscheidend für Ihre Sichtbarkeit und Sicherheit im Straßenverkehr sind. Insbesondere bei Nacht oder schlechten Wetterverhältnissen sind diese Elemente unverzichtbar.<br><br>Fahren ohne Schutzblech ist nicht nur unkomfortabel, sondern auch gefährlich. Es besteht ein erhöhtes Risiko, dass Fremdkörper in den rotierenden Reifen geraten oder Sie versehentlich darauf treten, was schwerwiegende Unfälle verursachen kann. Daher raten wir dringend davon ab, ohne intaktes Schutzblech unterwegs zu sein. Ein beschädigtes Schutzblech sollte umgehend ersetzt werden, um Ihre Sicherheit und die anderer Verkehrsteilnehmer nicht zu gefährden.<br>Bei der Auswahl eines neuen Schutzblechs ist es wichtig, die Kompatibilität mit Ihrem E-Scooter-Modell zu prüfen. Nicht jedes Schutzblech passt zu jedem Modell, da die Montagepunkte und zusätzlichen Funktionen wie Licht und Reflektoren variieren können. Das falsche Schutzblech könnte nicht nur schwer zu installieren sein, sondern auch wichtige Sicherheitsfunktionen beeinträchtigen. In unserem Shop können Sie einfach Ihre Modellnummer eingeben, um schnell das passende E Scooter Schutzblech hinten und vorne zu finden.&nbsp;<br><br>Unser E Scooter Ersatzteile Sortiment bietet außerdem eine große Auswahl für&nbsp;<a href="/haushalt/e-scooter/gehaeuse/" target="_self">Gehäuseteile</a>,&nbsp;<a href="/haushalt/e-scooter/ladegeraet/" target="_self">Ladegeräte</a>,&nbsp;<a href="/haushalt/e-scooter/gashebel/" target="_self">Gashebel</a>&nbsp;und vieles mehr für&nbsp;<a href="/haushalt/e-scooter/?manufacturerId=516581a2ce920b9bc16a9c5004a023b8" target="_self">Xiaomi Scooter</a>,&nbsp;<a href="/haushalt/e-scooter/soflow/" target="_self">SoFlow Scooter</a>&nbsp;etc. In unserem&nbsp;<a href="/ratgeber/e-scooter/" target="_self">E Scooter Ratgeber</a>&nbsp;bieten wir außerdem hilfreiche Tipps und Anleitungen für Ihr Gerät, damit Sie stets schnell und sicher mit Ihrem E Scooter unterwegs sind!&nbsp;
 </div>
 </div>
 </div>
@@ -7764,22 +7764,22 @@ Widerrufsbelehrung
 Zahlungsoptionen
 </div>
 <div class="footer-logo is-payment-logo">
-<a href="/#payment" title>
+<a href="/kueche/#payment" title>
 <img src="/media/c4/e3/2b/1696317678/swag_paypal_paypal.svg?ts=1696317678" loading="lazy" class="footer-logo-image" alt="PayPal" title="PayPal" width="64px" height="45px" />
 </a>
 </div>
 <div class="footer-logo is-payment-logo">
-<a href="/#payment" title>
+<a href="/kueche/#payment" title>
 <img src="/media/52/a7/3e/1696436230/twint-icon.svg?ts=1696436230" loading="lazy" class="footer-logo-image" alt="Twint" title="Twint" width="64px" height="45px" />
 </a>
 </div>
 <div class="footer-logo is-payment-logo">
-<a href="/#payment" title>
+<a href="/kueche/#payment" title>
 <img src="/media/00/02/5f/1695568257/creditcard-icon.svg?ts=1695568257" loading="lazy" class="footer-logo-image" alt="Kreditkarte" title="Kreditkarte" width="64px" height="45px" />
 </a>
 </div>
 <div class="footer-logo is-payment-logo">
-<a href="/#payment" title="Apple Pay">
+<a href="/kueche/#payment" title="Apple Pay">
 <img src="/media/4c/50/24/1695568253/applepay-icon.svg?ts=1695568253" loading="lazy" class="footer-logo-image" alt="Apple Pay" title="Apple Pay" width="64px" height="45px" />
 </a>
 </div>

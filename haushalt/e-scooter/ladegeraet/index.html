@@ -28,7 +28,7 @@
 <meta name="theme-color" content="#fafafa">
 <link rel="alternate" hreflang="x-default" href="/haushalt/e-scooter/ladegeraet/">
 <link rel="alternate" hreflang="de-CH" href="/haushalt/e-scooter/ladegeraet/">
-<link rel="alternate" hreflang="de-DE" href="/e-scooter/ladegeraet/">
+<link rel="alternate" hreflang="de-DE" href="/haushalt/e-scooter/ladegeraet/">
 <link rel="shortcut icon" href="/media/e7/a3/26/1686549756/favicon.png?ts=1724642430">
 <link rel="apple-touch-icon" sizes="180x180" href="/media/e7/a3/26/1686549756/favicon.png?ts=1724642430">
 <title itemprop="name">E Scooter Ladegerät passend nachbestellen - Ersatzteile</title>
@@ -201,7 +201,7 @@ color: #274533;
                     'frontend.cms.page': '/widgets/cms',
                     'frontend.cms.navigation.page': '/widgets/cms/navigation',
                     'frontend.account.addressbook': '/widgets/account/address-book',
-                    'frontend.country.country-data': '/country/country-state-data',
+                    'frontend.country.country-data': '/country/country-state-data.json',
                     'frontend.app-system.generate-token': '/app-system/Placeholder/generate-token',
                     };
                 window.salesChannelId = '018ebd44f64d72b68cb58c170238a4cc';
@@ -251,7 +251,7 @@ Zum Hauptinhalt springen
 <div class="row align-items-center header-row">
 <div class="col-auto header-logo-col">
 <div class="header-logo-main">
-<a class="header-logo-main-link" href="/" title="Zur Startseite gehen">
+<a class="header-logo-main-link" href="/kueche/" title="Zur Startseite gehen">
 <img src="/media/48/44/5b/1747717464/artisanshop-header-logo.svg" alt="Zur Startseite gehen" width="250px" height="56px" class="img-fluid header-logo-main-img">
 </a>
 </div>
@@ -321,7 +321,7 @@ Suchen
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24"><use xlink:href="#icons-default-stack" fill="#758CA3" fill-rule="evenodd" /></svg>
 </span>
 </button>
-<a class="header-logo-main-link" href="/" title="Zur Startseite gehen">
+<a class="header-logo-main-link" href="/kueche/" title="Zur Startseite gehen">
 <img src="/media/48/44/5b/1747717464/artisanshop-header-logo.svg" alt="Zur Startseite gehen" width="250px" height="56px" class="img-fluid header-logo-main-img">
 </a>
 </div>
@@ -341,7 +341,7 @@ Suche
 </div>
 <div class="col-auto art-search-widget-col d-none d-lg-block">
 <div class="header-search-widget">
-<a href="/widgets/model-code" title="So findest Du die Gerätenummer" data-art-offcanvas-appliance-search="true">
+<a href="/service/kundenservice/" title="So findest Du die Gerätenummer" data-art-offcanvas-appliance-search="true">
 Gerätenummer bestimmen
 </a>
 </div>
@@ -390,22 +390,22 @@ oder <a href="/account/login" title="Registrieren">registrieren</a>
 <div class="header-account-menu">
 <div class="card account-menu-inner">
 <div class="list-group list-group-flush account-aside-list-group">
-<a href="/account" title="Übersicht" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/" title="Übersicht" class="list-group-item list-group-item-action account-aside-item">
 Übersicht
 </a>
-<a href="/account/profile" title="Persönliches Profil" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/profile/" title="Persönliches Profil" class="list-group-item list-group-item-action account-aside-item">
 Persönliches Profil
 </a>
-<a href="/account/address" title="Adressen" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/address/" title="Adressen" class="list-group-item list-group-item-action account-aside-item">
 Adressen
 </a>
-<a href="/account/payment" title="Zahlungsarten" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/payment/" title="Zahlungsarten" class="list-group-item list-group-item-action account-aside-item">
 Zahlungsarten
 </a>
-<a href="/account/order" title="Bestellungen" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/order/" title="Bestellungen" class="list-group-item list-group-item-action account-aside-item">
 Bestellungen
 </a>
-<a href="/account/mollie/subscriptions" title="Abonnements" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/mollie/subscriptions/" title="Abonnements" class="list-group-item list-group-item-action account-aside-item">
 Abonnements
 </a>
 </div>
@@ -2095,7 +2095,7 @@ registrieren
 </ul>
 </li>
 <li class="menu-item univers-item has-subitems item-menu-link" data-relevance>
-<a href="/ratgeber/" itemprop="url" class="text">
+<a href="/ratgeber/kaffeemaschine/" itemprop="url" class="text">
 <img src="/media/14/15/a5/1718805078/repairguide-icon.svg?ts=1718805078" loading="lazy" width="20px" class="category-thumbnails-small" alt="Ladegerät" title="Ladegerät" data-object-fit="cover" />
 <span itemprop="name">Reparaturratgeber</span>
 </a>
@@ -2391,8 +2391,8 @@ Schließen
 <ol class="breadcrumb__list" itemscope itemtype="http://schema.org/BreadcrumbList">
 <li class="breadcrumb__item breadcrumb__item--parent breadcrumb__item--first" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
 <div itemprop="item" class="breadcrumb__item-link">
-<a href="/" class="breadcrumb__item-link home-link" title itemprop="item">
-<link itemprop="url" href="/" />
+<a href="/kueche/" class="breadcrumb__item-link home-link" title itemprop="item">
+<link itemprop="url" href="/kueche/" />
 <span itemprop="name">Home</span>
 </a>
 <div class="breadcrumb-placeholder">
@@ -7119,7 +7119,7 @@ Ladegerät Netzteil 42V 2A für E-Scooter PSE50259EU Ersatzteil
 <h2>Wichtige Informationen zum E Scooter Ladegerät</h2>Ein funktionsfähiges E Scooter Ladegerät ist unverzichtbar, um Ihren Elektroroller stets einsatzbereit zu halten. Wenn das Ladegerät nicht mehr lädt, ist die Fahrt schnell zu Ende – aber das muss nicht so bleiben. In unserem Sortiment finden Sie eine große Auswahl an Original- und Alternativ-Ladegeräten, die für verschiedene E Scooter Modelle wie SoFlow, Xiaomi und viele mehr geeignet sind. Mit dem richtigen Ladegerät können Sie sicherstellen, dass Ihr E Scooter immer ausreichend Power hat, um Sie zuverlässig von A nach B zu bringen.
 <br><br><h3>Wann ist ein neues E Scooter Ladegerät nötig?</h3>Es gibt verschiedene Gründe, warum ein neues E Scooter Ladegerät notwendig sein könnte. Vielleicht lädt Ihr aktuelles Ladegerät nicht mehr richtig, es liegt ein Kabelbruch vor oder sie haben es einfach verlegt. In solchen Fällen ist es ratsam, dass Sie ein neues E Scooter Ladegerät bestellen. Denn die Nutzung eines defekten Ladegerätes kann unter Anderem zu Schäden an der Batterie führen und somit die Lebensdauer Ihres E Scooters verkürzen. Ein Ersatz-Ladegerät kann auch sinnvoll sein, wenn Sie häufig unterwegs sind und ein zusätzliches Ladegerät an verschiedenen Orten nutzen möchten.<br><br><h3>Tipps zur Nutzung des Ladegeräts
 </h3>Damit Ihr neues E Scooter Ladegerät effizient arbeitet und lange hält, sollten Sie einige wichtige Nutzungstipps beachten. Achten Sie darauf, das Ladegerät immer in einer trockenen Umgebung zu verwenden und extreme Temperaturen zu vermeiden, da diese die Elektronik beschädigen können. Stellen Sie sicher, dass die Ladeanschlüsse sauber und frei von Schmutz sind, um eine optimale Verbindung zu gewährleisten und die Steckkontakte zu schonen. Vermeiden Sie es außerdem, den Akku des E Scooters komplett leerzufahren, bevor Sie ihn wieder aufladen, da dies die Lebensdauer der Batterie verkürzen kann. Regelmäßiges Aufladen hilft, den Akku in einem guten Zustand zu halten und sorgt dafür, dass Ihr Elektroroller immer einsatzbereit ist.
-<br><br><h3>Das passende Ladegerät finden Sie bei uns</h3>Um das richtige Ladegerät für Ihren Elektroroller auszuwählen, ist es wichtig, die Typennummer Ihres E Scooters zu kennen. Diese Nummer hilft Ihnen dabei, ein Ladegerät zu finden, das exakt auf die technischen Anforderungen Ihres Modells abgestimmt ist. Unser Shop bietet Ihnen sowohl Original-Ladegeräte als auch günstigere Alternativprodukte. Egal, ob Sie einen&nbsp;<a target="_self" href="/haushalt/e-scooter/ladetechnik/soflow/">SoFlow Ladegerät</a>,&nbsp;<a target="_self" href="/e-scooter/ladetechnik/?manufacturerId=516581a2ce920b9bc16a9c5004a023b8">Xiaomi Ladegerät</a>&nbsp;oder ein ganz anderes&nbsp;<a target="_self" href="/e-scooter/">E Scooter Ersatzteil</a>&nbsp;suchen – bei uns werden Sie fündig.<br>Ein defektes Ladegerät muss also keinesfalls das Ende Ihres E Scooters bedeuten. Mit einem passenden Ersatzteil aus unserem Sortiment sind Sie im Handumdrehen wieder mobil und können unbeschwert weiterfahren.<br>
+<br><br><h3>Das passende Ladegerät finden Sie bei uns</h3>Um das richtige Ladegerät für Ihren Elektroroller auszuwählen, ist es wichtig, die Typennummer Ihres E Scooters zu kennen. Diese Nummer hilft Ihnen dabei, ein Ladegerät zu finden, das exakt auf die technischen Anforderungen Ihres Modells abgestimmt ist. Unser Shop bietet Ihnen sowohl Original-Ladegeräte als auch günstigere Alternativprodukte. Egal, ob Sie einen&nbsp;<a target="_self" href="/haushalt/e-scooter/ladetechnik/soflow/">SoFlow Ladegerät</a>,&nbsp;<a target="_self" href="/e-scooter/ladetechnik/?manufacturerId=516581a2ce920b9bc16a9c5004a023b8">Xiaomi Ladegerät</a>&nbsp;oder ein ganz anderes&nbsp;<a target="_self" href="/haushalt/e-scooter/">E Scooter Ersatzteil</a>&nbsp;suchen – bei uns werden Sie fündig.<br>Ein defektes Ladegerät muss also keinesfalls das Ende Ihres E Scooters bedeuten. Mit einem passenden Ersatzteil aus unserem Sortiment sind Sie im Handumdrehen wieder mobil und können unbeschwert weiterfahren.<br>
 </div>
 </div>
 </div>
@@ -7303,22 +7303,22 @@ Widerrufsbelehrung
 Zahlungsoptionen
 </div>
 <div class="footer-logo is-payment-logo">
-<a href="/#payment" title>
+<a href="/kueche/#payment" title>
 <img src="/media/c4/e3/2b/1696317678/swag_paypal_paypal.svg?ts=1696317678" loading="lazy" class="footer-logo-image" alt="PayPal" title="PayPal" width="64px" height="45px" />
 </a>
 </div>
 <div class="footer-logo is-payment-logo">
-<a href="/#payment" title>
+<a href="/kueche/#payment" title>
 <img src="/media/52/a7/3e/1696436230/twint-icon.svg?ts=1696436230" loading="lazy" class="footer-logo-image" alt="Twint" title="Twint" width="64px" height="45px" />
 </a>
 </div>
 <div class="footer-logo is-payment-logo">
-<a href="/#payment" title>
+<a href="/kueche/#payment" title>
 <img src="/media/00/02/5f/1695568257/creditcard-icon.svg?ts=1695568257" loading="lazy" class="footer-logo-image" alt="Kreditkarte" title="Kreditkarte" width="64px" height="45px" />
 </a>
 </div>
 <div class="footer-logo is-payment-logo">
-<a href="/#payment" title="Apple Pay">
+<a href="/kueche/#payment" title="Apple Pay">
 <img src="/media/4c/50/24/1695568253/applepay-icon.svg?ts=1695568253" loading="lazy" class="footer-logo-image" alt="Apple Pay" title="Apple Pay" width="64px" height="45px" />
 </a>
 </div>

@@ -27,7 +27,7 @@
 <meta itemprop="image" content="/media/0f/ac/c3/1722238252/stander-escooter.webp">
 <link rel="alternate" hreflang="x-default" href="/haushalt/e-scooter/staender/">
 <link rel="alternate" hreflang="de-CH" href="/haushalt/e-scooter/staender/">
-<link rel="alternate" hreflang="de-DE" href="/e-scooter/staender/">
+<link rel="alternate" hreflang="de-DE" href="/haushalt/e-scooter/staender/">
 <link rel="shortcut icon" href="/media/e7/a3/26/1686549756/favicon.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/media/e7/a3/26/1686549756/favicon.png">
 <title itemprop="name">E Scooter Ständer passend nachbestellen - Ersatzteile</title>
@@ -194,7 +194,7 @@ color: #274533;
                     'frontend.cms.page': '/widgets/cms',
                     'frontend.cms.navigation.page': '/widgets/cms/navigation',
                     'frontend.account.addressbook': '/widgets/account/address-book',
-                    'frontend.country.country-data': '/country/country-state-data',
+                    'frontend.country.country-data': '/country/country-state-data.json',
                     'frontend.app-system.generate-token': '/app-system/Placeholder/generate-token',
                     };
                 window.salesChannelId = '018ebd44f64d72b68cb58c170238a4cc';
@@ -239,7 +239,7 @@ color: #274533;
 <div class="row align-items-center header-row">
 <div class="col-auto header-logo-col">
 <div class="header-logo-main">
-<a class="header-logo-main-link" href="/" title="Zur Startseite gehen">
+<a class="header-logo-main-link" href="/kueche/" title="Zur Startseite gehen">
 <img src="/media/48/44/5b/1747717464/artisanshop-header-logo.svg" alt="Zur Startseite gehen" width="250px" height="56px" class="img-fluid header-logo-main-img">
 </a>
 </div>
@@ -302,7 +302,7 @@ Suchen
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24"><use xlink:href="#icons-default-stack" fill="#758CA3" fill-rule="evenodd" /></svg>
 </span>
 </button>
-<a class="header-logo-main-link" href="/" title="Zur Startseite gehen">
+<a class="header-logo-main-link" href="/kueche/" title="Zur Startseite gehen">
 <img src="/media/48/44/5b/1747717464/artisanshop-header-logo.svg" alt="Zur Startseite gehen" width="250px" height="56px" class="img-fluid header-logo-main-img">
 </a>
 </div>
@@ -322,7 +322,7 @@ Suche
 </div>
 <div class="col-auto art-search-widget-col d-none d-lg-block">
 <div class="header-search-widget">
-<a href="/widgets/modelcode" title="So findest Du die Gerätenummer" data-art-offcanvas-appliance-search="true">
+<a href="/service/kundenservice/" title="So findest Du die Gerätenummer" data-art-offcanvas-appliance-search="true">
 Gerätenummer bestimmen
 </a>
 </div>
@@ -371,22 +371,22 @@ oder <a href="/account/login" title="Registrieren">registrieren</a>
 <div class="header-account-menu">
 <div class="card account-menu-inner">
 <div class="list-group list-group-flush account-aside-list-group">
-<a href="/account" title="Übersicht" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/" title="Übersicht" class="list-group-item list-group-item-action account-aside-item">
 Übersicht
 </a>
-<a href="/account/profile" title="Persönliches Profil" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/profile/" title="Persönliches Profil" class="list-group-item list-group-item-action account-aside-item">
 Persönliches Profil
 </a>
-<a href="/account/address" title="Adressen" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/address/" title="Adressen" class="list-group-item list-group-item-action account-aside-item">
 Adressen
 </a>
-<a href="/account/payment" title="Zahlungsarten" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/payment/" title="Zahlungsarten" class="list-group-item list-group-item-action account-aside-item">
 Zahlungsarten
 </a>
-<a href="/account/order" title="Bestellungen" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/order/" title="Bestellungen" class="list-group-item list-group-item-action account-aside-item">
 Bestellungen
 </a>
-<a href="/account/mollie/subscriptions" title="Abonnements" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/mollie/subscriptions/" title="Abonnements" class="list-group-item list-group-item-action account-aside-item">
 Abonnements
 </a>
 </div>
@@ -2076,7 +2076,7 @@ registrieren
 </ul>
 </li>
 <li class="menu-item univers-item has-subitems item-menu-link" data-relevance>
-<a href="/ratgeber/" itemprop="url" class="text">
+<a href="/ratgeber/kaffeemaschine/" itemprop="url" class="text">
 <img src="/media/14/15/a5/1718805078/repairguide-icon.svg" loading="lazy" width="20px" class="category-thumbnails-small" alt="Ständer" title="Ständer" data-object-fit="cover" />
 <span itemprop="name">Reparaturratgeber</span>
 </a>
@@ -2365,8 +2365,8 @@ Schließen
 <ol class="breadcrumb__list" itemscope itemtype="http://schema.org/BreadcrumbList">
 <li class="breadcrumb__item breadcrumb__item--parent breadcrumb__item--first" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
 <div itemprop="item" class="breadcrumb__item-link">
-<a href="/" class="breadcrumb__item-link home-link" title itemprop="item">
-<link itemprop="url" href="/" />
+<a href="/kueche/" class="breadcrumb__item-link home-link" title itemprop="item">
+<link itemprop="url" href="/kueche/" />
 <span itemprop="name">Home</span>
 </a>
 <div class="breadcrumb-placeholder">
@@ -2425,7 +2425,7 @@ Schließen
 <div class="mb-5">
 <h1 class="page_content__title">E Scooter Ständer</h1>
 <p class="page_content__description">
-Wenn der E Scooter Ständer abgebrochen oder vielleicht das Kickstand Gelenk verschlissen ist, sollten Sie sich schnell um dieses Problem kümmern. Der Wechsel dieses Bauteils erweist sich glücklicherweise als eine einfache Reparatur. Das einzige was Sie dafür benötigen: Den passenden E Scooter Ersatz Ständer sowie das geeignetes Werkzeug. Suchen Sie mit Hilfe der Modellnummer Ihres Gerätes in unserem Shop nach dem kompatiblen Ersatzteil: Egal ob ein&nbsp;<a target="_self" href="/e-scooter/staender/?manufacturerId=018f9ef632a971e29b7652090b98c116">Ständer von SoFlow</a>&nbsp;oder einen&nbsp;<a target="_self" href="/e-scooter/staender/?manufacturerId=516581a2ce920b9bc16a9c5004a023b8">Xiaomi Ständer</a>&nbsp;- bei uns werden Sie fündig.
+Wenn der E Scooter Ständer abgebrochen oder vielleicht das Kickstand Gelenk verschlissen ist, sollten Sie sich schnell um dieses Problem kümmern. Der Wechsel dieses Bauteils erweist sich glücklicherweise als eine einfache Reparatur. Das einzige was Sie dafür benötigen: Den passenden E Scooter Ersatz Ständer sowie das geeignetes Werkzeug. Suchen Sie mit Hilfe der Modellnummer Ihres Gerätes in unserem Shop nach dem kompatiblen Ersatzteil: Egal ob ein&nbsp;<a target="_self" href="/haushalt/e-scooter/staender/?manufacturerId=018f9ef632a971e29b7652090b98c116">Ständer von SoFlow</a>&nbsp;oder einen&nbsp;<a target="_self" href="/haushalt/e-scooter/staender/?manufacturerId=516581a2ce920b9bc16a9c5004a023b8">Xiaomi Ständer</a>&nbsp;- bei uns werden Sie fündig.
 </p>
 </div>
 </div>
@@ -6061,7 +6061,7 @@ Hinweis: Um feststellen zu können welches Ersatzteil das passende ist benötige
 <div class="page_content__bottom">
 <div class="seo-text my-5">
 <div>
-<h2>Auf der Suche nach einem Ersatz E Scooter Ständer?</h2>Bevor Sie einen neuen E Scooter Ständer bestellen und verbauen, empfehlen wir Ihnen sicherzustellen, dass es sich tatsächlich um einen Defekt des alten Ständers handelt. Wie Sie potentielle Defekte und Probleme Ihres E Scooter Ständers richtig deuten und behandeln, erfahren Sie in unserem&nbsp;<a target="_self" href="/ratgeber/e-scooter/">E-Scooter Ratgeber</a>. Zu den häufigsten Symptomen und Problemen gehören:<br><br><b>Der E Scooter Ständer wackelt:</b> Wenn der E Scooter im parkenden Zustand, also mit ausgefahrenen Ständer nicht mehr stabil steht und ins Wanken gerät, könnten die&nbsp;<a target="_self" href="/e-scooter/schrauben/">Schrauben</a>&nbsp;etwas locker sein. Überprüfen Sie diese und ziehen Sie sie ggf. nach. Zusätzlich sollten Sie immer sicherstellen, dass Sie Ihren E Scooter nur auf ebenen Untergrund abstellen, damit er nicht umfällt.<br><b>Der E Scooter Ständer quietscht:</b> Wenn der Ständer quietschen sollte, wenn Sie ihn nach unten kippen, um den Scooter abzustellen, könnte das daran liegen, dass das Gelenk verschlissen ist bzw. geölt werden muss. Werfen Sie einen Blick auf das Gelenk Ihres E Scooter Ständers, befreien Sie es von Schmutz und bringen Sie geeignetes Öl auf. Bewegen Sie den Ständer einige Male nach oben und nach unten. Falls das Quietschen nicht verschwindet, empfehlen wir Ihnen den Austausch.<br><b>Der E Scooter Ständer lässt sich nicht bewegen:</b> Wenn der Ständer schwer oder gar nicht mehr beweglich ist, könnte es sein, dass er verrostet ist. In diesem Fall legen wir Ihnen nahe, das Bauteil durch einen neuen Ständer zu ersetzen.<br><br>Wenn Sie festgestellt haben, dass der Ständer Ihres E Scooters getauscht werden muss, sollten Sie mit Hilfe der Modellnummer Ihres Elektrorollers die Kompatibilität überprüfen. Geben Sie hierfür am besten die Modellnummer in unsere Suchleiste ein. Anschließend finden Sie eine Liste aller passenden&nbsp;<a target="_self" href="/e-scooter/">E Scooter Ersatzteile</a>&nbsp;für Ihr Fahrzeug. Neben E Scooter Ständern bieten wir Ihnen ein großes Sortiment an weiteren Ersatzteilen, u.A. an&nbsp;<a target="_self" href="/e-scooter/?manufacturerId=516581a2ce920b9bc16a9c5004a023b8">Xiaomi E Scooter Ersatzteilen</a>&nbsp;und&nbsp;<a target="_self" href="/e-scooter/soflow/">SoFlow E Scooter Ersatzteilen</a>, wie z.B.&nbsp;<a target="_self" href="/e-scooter/schutzblech/">Schutzbleche</a>,&nbsp;<a target="_self" href="/e-scooter/gashebel/">Gashebel</a>&nbsp;oder&nbsp;<a target="_self" href="/e-scooter/licht/">Scheinwerfer</a>. Mit der Hilfe unserer Tipps und Anleitungen werden Sie jeden Defekt an Ihrem Scooter schnell und einfach selbst reparieren!
+<h2>Auf der Suche nach einem Ersatz E Scooter Ständer?</h2>Bevor Sie einen neuen E Scooter Ständer bestellen und verbauen, empfehlen wir Ihnen sicherzustellen, dass es sich tatsächlich um einen Defekt des alten Ständers handelt. Wie Sie potentielle Defekte und Probleme Ihres E Scooter Ständers richtig deuten und behandeln, erfahren Sie in unserem&nbsp;<a target="_self" href="/ratgeber/e-scooter/">E-Scooter Ratgeber</a>. Zu den häufigsten Symptomen und Problemen gehören:<br><br><b>Der E Scooter Ständer wackelt:</b> Wenn der E Scooter im parkenden Zustand, also mit ausgefahrenen Ständer nicht mehr stabil steht und ins Wanken gerät, könnten die&nbsp;<a target="_self" href="/haushalt/e-scooter/schrauben/">Schrauben</a>&nbsp;etwas locker sein. Überprüfen Sie diese und ziehen Sie sie ggf. nach. Zusätzlich sollten Sie immer sicherstellen, dass Sie Ihren E Scooter nur auf ebenen Untergrund abstellen, damit er nicht umfällt.<br><b>Der E Scooter Ständer quietscht:</b> Wenn der Ständer quietschen sollte, wenn Sie ihn nach unten kippen, um den Scooter abzustellen, könnte das daran liegen, dass das Gelenk verschlissen ist bzw. geölt werden muss. Werfen Sie einen Blick auf das Gelenk Ihres E Scooter Ständers, befreien Sie es von Schmutz und bringen Sie geeignetes Öl auf. Bewegen Sie den Ständer einige Male nach oben und nach unten. Falls das Quietschen nicht verschwindet, empfehlen wir Ihnen den Austausch.<br><b>Der E Scooter Ständer lässt sich nicht bewegen:</b> Wenn der Ständer schwer oder gar nicht mehr beweglich ist, könnte es sein, dass er verrostet ist. In diesem Fall legen wir Ihnen nahe, das Bauteil durch einen neuen Ständer zu ersetzen.<br><br>Wenn Sie festgestellt haben, dass der Ständer Ihres E Scooters getauscht werden muss, sollten Sie mit Hilfe der Modellnummer Ihres Elektrorollers die Kompatibilität überprüfen. Geben Sie hierfür am besten die Modellnummer in unsere Suchleiste ein. Anschließend finden Sie eine Liste aller passenden&nbsp;<a target="_self" href="/haushalt/e-scooter/">E Scooter Ersatzteile</a>&nbsp;für Ihr Fahrzeug. Neben E Scooter Ständern bieten wir Ihnen ein großes Sortiment an weiteren Ersatzteilen, u.A. an&nbsp;<a target="_self" href="/haushalt/e-scooter/?manufacturerId=516581a2ce920b9bc16a9c5004a023b8">Xiaomi E Scooter Ersatzteilen</a>&nbsp;und&nbsp;<a target="_self" href="/haushalt/e-scooter/soflow/">SoFlow E Scooter Ersatzteilen</a>, wie z.B.&nbsp;<a target="_self" href="/haushalt/e-scooter/schutzblech/">Schutzbleche</a>,&nbsp;<a target="_self" href="/haushalt/e-scooter/gashebel/">Gashebel</a>&nbsp;oder&nbsp;<a target="_self" href="/haushalt/e-scooter/licht/">Scheinwerfer</a>. Mit der Hilfe unserer Tipps und Anleitungen werden Sie jeden Defekt an Ihrem Scooter schnell und einfach selbst reparieren!
 </div>
 </div>
 </div>
@@ -6245,22 +6245,22 @@ Widerrufsbelehrung
 Zahlungsoptionen
 </div>
 <div class="footer-logo is-payment-logo">
-<a href="/#payment" title>
+<a href="/kueche/#payment" title>
 <img src="/media/c4/e3/2b/1696317678/swag_paypal_paypal.svg" loading="lazy" class="footer-logo-image" alt="PayPal" title="PayPal" width="64px" height="45px" />
 </a>
 </div>
 <div class="footer-logo is-payment-logo">
-<a href="/#payment" title>
+<a href="/kueche/#payment" title>
 <img src="/media/52/a7/3e/1696436230/twint-icon.svg" loading="lazy" class="footer-logo-image" alt="Twint" title="Twint" width="64px" height="45px" />
 </a>
 </div>
 <div class="footer-logo is-payment-logo">
-<a href="/#payment" title>
+<a href="/kueche/#payment" title>
 <img src="/media/00/02/5f/1695568257/creditcard-icon.svg" loading="lazy" class="footer-logo-image" alt="Kreditkarte" title="Kreditkarte" width="64px" height="45px" />
 </a>
 </div>
 <div class="footer-logo is-payment-logo">
-<a href="/#payment" title>
+<a href="/kueche/#payment" title>
 <img src="/media/4c/50/24/1695568253/applepay-icon.svg" loading="lazy" class="footer-logo-image" alt="Apple Pay" title="Apple Pay" width="64px" height="45px" />
 </a>
 </div>

@@ -27,7 +27,7 @@
 <meta itemprop="image" content="/media/96/3c/fe/1702274307/staubsauger_filter.webp">
 <link rel="alternate" hreflang="x-default" href="/haushalt/staubsauger/filter/">
 <link rel="alternate" hreflang="de-CH" href="/haushalt/staubsauger/filter/">
-<link rel="alternate" hreflang="de-DE" href="/staubsauger/filter/">
+<link rel="alternate" hreflang="de-DE" href="/haushalt/staubsauger/filter/">
 <link rel="shortcut icon" href="/media/e7/a3/26/1686549756/favicon.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/media/e7/a3/26/1686549756/favicon.png">
 <title itemprop="name">Staubsauger Filter passend nachbestellen - Ersatzteile</title>
@@ -194,7 +194,7 @@ color: #274533;
                     'frontend.cms.page': '/widgets/cms',
                     'frontend.cms.navigation.page': '/widgets/cms/navigation',
                     'frontend.account.addressbook': '/widgets/account/address-book',
-                    'frontend.country.country-data': '/country/country-state-data',
+                    'frontend.country.country-data': '/country/country-state-data.json',
                     'frontend.app-system.generate-token': '/app-system/Placeholder/generate-token',
                     };
                 window.salesChannelId = '018ebd44f64d72b68cb58c170238a4cc';
@@ -239,7 +239,7 @@ color: #274533;
 <div class="row align-items-center header-row">
 <div class="col-auto header-logo-col">
 <div class="header-logo-main">
-<a class="header-logo-main-link" href="/" title="Zur Startseite gehen">
+<a class="header-logo-main-link" href="/kueche/" title="Zur Startseite gehen">
 <img src="/media/48/44/5b/1747717464/artisanshop-header-logo.svg" alt="Zur Startseite gehen" width="250px" height="56px" class="img-fluid header-logo-main-img">
 </a>
 </div>
@@ -302,7 +302,7 @@ Suchen
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24"><use xlink:href="#icons-default-stack" fill="#758CA3" fill-rule="evenodd" /></svg>
 </span>
 </button>
-<a class="header-logo-main-link" href="/" title="Zur Startseite gehen">
+<a class="header-logo-main-link" href="/kueche/" title="Zur Startseite gehen">
 <img src="/media/48/44/5b/1747717464/artisanshop-header-logo.svg" alt="Zur Startseite gehen" width="250px" height="56px" class="img-fluid header-logo-main-img">
 </a>
 </div>
@@ -322,7 +322,7 @@ Suche
 </div>
 <div class="col-auto art-search-widget-col d-none d-lg-block">
 <div class="header-search-widget">
-<a href="/widgets/modelcode" title="So findest Du die Gerätenummer" data-art-offcanvas-appliance-search="true">
+<a href="/service/kundenservice/" title="So findest Du die Gerätenummer" data-art-offcanvas-appliance-search="true">
 Gerätenummer bestimmen
 </a>
 </div>
@@ -371,22 +371,22 @@ oder <a href="/account/login" title="Registrieren">registrieren</a>
 <div class="header-account-menu">
 <div class="card account-menu-inner">
 <div class="list-group list-group-flush account-aside-list-group">
-<a href="/account" title="Übersicht" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/" title="Übersicht" class="list-group-item list-group-item-action account-aside-item">
 Übersicht
 </a>
-<a href="/account/profile" title="Persönliches Profil" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/profile/" title="Persönliches Profil" class="list-group-item list-group-item-action account-aside-item">
 Persönliches Profil
 </a>
-<a href="/account/address" title="Adressen" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/address/" title="Adressen" class="list-group-item list-group-item-action account-aside-item">
 Adressen
 </a>
-<a href="/account/payment" title="Zahlungsarten" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/payment/" title="Zahlungsarten" class="list-group-item list-group-item-action account-aside-item">
 Zahlungsarten
 </a>
-<a href="/account/order" title="Bestellungen" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/order/" title="Bestellungen" class="list-group-item list-group-item-action account-aside-item">
 Bestellungen
 </a>
-<a href="/account/mollie/subscriptions" title="Abonnements" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/mollie/subscriptions/" title="Abonnements" class="list-group-item list-group-item-action account-aside-item">
 Abonnements
 </a>
 </div>
@@ -2076,7 +2076,7 @@ registrieren
 </ul>
 </li>
 <li class="menu-item univers-item has-subitems item-menu-link" data-relevance>
-<a href="/ratgeber/" itemprop="url" class="text">
+<a href="/ratgeber/kaffeemaschine/" itemprop="url" class="text">
 <img src="/media/14/15/a5/1718805078/repairguide-icon.svg" loading="lazy" width="20px" class="category-thumbnails-small" alt="Filter" title="Filter" data-object-fit="cover" />
 <span itemprop="name">Reparaturratgeber</span>
 </a>
@@ -2360,8 +2360,8 @@ Schließen
 <ol class="breadcrumb__list" itemscope itemtype="http://schema.org/BreadcrumbList">
 <li class="breadcrumb__item breadcrumb__item--parent breadcrumb__item--first" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
 <div itemprop="item" class="breadcrumb__item-link">
-<a href="/" class="breadcrumb__item-link home-link" title itemprop="item">
-<link itemprop="url" href="/" />
+<a href="/kueche/" class="breadcrumb__item-link home-link" title itemprop="item">
+<link itemprop="url" href="/kueche/" />
 <span itemprop="name">Home</span>
 </a>
 <div class="breadcrumb-placeholder">
@@ -7571,7 +7571,7 @@ Filter Clean 000131K Staubsaugerbeutel - Pc2 staubsaugerbeutel inhalt: 5+1+1+1
 <div class="page_content__bottom">
 <div class="seo-text my-5">
 <div>
-<h2>Staubsauger Filter: Wissenswertes über Arten, Beeinträchtigungen und Ersatzfilter</h2>Staubsauger Filter ist nicht gleich Staubsauger Filter. Die Filter unterscheiden sich vor allem in ihrer Funktion und der Wiederverwendbarkeit. Im Folgenden zeigen wir Ihnen, welche verschiedenen Staubsauger Filter Arten es gibt, woran Sie einen beeinträchtigten Filter erkennen und wo Sie Ersatzfilter finden.<br><br><h3>Die verschiedenen Staubsauger Filter Arten</h3>Wichtig zu beachten ist, dass Filter nicht gleich Filter ist. Staubsauger verwenden verschiedene Arten von Filtern, um Schmutz, Staub und Allergene aus der eingesaugten Luft zu entfernen. Achten Sie darauf, immer die Kompatibilität des Filters zu prüfen, bevor Sie einen neuen Staubsauger Filter kaufen - hierfür brauchen Sie nur die Modellnummer Ihres Staubsaugers in unsere Suchleiste eingeben. Hier sind die gängigsten Arten von Staubsaugerfiltern:<br><br><b>1. Schwebstofffilter (HEPA-Filter)</b>: HEPA steht für High-Efficiency Particulate Air. Diese Filter können sehr feine Partikel, einschließlich Pollen, Schimmelsporen und Milbenkot, auffangen und sind damit besonders für Haushalte mit Allergikern geeignet.<br><b>2. Aktivkohlefilter</b>: Aktivkohlefilter werden häufig in Staubsaugern verwendet, die auch Luft reinigen sollen, da die im Filter enthaltene Aktivkohle besonders effektiv bei der Entfernung von Gerüchen und gasförmigen Verunreinigungen ist.<br><b>3. Schaumstoff- und Motorfilter</b>: Diese Filter befinden sich vor dem Motor und schützen den Motor des Staubsaugers vor Staub und Schmutz.<br><b>4. Mikrofilter</b>: Mikrofilter sind aus einem feineren Material als herkömmliche Filter und können kleinere Partikel auffangen. Sie sind jedoch nicht so effizient wie HEPA-Filter.<br><b>5. Wasserfilter</b>: Einige Staubsauger verwenden sogar Wasser als Filtermedium. Der eingesaugte Schmutz wird dann im Wasser gebunden und die Luft wird durch das Wasser gereinigt.<br><b>6. Elektrostatische Filter</b>: Diese Filter nutzen elektrostatische Anziehung, um Staub und andere Partikel zu binden.<br><br>Egal, mit welchen Filtern Ihr Staubsauger arbeitet, es ist wichtig, die Filter regelmäßig zu reinigen oder auszutauschen, um stets einen effizienten Staubsauger und vor allem saubere Luft in der Wohnung zu haben. Einige Filter, wie z.B. der Motorfilter oder elektrostatische Filter, lassen sich gut reinigen und wiederverwenden. Andere, wie etwa der Aktivkohlefilter, sollten nicht gereinigt, sondern ausgetauscht werden. Der Bedienungsanleitung Ihres Saugers können Sie entnehmen, ob der Staubsauger Filter waschbar ist und in welchen Abständen er ausgetauscht werden sollte.<br><br><h3>Staubsauger Filter austauschen: Wann und warum?</h3>Neben den Hinweisen der Hersteller gibt es auch allgemeine Anzeichen, dass der Staubsauger Filter reif für einen Austausch ist. Hier sind die wichtigsten Anzeichen:<br><b>Verminderte Saugleistung</b>: Wenn der Staubsauger nicht mehr so stark saugt wie gewohnt, kann dies darauf hindeuten, dass der Filter verstopft ist und gereinigt oder ersetzt werden muss.<br><b>Überhitzung des Staubsaugers</b>: Ein verstopfter Filter kann dazu führen, dass der Staubsaugermotor härter arbeitet und sich überhitzt. Wenn der Staubsauger ungewöhnlich warm wird oder sich von selbst abschaltet, sollten Sie einmal nach dem Filter schauen.<br><b>Unangenehme Gerüche</b>: Beim Staubsaugen entsteht neuerdings ein unangenehmer Geruch? Auch das ist ein Hinweis darauf, dass sich im Filter Schmutz und Staub angesammelt haben.<br><b>Staubemission</b>: Wenn aus dem Staubsauger Staub austritt oder die Luft, die aus dem Staubsauger kommt, staubig wirkt, funktioniert oft der Filter nicht mehr richtig.<br><br>Wenn Sie andere Symptome Ihres Staubsaugers wahrnehmen und sich nicht sicher sind, wo das Problem herkommt und was zu tun ist, besuchen Sie unseren&nbsp;<a target="_self" href="/ratgeber/staubsauger/">Staubsauger Ratgeber</a>&nbsp;und folgen Sie unseren Hinweisen und Anleitungen.<br><br><h3>Ersatz Staubsauger Filter kaufen</h3>Damit Sie bald wieder saubere Luft haben und effizient Ihr zu Hause saugen können, finden Sie bei uns im Shop den passenden Staubsauger Filter. Suchen Sie mit Hilfe der Modellnummer Ihres Saugers nach dem gewünschten Filter und stellen so die Kompatibilität mit Ihrem Staubsauger sicher. Es wäre eigentlich auch mal wieder Zeit für einen neuen&nbsp;<a href="/staubsauger/staubbehaelter/" target="_self">Staubbehälter</a>, einen&nbsp;<a href="/staubsauger/griff/" target="_self">Griff</a>&nbsp;oder eine neue&nbsp;<a href="/staubsauger/staubsaugerduese/" target="_self">Düse</a>? Kein Problem. Wir bieten neben Staubsauger Filtern viele weitere&nbsp;<a href="/staubsauger/" target="_self">Staubsauger Ersatzteile</a>&nbsp;an!<br>
+<h2>Staubsauger Filter: Wissenswertes über Arten, Beeinträchtigungen und Ersatzfilter</h2>Staubsauger Filter ist nicht gleich Staubsauger Filter. Die Filter unterscheiden sich vor allem in ihrer Funktion und der Wiederverwendbarkeit. Im Folgenden zeigen wir Ihnen, welche verschiedenen Staubsauger Filter Arten es gibt, woran Sie einen beeinträchtigten Filter erkennen und wo Sie Ersatzfilter finden.<br><br><h3>Die verschiedenen Staubsauger Filter Arten</h3>Wichtig zu beachten ist, dass Filter nicht gleich Filter ist. Staubsauger verwenden verschiedene Arten von Filtern, um Schmutz, Staub und Allergene aus der eingesaugten Luft zu entfernen. Achten Sie darauf, immer die Kompatibilität des Filters zu prüfen, bevor Sie einen neuen Staubsauger Filter kaufen - hierfür brauchen Sie nur die Modellnummer Ihres Staubsaugers in unsere Suchleiste eingeben. Hier sind die gängigsten Arten von Staubsaugerfiltern:<br><br><b>1. Schwebstofffilter (HEPA-Filter)</b>: HEPA steht für High-Efficiency Particulate Air. Diese Filter können sehr feine Partikel, einschließlich Pollen, Schimmelsporen und Milbenkot, auffangen und sind damit besonders für Haushalte mit Allergikern geeignet.<br><b>2. Aktivkohlefilter</b>: Aktivkohlefilter werden häufig in Staubsaugern verwendet, die auch Luft reinigen sollen, da die im Filter enthaltene Aktivkohle besonders effektiv bei der Entfernung von Gerüchen und gasförmigen Verunreinigungen ist.<br><b>3. Schaumstoff- und Motorfilter</b>: Diese Filter befinden sich vor dem Motor und schützen den Motor des Staubsaugers vor Staub und Schmutz.<br><b>4. Mikrofilter</b>: Mikrofilter sind aus einem feineren Material als herkömmliche Filter und können kleinere Partikel auffangen. Sie sind jedoch nicht so effizient wie HEPA-Filter.<br><b>5. Wasserfilter</b>: Einige Staubsauger verwenden sogar Wasser als Filtermedium. Der eingesaugte Schmutz wird dann im Wasser gebunden und die Luft wird durch das Wasser gereinigt.<br><b>6. Elektrostatische Filter</b>: Diese Filter nutzen elektrostatische Anziehung, um Staub und andere Partikel zu binden.<br><br>Egal, mit welchen Filtern Ihr Staubsauger arbeitet, es ist wichtig, die Filter regelmäßig zu reinigen oder auszutauschen, um stets einen effizienten Staubsauger und vor allem saubere Luft in der Wohnung zu haben. Einige Filter, wie z.B. der Motorfilter oder elektrostatische Filter, lassen sich gut reinigen und wiederverwenden. Andere, wie etwa der Aktivkohlefilter, sollten nicht gereinigt, sondern ausgetauscht werden. Der Bedienungsanleitung Ihres Saugers können Sie entnehmen, ob der Staubsauger Filter waschbar ist und in welchen Abständen er ausgetauscht werden sollte.<br><br><h3>Staubsauger Filter austauschen: Wann und warum?</h3>Neben den Hinweisen der Hersteller gibt es auch allgemeine Anzeichen, dass der Staubsauger Filter reif für einen Austausch ist. Hier sind die wichtigsten Anzeichen:<br><b>Verminderte Saugleistung</b>: Wenn der Staubsauger nicht mehr so stark saugt wie gewohnt, kann dies darauf hindeuten, dass der Filter verstopft ist und gereinigt oder ersetzt werden muss.<br><b>Überhitzung des Staubsaugers</b>: Ein verstopfter Filter kann dazu führen, dass der Staubsaugermotor härter arbeitet und sich überhitzt. Wenn der Staubsauger ungewöhnlich warm wird oder sich von selbst abschaltet, sollten Sie einmal nach dem Filter schauen.<br><b>Unangenehme Gerüche</b>: Beim Staubsaugen entsteht neuerdings ein unangenehmer Geruch? Auch das ist ein Hinweis darauf, dass sich im Filter Schmutz und Staub angesammelt haben.<br><b>Staubemission</b>: Wenn aus dem Staubsauger Staub austritt oder die Luft, die aus dem Staubsauger kommt, staubig wirkt, funktioniert oft der Filter nicht mehr richtig.<br><br>Wenn Sie andere Symptome Ihres Staubsaugers wahrnehmen und sich nicht sicher sind, wo das Problem herkommt und was zu tun ist, besuchen Sie unseren&nbsp;<a target="_self" href="/ratgeber/staubsauger/">Staubsauger Ratgeber</a>&nbsp;und folgen Sie unseren Hinweisen und Anleitungen.<br><br><h3>Ersatz Staubsauger Filter kaufen</h3>Damit Sie bald wieder saubere Luft haben und effizient Ihr zu Hause saugen können, finden Sie bei uns im Shop den passenden Staubsauger Filter. Suchen Sie mit Hilfe der Modellnummer Ihres Saugers nach dem gewünschten Filter und stellen so die Kompatibilität mit Ihrem Staubsauger sicher. Es wäre eigentlich auch mal wieder Zeit für einen neuen&nbsp;<a href="/haushalt/staubsauger/staubbehaelter/" target="_self">Staubbehälter</a>, einen&nbsp;<a href="/haushalt/staubsauger/griff/" target="_self">Griff</a>&nbsp;oder eine neue&nbsp;<a href="/haushalt/staubsauger/staubsaugerduese/" target="_self">Düse</a>? Kein Problem. Wir bieten neben Staubsauger Filtern viele weitere&nbsp;<a href="/haushalt/staubsauger/" target="_self">Staubsauger Ersatzteile</a>&nbsp;an!<br>
 </div>
 </div>
 </div>
@@ -7755,22 +7755,22 @@ Widerrufsbelehrung
 Zahlungsoptionen
 </div>
 <div class="footer-logo is-payment-logo">
-<a href="/#payment" title>
+<a href="/kueche/#payment" title>
 <img src="/media/c4/e3/2b/1696317678/swag_paypal_paypal.svg" loading="lazy" class="footer-logo-image" alt="PayPal" title="PayPal" width="64px" height="45px" />
 </a>
 </div>
 <div class="footer-logo is-payment-logo">
-<a href="/#payment" title>
+<a href="/kueche/#payment" title>
 <img src="/media/52/a7/3e/1696436230/twint-icon.svg" loading="lazy" class="footer-logo-image" alt="Twint" title="Twint" width="64px" height="45px" />
 </a>
 </div>
 <div class="footer-logo is-payment-logo">
-<a href="/#payment" title>
+<a href="/kueche/#payment" title>
 <img src="/media/00/02/5f/1695568257/creditcard-icon.svg" loading="lazy" class="footer-logo-image" alt="Kreditkarte" title="Kreditkarte" width="64px" height="45px" />
 </a>
 </div>
 <div class="footer-logo is-payment-logo">
-<a href="/#payment" title>
+<a href="/kueche/#payment" title>
 <img src="/media/4c/50/24/1695568253/applepay-icon.svg" loading="lazy" class="footer-logo-image" alt="Apple Pay" title="Apple Pay" width="64px" height="45px" />
 </a>
 </div>

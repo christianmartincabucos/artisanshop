@@ -28,7 +28,7 @@
 <meta name="theme-color" content="#fafafa">
 <link rel="alternate" hreflang="x-default" href="/haushalt/e-scooter/">
 <link rel="alternate" hreflang="de-CH" href="/haushalt/e-scooter/">
-<link rel="alternate" hreflang="de-DE" href="/e-scooter/">
+<link rel="alternate" hreflang="de-DE" href="/haushalt/e-scooter/">
 <link rel="shortcut icon" href="/media/e7/a3/26/1686549756/favicon.png?ts=1724642430">
 <link rel="apple-touch-icon" sizes="180x180" href="/media/e7/a3/26/1686549756/favicon.png?ts=1724642430">
 <title itemprop="name">E Scooter Ersatzteile &amp; Hinweise zur Reparatur</title>
@@ -201,7 +201,7 @@ color: #274533;
                     'frontend.cms.page': '/widgets/cms',
                     'frontend.cms.navigation.page': '/widgets/cms/navigation',
                     'frontend.account.addressbook': '/widgets/account/address-book',
-                    'frontend.country.country-data': '/country/country-state-data',
+                    'frontend.country.country-data': '/country/country-state-data.json',
                     'frontend.app-system.generate-token': '/app-system/Placeholder/generate-token',
                     };
                 window.salesChannelId = '018ebd44f64d72b68cb58c170238a4cc';
@@ -251,7 +251,7 @@ Zum Hauptinhalt springen
 <div class="row align-items-center header-row">
 <div class="col-auto header-logo-col">
 <div class="header-logo-main">
-<a class="header-logo-main-link" href="/" title="Zur Startseite gehen">
+<a class="header-logo-main-link" href="/kueche/" title="Zur Startseite gehen">
 <img src="/media/48/44/5b/1747717464/artisanshop-header-logo.svg" alt="Zur Startseite gehen" width="250px" height="56px" class="img-fluid header-logo-main-img">
 </a>
 </div>
@@ -321,7 +321,7 @@ Suchen
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24"><use xlink:href="#icons-default-stack" fill="#758CA3" fill-rule="evenodd" /></svg>
 </span>
 </button>
-<a class="header-logo-main-link" href="/" title="Zur Startseite gehen">
+<a class="header-logo-main-link" href="/kueche/" title="Zur Startseite gehen">
 <img src="/media/48/44/5b/1747717464/artisanshop-header-logo.svg" alt="Zur Startseite gehen" width="250px" height="56px" class="img-fluid header-logo-main-img">
 </a>
 </div>
@@ -341,7 +341,7 @@ Suche
 </div>
 <div class="col-auto art-search-widget-col d-none d-lg-block">
 <div class="header-search-widget">
-<a href="/widgets/model-code" title="So findest Du die Gerätenummer" data-art-offcanvas-appliance-search="true">
+<a href="/service/kundenservice/" title="So findest Du die Gerätenummer" data-art-offcanvas-appliance-search="true">
 Gerätenummer bestimmen
 </a>
 </div>
@@ -390,22 +390,22 @@ oder <a href="/account/login" title="Registrieren">registrieren</a>
 <div class="header-account-menu">
 <div class="card account-menu-inner">
 <div class="list-group list-group-flush account-aside-list-group">
-<a href="/account" title="Übersicht" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/" title="Übersicht" class="list-group-item list-group-item-action account-aside-item">
 Übersicht
 </a>
-<a href="/account/profile" title="Persönliches Profil" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/profile/" title="Persönliches Profil" class="list-group-item list-group-item-action account-aside-item">
 Persönliches Profil
 </a>
-<a href="/account/address" title="Adressen" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/address/" title="Adressen" class="list-group-item list-group-item-action account-aside-item">
 Adressen
 </a>
-<a href="/account/payment" title="Zahlungsarten" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/payment/" title="Zahlungsarten" class="list-group-item list-group-item-action account-aside-item">
 Zahlungsarten
 </a>
-<a href="/account/order" title="Bestellungen" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/order/" title="Bestellungen" class="list-group-item list-group-item-action account-aside-item">
 Bestellungen
 </a>
-<a href="/account/mollie/subscriptions" title="Abonnements" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/mollie/subscriptions/" title="Abonnements" class="list-group-item list-group-item-action account-aside-item">
 Abonnements
 </a>
 </div>
@@ -2095,7 +2095,7 @@ registrieren
 </ul>
 </li>
 <li class="menu-item univers-item has-subitems item-menu-link" data-relevance>
-<a href="/ratgeber/" itemprop="url" class="text">
+<a href="/ratgeber/kaffeemaschine/" itemprop="url" class="text">
 <img src="/media/14/15/a5/1718805078/repairguide-icon.svg?ts=1718805078" loading="lazy" width="20px" class="category-thumbnails-small" alt="E-Scooter" title="E-Scooter" data-object-fit="cover" />
 <span itemprop="name">Reparaturratgeber</span>
 </a>
@@ -2491,8 +2491,8 @@ Schließen
 <ol class="breadcrumb__list" itemscope itemtype="http://schema.org/BreadcrumbList">
 <li class="breadcrumb__item breadcrumb__item--parent breadcrumb__item--first" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
 <div itemprop="item" class="breadcrumb__item-link">
-<a href="/" class="breadcrumb__item-link home-link" title itemprop="item">
-<link itemprop="url" href="/" />
+<a href="/kueche/" class="breadcrumb__item-link home-link" title itemprop="item">
+<link itemprop="url" href="/kueche/" />
 <span itemprop="name">Home</span>
 </a>
 <div class="breadcrumb-placeholder">
@@ -2537,7 +2537,7 @@ Schließen
 <div class="mb-5">
 <h1 class="page_content__title">E Scooter Ersatzteile</h1>
 <p class="page_content__description">
-Auf der Suche nach E Scooter Ersatzteile? Egal ob ein platter&nbsp;<a href="/e-scooter/reifen/" target="_self">Reifen</a>, defekte&nbsp;<a href="/e-scooter/licht/" target="_self">Scheinwerfer</a>, kaputte&nbsp;<a href="/e-scooter/blinker/" target="_self">Blinker</a>&nbsp;oder abgenutzte&nbsp;<a href="/e-scooter/bremse/" target="_self">Bremsscheiben</a>, bei uns finden Sie das passende Ersatzteil für Ihren E Scooter. Wir bieten Ihnen nicht nur ein umfassendes Sortiment an E Scooter Ersatzteile, sondern auch hilfreiche Ratgeber und Reparaturanleitungen - somit steht Ihrer nächsten Ausfahrt mit Ihrem Elektro Scooter nichts mehr im Weg!
+Auf der Suche nach E Scooter Ersatzteile? Egal ob ein platter&nbsp;<a href="/haushalt/e-scooter/reifen/" target="_self">Reifen</a>, defekte&nbsp;<a href="/haushalt/e-scooter/licht/" target="_self">Scheinwerfer</a>, kaputte&nbsp;<a href="/haushalt/e-scooter/blinker/" target="_self">Blinker</a>&nbsp;oder abgenutzte&nbsp;<a href="/haushalt/e-scooter/bremse/" target="_self">Bremsscheiben</a>, bei uns finden Sie das passende Ersatzteil für Ihren E Scooter. Wir bieten Ihnen nicht nur ein umfassendes Sortiment an E Scooter Ersatzteile, sondern auch hilfreiche Ratgeber und Reparaturanleitungen - somit steht Ihrer nächsten Ausfahrt mit Ihrem Elektro Scooter nichts mehr im Weg!
 </p>
 </div>
 </div>
@@ -3436,7 +3436,7 @@ Mehr anzeigen
 <div class="page_content__bottom">
 <div class="seo-text my-5">
 <div>
-<h2>DIY Reparatur mit unseren Tipps und E Scooter Ersatzteile</h2>Ist der E Scooter defekt, führt das oft zu Ärger und Sorge: Denn was ist nun zu tun? Eine Reparatur in einer Werkstatt kann mitunter teuer werden und entsorgen wollen Sie Ihren geliebten Elektroroller ganz sicher auch nicht! Gut, dass Sie uns gefunden haben. Wir helfen Ihnen dabei, Ihren defekten Roller wieder in Schuss zu bringen, damit Sie schon bald wieder eine sichere Fahrt auf Ihrem E Scooter genießen können. Mit unseren Tipps aus dem E Scooter Ratgeber und einer Vielzahl an E Scooter Ersatzteile werden Sie jedes Elektroroller Problem mit nur wenigen Handgriffen beheben - und dafür müssen Sie ganz sicher kein KFZ-Mechaniker sein! Egal, ob es sich um einen&nbsp;<a target="_self" href="/ratgeber/e-scooter/e-scooter-reifen-platt.html">platten Reifen</a>, eine defekte&nbsp;<a target="_self" href="/e-scooter/bremse/">Bremse</a>&nbsp;oder ein kaputtes&nbsp;<a target="_self" href="/e-scooter/schutzblech/">Schutzblech</a>&nbsp;handelt – wir haben hilfreiche Tipps und die richtigen Teile, um Ihren Elektroroller wieder fit zu machen.<br><br><h3>Häufige Defekte und die passenden E Scooter Ersatzteile</h3>Zu den häufigsten Defekten gehören abgenutzte Bremsen, kaputte&nbsp;<a target="_self" href="/e-scooter/reifen/">Reifen</a>&nbsp;und beschädigte Schutzbleche. Aber auch der&nbsp;<a target="_self" href="/e-scooter/staender/">Ständer</a>&nbsp;kann mal abbrechen oder die&nbsp;<a target="_self" href="/e-scooter/licht/">Scheinwerfer</a>&nbsp;geben den Geist auf. Abgenutzte Bremsscheiben oder -beläge sollten unbedingt rechtzeitig ausgetauscht werden, um Ihre Sicherheit auf der Straße zu gewährleisten. Ein platter Reifen kann ebenfalls schnell behoben werden.<br>Unser Sortiment umfasst Ersatzteile für eine Vielzahl von E Scooter Marken - egal ob für einen&nbsp;<a target="_self" href="/haushalt/e-scooter/soflow/">E Scooter von SoFlow</a>,&nbsp;<a target="_self" href="/e-scooter/?manufacturerId=516581a2ce920b9bc16a9c5004a023b8">Xiaomi</a>&nbsp;oder ein anderes Modell. Diese Vielfalt an E Scooter Ersatzteilen sorgt dafür, dass Sie immer genau das finden, was Sie brauchen, um Ihren Roller zu reparieren.<br><br><h3>E Scooter Ersatzteile bestellen und Freude am Fahren genießen</h3>Ein Defekt an Ihrem E Scooter muss nicht unbedingt das Ende der Fahrt bedeuten. Mit den richtigen E Scooter Ersatzteilen können Sie die meisten Probleme selbst beheben und Ihren Roller schnell wieder in Betrieb nehmen. Egal ob Reifen, Bremsen oder andere Bauteile – bei uns finden Sie alles, was Sie für die Reparatur benötigen. Neben Ersatzteilen bieten wir auch umfassende Hilfestellungen bei der Reparatur Ihres E Scooters. Unsere Video-Tutorials auf unserem&nbsp;<a target="_blank" href="https://www.youtube.com/@artisanshopde" rel="noopener">YouTube-Kanal</a>&nbsp;führen Sie Schritt für Schritt durch den Austausch der defekten Teile. Egal, ob Sie zum ersten Mal selbst Hand anlegen oder bereits Erfahrung mit Reparaturen haben – mit unseren Anleitungen wird der Austausch der E Scooter Ersatzteile zum Kinderspiel.<br><br>
+<h2>DIY Reparatur mit unseren Tipps und E Scooter Ersatzteile</h2>Ist der E Scooter defekt, führt das oft zu Ärger und Sorge: Denn was ist nun zu tun? Eine Reparatur in einer Werkstatt kann mitunter teuer werden und entsorgen wollen Sie Ihren geliebten Elektroroller ganz sicher auch nicht! Gut, dass Sie uns gefunden haben. Wir helfen Ihnen dabei, Ihren defekten Roller wieder in Schuss zu bringen, damit Sie schon bald wieder eine sichere Fahrt auf Ihrem E Scooter genießen können. Mit unseren Tipps aus dem E Scooter Ratgeber und einer Vielzahl an E Scooter Ersatzteile werden Sie jedes Elektroroller Problem mit nur wenigen Handgriffen beheben - und dafür müssen Sie ganz sicher kein KFZ-Mechaniker sein! Egal, ob es sich um einen&nbsp;<a target="_self" href="/ratgeber/e-scooter/e-scooter-reifen-platt.html">platten Reifen</a>, eine defekte&nbsp;<a target="_self" href="/haushalt/e-scooter/bremse/">Bremse</a>&nbsp;oder ein kaputtes&nbsp;<a target="_self" href="/haushalt/e-scooter/schutzblech/">Schutzblech</a>&nbsp;handelt – wir haben hilfreiche Tipps und die richtigen Teile, um Ihren Elektroroller wieder fit zu machen.<br><br><h3>Häufige Defekte und die passenden E Scooter Ersatzteile</h3>Zu den häufigsten Defekten gehören abgenutzte Bremsen, kaputte&nbsp;<a target="_self" href="/haushalt/e-scooter/reifen/">Reifen</a>&nbsp;und beschädigte Schutzbleche. Aber auch der&nbsp;<a target="_self" href="/haushalt/e-scooter/staender/">Ständer</a>&nbsp;kann mal abbrechen oder die&nbsp;<a target="_self" href="/haushalt/e-scooter/licht/">Scheinwerfer</a>&nbsp;geben den Geist auf. Abgenutzte Bremsscheiben oder -beläge sollten unbedingt rechtzeitig ausgetauscht werden, um Ihre Sicherheit auf der Straße zu gewährleisten. Ein platter Reifen kann ebenfalls schnell behoben werden.<br>Unser Sortiment umfasst Ersatzteile für eine Vielzahl von E Scooter Marken - egal ob für einen&nbsp;<a target="_self" href="/haushalt/e-scooter/soflow/">E Scooter von SoFlow</a>,&nbsp;<a target="_self" href="/haushalt/e-scooter/?manufacturerId=516581a2ce920b9bc16a9c5004a023b8">Xiaomi</a>&nbsp;oder ein anderes Modell. Diese Vielfalt an E Scooter Ersatzteilen sorgt dafür, dass Sie immer genau das finden, was Sie brauchen, um Ihren Roller zu reparieren.<br><br><h3>E Scooter Ersatzteile bestellen und Freude am Fahren genießen</h3>Ein Defekt an Ihrem E Scooter muss nicht unbedingt das Ende der Fahrt bedeuten. Mit den richtigen E Scooter Ersatzteilen können Sie die meisten Probleme selbst beheben und Ihren Roller schnell wieder in Betrieb nehmen. Egal ob Reifen, Bremsen oder andere Bauteile – bei uns finden Sie alles, was Sie für die Reparatur benötigen. Neben Ersatzteilen bieten wir auch umfassende Hilfestellungen bei der Reparatur Ihres E Scooters. Unsere Video-Tutorials auf unserem&nbsp;<a target="_blank" href="https://www.youtube.com/@artisanshopde" rel="noopener">YouTube-Kanal</a>&nbsp;führen Sie Schritt für Schritt durch den Austausch der defekten Teile. Egal, ob Sie zum ersten Mal selbst Hand anlegen oder bereits Erfahrung mit Reparaturen haben – mit unseren Anleitungen wird der Austausch der E Scooter Ersatzteile zum Kinderspiel.<br><br>
 </div>
 </div>
 </div>
@@ -3620,22 +3620,22 @@ Widerrufsbelehrung
 Zahlungsoptionen
 </div>
 <div class="footer-logo is-payment-logo">
-<a href="/#payment" title>
+<a href="/kueche/#payment" title>
 <img src="/media/c4/e3/2b/1696317678/swag_paypal_paypal.svg?ts=1696317678" loading="lazy" class="footer-logo-image" alt="PayPal" title="PayPal" width="64px" height="45px" />
 </a>
 </div>
 <div class="footer-logo is-payment-logo">
-<a href="/#payment" title>
+<a href="/kueche/#payment" title>
 <img src="/media/52/a7/3e/1696436230/twint-icon.svg?ts=1696436230" loading="lazy" class="footer-logo-image" alt="Twint" title="Twint" width="64px" height="45px" />
 </a>
 </div>
 <div class="footer-logo is-payment-logo">
-<a href="/#payment" title>
+<a href="/kueche/#payment" title>
 <img src="/media/00/02/5f/1695568257/creditcard-icon.svg?ts=1695568257" loading="lazy" class="footer-logo-image" alt="Kreditkarte" title="Kreditkarte" width="64px" height="45px" />
 </a>
 </div>
 <div class="footer-logo is-payment-logo">
-<a href="/#payment" title="Apple Pay">
+<a href="/kueche/#payment" title="Apple Pay">
 <img src="/media/4c/50/24/1695568253/applepay-icon.svg?ts=1695568253" loading="lazy" class="footer-logo-image" alt="Apple Pay" title="Apple Pay" width="64px" height="45px" />
 </a>
 </div>

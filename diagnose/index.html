@@ -190,7 +190,7 @@ color: #274533;
                     'frontend.cms.page': '/widgets/cms',
                     'frontend.cms.navigation.page': '/widgets/cms/navigation',
                     'frontend.account.addressbook': '/widgets/account/address-book',
-                    'frontend.country.country-data': '/country/country-state-data',
+                    'frontend.country.country-data': '/country/country-state-data.json',
                     'frontend.app-system.generate-token': '/app-system/Placeholder/generate-token',
                     };
                 window.salesChannelId = '018ebd44f64d72b68cb58c170238a4cc';
@@ -236,7 +236,7 @@ color: #274533;
 <div class="row align-items-center header-row">
 <div class="col-auto header-logo-col">
 <div class="header-logo-main">
-<a class="header-logo-main-link" href="/" title="Zur Startseite gehen">
+<a class="header-logo-main-link" href="/kueche/" title="Zur Startseite gehen">
 <img src="/media/48/44/5b/1747717464/artisanshop-header-logo.svg" alt="Zur Startseite gehen" width="250px" height="56px" class="img-fluid header-logo-main-img">
 </a>
 </div>
@@ -299,7 +299,7 @@ Suchen
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24"><use xlink:href="#icons-default-stack" fill="#758CA3" fill-rule="evenodd" /></svg>
 </span>
 </button>
-<a class="header-logo-main-link" href="/" title="Zur Startseite gehen">
+<a class="header-logo-main-link" href="/kueche/" title="Zur Startseite gehen">
 <img src="/media/48/44/5b/1747717464/artisanshop-header-logo.svg" alt="Zur Startseite gehen" width="250px" height="56px" class="img-fluid header-logo-main-img">
 </a>
 </div>
@@ -319,7 +319,7 @@ Suche
 </div>
 <div class="col-auto art-search-widget-col d-none d-lg-block">
 <div class="header-search-widget">
-<a href="/widgets/modelcode" title="So findest Du die Gerätenummer" data-art-offcanvas-appliance-search="true">
+<a href="/service/kundenservice/" title="So findest Du die Gerätenummer" data-art-offcanvas-appliance-search="true">
 Gerätenummer bestimmen
 </a>
 </div>
@@ -368,22 +368,22 @@ oder <a href="/account/login" title="Registrieren">registrieren</a>
 <div class="header-account-menu">
 <div class="card account-menu-inner">
 <div class="list-group list-group-flush account-aside-list-group">
-<a href="/account" title="Übersicht" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/" title="Übersicht" class="list-group-item list-group-item-action account-aside-item">
 Übersicht
 </a>
-<a href="/account/profile" title="Persönliches Profil" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/profile/" title="Persönliches Profil" class="list-group-item list-group-item-action account-aside-item">
 Persönliches Profil
 </a>
-<a href="/account/address" title="Adressen" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/address/" title="Adressen" class="list-group-item list-group-item-action account-aside-item">
 Adressen
 </a>
-<a href="/account/payment" title="Zahlungsarten" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/payment/" title="Zahlungsarten" class="list-group-item list-group-item-action account-aside-item">
 Zahlungsarten
 </a>
-<a href="/account/order" title="Bestellungen" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/order/" title="Bestellungen" class="list-group-item list-group-item-action account-aside-item">
 Bestellungen
 </a>
-<a href="/account/mollie/subscriptions" title="Abonnements" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/mollie/subscriptions/" title="Abonnements" class="list-group-item list-group-item-action account-aside-item">
 Abonnements
 </a>
 </div>
@@ -2073,7 +2073,7 @@ registrieren
 </ul>
 </li>
 <li class="menu-item univers-item has-subitems item-menu-link" data-relevance>
-<a href="/ratgeber/" itemprop="url" class="text">
+<a href="/ratgeber/kaffeemaschine/" itemprop="url" class="text">
 <img src="/media/14/15/a5/1718805078/repairguide-icon.svg" loading="lazy" width="20px" class="category-thumbnails-small" alt="Ersatzteile" title="Ersatzteile" data-object-fit="cover" />
 <span itemprop="name">Reparaturratgeber</span>
 </a>
@@ -2305,7 +2305,7 @@ Hier findest du die Anleitungen, die du brauchst – zusammen mit hochwertigen E
 </a>
 </li>
 <li>
-<a href="/" class="cms-element-banner-navigation-item d-flex align-content-md-center flex-column flex-md-row align-items-center">
+<a href="/kueche/" class="cms-element-banner-navigation-item d-flex align-content-md-center flex-column flex-md-row align-items-center">
 <div class="cms-element-banner-navigation-item-icon">
 <span class="icon icon-artisan icon-cart icon-"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.9134 3.13397C14.8276 3.01091 14.6894 2.93484 14.5393 2.92843L5.23468 2.52736C4.96771 2.51568 4.74462 2.72178 4.73321 2.98751C4.72186 3.25313 4.92763 3.47757 5.19332 3.48898L13.868 3.86293L12.1624 9.18461H4.57215L3.20086 1.71803C3.17071 1.55439 3.05836 1.41787 2.90341 1.35707L0.65747 0.474736C0.409939 0.377825 0.130619 0.499409 0.0334061 0.746638C-0.0636392 0.994001 0.0579108 1.27349 0.305308 1.3707L2.30231 2.15522L3.6978 9.75285C3.73986 9.98125 3.93892 10.1471 4.17124 10.1471H4.40273L3.87413 11.6154C3.82989 11.7384 3.84812 11.875 3.92341 11.9818C3.9986 12.0887 4.12089 12.1523 4.25144 12.1523H4.6222C4.39246 12.408 4.25144 12.7446 4.25144 13.1149C4.25144 13.911 4.89927 14.5587 5.69527 14.5587C6.49127 14.5587 7.1391 13.911 7.1391 13.1149C7.1391 12.7447 6.99808 12.408 6.76837 12.1523H9.91629C9.68645 12.408 9.54546 12.7446 9.54546 13.1149C9.54546 13.911 10.1931 14.5587 10.9893 14.5587C11.7855 14.5587 12.4331 13.911 12.4331 13.1149C12.4331 12.7447 12.2921 12.408 12.0625 12.1523H12.5133C12.7349 12.1523 12.9144 11.9727 12.9144 11.7513C12.9144 11.5297 12.7349 11.3502 12.5133 11.3502H4.82209L5.25519 10.147H12.5133C12.7226 10.147 12.9078 10.0118 12.9716 9.81267L14.9769 3.55602C15.0229 3.41322 14.9993 3.25709 14.9134 3.13397ZM5.6953 13.7567C5.34139 13.7567 5.05358 13.4689 5.05358 13.115C5.05358 12.7611 5.34139 12.4733 5.6953 12.4733C6.04921 12.4733 6.33699 12.7611 6.33699 13.115C6.33699 13.4689 6.04921 13.7567 5.6953 13.7567ZM10.9893 13.7567C10.6354 13.7567 10.3476 13.4689 10.3476 13.115C10.3476 12.7611 10.6354 12.4733 10.9893 12.4733C11.3432 12.4733 11.631 12.7611 11.631 13.115C11.631 13.4689 11.3432 13.7567 10.9893 13.7567Z" fill="#274533" /></svg></span>
 </div>
@@ -2992,22 +2992,22 @@ Widerrufsbelehrung
 Zahlungsoptionen
 </div>
 <div class="footer-logo is-payment-logo">
-<a href="/#payment" title>
+<a href="/kueche/#payment" title>
 <img src="/media/c4/e3/2b/1696317678/swag_paypal_paypal.svg" loading="lazy" class="footer-logo-image" alt="PayPal" title="PayPal" width="64px" height="45px" />
 </a>
 </div>
 <div class="footer-logo is-payment-logo">
-<a href="/#payment" title>
+<a href="/kueche/#payment" title>
 <img src="/media/52/a7/3e/1696436230/twint-icon.svg" loading="lazy" class="footer-logo-image" alt="Twint" title="Twint" width="64px" height="45px" />
 </a>
 </div>
 <div class="footer-logo is-payment-logo">
-<a href="/#payment" title>
+<a href="/kueche/#payment" title>
 <img src="/media/00/02/5f/1695568257/creditcard-icon.svg" loading="lazy" class="footer-logo-image" alt="Kreditkarte" title="Kreditkarte" width="64px" height="45px" />
 </a>
 </div>
 <div class="footer-logo is-payment-logo">
-<a href="/#payment" title>
+<a href="/kueche/#payment" title>
 <img src="/media/4c/50/24/1695568253/applepay-icon.svg" loading="lazy" class="footer-logo-image" alt="Apple Pay" title="Apple Pay" width="64px" height="45px" />
 </a>
 </div>

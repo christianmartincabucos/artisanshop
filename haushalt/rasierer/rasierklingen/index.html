@@ -28,7 +28,7 @@
 <meta name="theme-color" content="#fafafa">
 <link rel="alternate" hreflang="x-default" href="/haushalt/rasierer/rasierklingen/">
 <link rel="alternate" hreflang="de-CH" href="/haushalt/rasierer/rasierklingen/">
-<link rel="alternate" hreflang="de-DE" href="/rasierer/rasierklingen/">
+<link rel="alternate" hreflang="de-DE" href="/haushalt/rasierer/rasierklingen/">
 <link rel="shortcut icon" href="/media/e7/a3/26/1686549756/favicon.png?ts=1724642430">
 <link rel="apple-touch-icon" sizes="180x180" href="/media/e7/a3/26/1686549756/favicon.png?ts=1724642430">
 <title itemprop="name">Rasierklingen passend nachbestellen - Ersatzteile</title>
@@ -201,7 +201,7 @@ color: #274533;
                     'frontend.cms.page': '/widgets/cms',
                     'frontend.cms.navigation.page': '/widgets/cms/navigation',
                     'frontend.account.addressbook': '/widgets/account/address-book',
-                    'frontend.country.country-data': '/country/country-state-data',
+                    'frontend.country.country-data': '/country/country-state-data.json',
                     'frontend.app-system.generate-token': '/app-system/Placeholder/generate-token',
                     };
                 window.salesChannelId = '018ebd44f64d72b68cb58c170238a4cc';
@@ -251,7 +251,7 @@ Zum Hauptinhalt springen
 <div class="row align-items-center header-row">
 <div class="col-auto header-logo-col">
 <div class="header-logo-main">
-<a class="header-logo-main-link" href="/" title="Zur Startseite gehen">
+<a class="header-logo-main-link" href="/kueche/" title="Zur Startseite gehen">
 <img src="/media/48/44/5b/1747717464/artisanshop-header-logo.svg" alt="Zur Startseite gehen" width="250px" height="56px" class="img-fluid header-logo-main-img">
 </a>
 </div>
@@ -321,7 +321,7 @@ Suchen
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24"><use xlink:href="#icons-default-stack" fill="#758CA3" fill-rule="evenodd" /></svg>
 </span>
 </button>
-<a class="header-logo-main-link" href="/" title="Zur Startseite gehen">
+<a class="header-logo-main-link" href="/kueche/" title="Zur Startseite gehen">
 <img src="/media/48/44/5b/1747717464/artisanshop-header-logo.svg" alt="Zur Startseite gehen" width="250px" height="56px" class="img-fluid header-logo-main-img">
 </a>
 </div>
@@ -341,7 +341,7 @@ Suche
 </div>
 <div class="col-auto art-search-widget-col d-none d-lg-block">
 <div class="header-search-widget">
-<a href="/widgets/model-code" title="So findest Du die Gerätenummer" data-art-offcanvas-appliance-search="true">
+<a href="/service/kundenservice/" title="So findest Du die Gerätenummer" data-art-offcanvas-appliance-search="true">
 Gerätenummer bestimmen
 </a>
 </div>
@@ -390,22 +390,22 @@ oder <a href="/account/login" title="Registrieren">registrieren</a>
 <div class="header-account-menu">
 <div class="card account-menu-inner">
 <div class="list-group list-group-flush account-aside-list-group">
-<a href="/account" title="Übersicht" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/" title="Übersicht" class="list-group-item list-group-item-action account-aside-item">
 Übersicht
 </a>
-<a href="/account/profile" title="Persönliches Profil" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/profile/" title="Persönliches Profil" class="list-group-item list-group-item-action account-aside-item">
 Persönliches Profil
 </a>
-<a href="/account/address" title="Adressen" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/address/" title="Adressen" class="list-group-item list-group-item-action account-aside-item">
 Adressen
 </a>
-<a href="/account/payment" title="Zahlungsarten" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/payment/" title="Zahlungsarten" class="list-group-item list-group-item-action account-aside-item">
 Zahlungsarten
 </a>
-<a href="/account/order" title="Bestellungen" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/order/" title="Bestellungen" class="list-group-item list-group-item-action account-aside-item">
 Bestellungen
 </a>
-<a href="/account/mollie/subscriptions" title="Abonnements" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/mollie/subscriptions/" title="Abonnements" class="list-group-item list-group-item-action account-aside-item">
 Abonnements
 </a>
 </div>
@@ -2095,7 +2095,7 @@ registrieren
 </ul>
 </li>
 <li class="menu-item univers-item has-subitems item-menu-link" data-relevance>
-<a href="/ratgeber/" itemprop="url" class="text">
+<a href="/ratgeber/kaffeemaschine/" itemprop="url" class="text">
 <img src="/media/14/15/a5/1718805078/repairguide-icon.svg?ts=1718805078" loading="lazy" width="20px" class="category-thumbnails-small" alt="Rasierklingen" title="Rasierklingen" data-object-fit="cover" />
 <span itemprop="name">Reparaturratgeber</span>
 </a>
@@ -2391,8 +2391,8 @@ Schließen
 <ol class="breadcrumb__list" itemscope itemtype="http://schema.org/BreadcrumbList">
 <li class="breadcrumb__item breadcrumb__item--parent breadcrumb__item--first" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
 <div itemprop="item" class="breadcrumb__item-link">
-<a href="/" class="breadcrumb__item-link home-link" title itemprop="item">
-<link itemprop="url" href="/" />
+<a href="/kueche/" class="breadcrumb__item-link home-link" title itemprop="item">
+<link itemprop="url" href="/kueche/" />
 <span itemprop="name">Home</span>
 </a>
 <div class="breadcrumb-placeholder">
@@ -2451,7 +2451,7 @@ Schließen
 <div class="mb-5">
 <h1 class="page_content__title">Rasierklingen</h1>
 <p class="page_content__description">
-Sind die Klingen Ihres Rasierers stumpf? Dann finden Sie bei uns den passenden Ersatz für Ihr Gerät. Rasierklingen kaufen Sie schnell und bequem, indem Sie die Modellnummer Ihres Rasierers in unserer Suche eingeben und anschließend die passenden Klingen für den&nbsp;<a target="_self" href="/rasierer/rasierkopf/">Scherkopf</a>&nbsp;Ihres Rasierers auswählen. Wir bieten eine große Auswahl an Rasierklingen von&nbsp;<a href="/rasierer/rasierklingen/?manufacturerId=0d178dd9904716651a1b0cd7c9882568" target="_self">Braun</a>,&nbsp;<a href="/rasierer/rasierklingen/?manufacturerId=403ca5df590f54cff2a36496f49b015f" target="_self">Grundig</a>,&nbsp;<a href="/rasierer/rasierklingen/?manufacturerId=4db2eb60906233021c65b511fe814034" target="_self">Panasonic</a>,&nbsp;<a href="/rasierer/rasierklingen/?manufacturerId=c1f456ee3fc507d644eb50420511ad91" target="_self">Philips</a>&nbsp;und viele mehr. Tauschen Sie Ihre Klingen und erfreuen Sie sich schon bald wieder an besten Rasierergebnissen!
+Sind die Klingen Ihres Rasierers stumpf? Dann finden Sie bei uns den passenden Ersatz für Ihr Gerät. Rasierklingen kaufen Sie schnell und bequem, indem Sie die Modellnummer Ihres Rasierers in unserer Suche eingeben und anschließend die passenden Klingen für den&nbsp;<a target="_self" href="/rasierer/rasierkopf/">Scherkopf</a>&nbsp;Ihres Rasierers auswählen. Wir bieten eine große Auswahl an Rasierklingen von&nbsp;<a href="/haushalt/rasierer/rasierklingen/?manufacturerId=0d178dd9904716651a1b0cd7c9882568" target="_self">Braun</a>,&nbsp;<a href="/haushalt/rasierer/rasierklingen/?manufacturerId=403ca5df590f54cff2a36496f49b015f" target="_self">Grundig</a>,&nbsp;<a href="/haushalt/rasierer/rasierklingen/?manufacturerId=4db2eb60906233021c65b511fe814034" target="_self">Panasonic</a>,&nbsp;<a href="/haushalt/rasierer/rasierklingen/?manufacturerId=c1f456ee3fc507d644eb50420511ad91" target="_self">Philips</a>&nbsp;und viele mehr. Tauschen Sie Ihre Klingen und erfreuen Sie sich schon bald wieder an besten Rasierergebnissen!
 </p>
 </div>
 </div>
@@ -7261,7 +7261,7 @@ Klingenblock 482269010067 Philips für Rasierer HP1046/01 Scherkopf Ersatzteil
 <div class="page_content__bottom">
 <div class="seo-text my-5">
 <div>
-<h2>Rasierklingen wechseln - Den passenden Ersatz finden Sie hier</h2>Obwohl Rasierklingen aus einem extra gehärteten Edelstahl bestehen und normalerweise nur eingesetzt werden, um sehr viel weicheres Material zu schneiden, stumpfen sie über die Zeit ab. Stumpfe Rasierklingen führen nicht nur zu unsauberen Ergebnissen, sondern auch zu Hautirritationen. Wenn Sie also stumpfe Klingen an Ihrem Rasierer entdecken, sollten Sie sie schnell wechseln.<br><br><h3>Warum werden Rasierklingen stumpf?</h3>Forscher haben diese Frage untersucht. Denn eigentlich sollte man von einem harten Material wie Edelstahl, das dazu noch einem extra aufwändigen Prozess unterzogen wird, um noch härter gemacht zu werden, doch ohne Probleme weiche Materialien wie Haare problemlos durchtrennen können, ohne dabei stumpf zu werden.&nbsp;<br>Forscher fanden heraus, dass nicht die scharfe Kante der Rasierklinge durch Abrundungen abstumpft, sondern viel mehr kleine Kerben und Risse auf der Schneide dafür sorgen, dass die Schärfe nachlässt. Dabei handelt es sich um winzige Mikrorissen, die sich senkrecht über die Schneide ziehen und schlussendlich zu kleinen Abplatzungen führen.<br>Die Ergebnisse zeigten, dass insbesondere der Winkel, in dem man den Rasierer während der Rasur hält, entscheidend ist. Ein rechter Winkel würde die Lebensdauer der Rasierklinge verlängern. Die Dicke und die Struktur der Haare haben kaum eine Rolle in dem Experiment gespielt. Die Ergebnisse zu diesem Experiment können Sie&nbsp;<a target="_blank" href="https://www.wissenschaft.de/technik-digitales/wie-haare-den-rasierer-stumpf-machen/" rel="noopener">hier</a>&nbsp;nachlesen.<br><br><h3>Sorgen Sie für die richtige Schärfe bei der Rasur</h3>Die Rasierklinge sollte regelmäßig gewechselt werden - so viel ist klar. Denn stumpfe Klingen des Rasierers führen zu unsauberen Rasurergebnissen, Rasurbrand, Hautirritationen und sogar einem erhöhten Risiko, sich zu verletzen, da man automatisch mehr Druck beim Rasieren ausübt. Außerdem werden Klingen bei zu langer Benutzung unhygienisch. Die Rasierklinge regelmäßig heiß abzuspülen und Luft trocknen zu lassen sowie der richtige Winkel bei der Rasur sorgt für eine längere Lebensdauer der Rasierklinge. Doch spätestens, wenn Sie bemerken, dass die Haut nach der Rasur rau oder irritiert ist, sie leicht brennt oder Sie sich sogar schneiden, sollten Sie die Rasierklinge wechseln.<br><br><h3>Passende Ersatz Klingen finden Sie bei uns</h3>Wenn Sie auf der Suche nach der passenden Ersatz Rasierklinge für Ihr Gerät sind, sind Sie bei uns richtig. Unser Sortiment umfasst eine große Auswahl an Rasierer Ersatzteile für unterschiedlichste Hersteller, darunter hochwertige Original Klingen namenhafter Marken wie Braun, Philips oder Panasonic. Aber auch komplette&nbsp;<a target="_self" href="/rasierer/rasierkopf/">Scherköpfe</a>, Ersatz&nbsp;<a target="_self" href="/rasierer/akku/">Akkus</a>&nbsp;oder&nbsp;<a target="_self" href="/rasierer/gehaeuse/">Gehäuseteile</a>&nbsp;für Ihren Rasierer werden Sie bei uns finden. Geben Sie dafür einfach die Modellnummer Ihres Gerätes in die Suchleiste ein und Sie erhalten eine Übersicht über alle passenden Ersatzteile, die kompatibel mit Ihrem Rasierer sind!
+<h2>Rasierklingen wechseln - Den passenden Ersatz finden Sie hier</h2>Obwohl Rasierklingen aus einem extra gehärteten Edelstahl bestehen und normalerweise nur eingesetzt werden, um sehr viel weicheres Material zu schneiden, stumpfen sie über die Zeit ab. Stumpfe Rasierklingen führen nicht nur zu unsauberen Ergebnissen, sondern auch zu Hautirritationen. Wenn Sie also stumpfe Klingen an Ihrem Rasierer entdecken, sollten Sie sie schnell wechseln.<br><br><h3>Warum werden Rasierklingen stumpf?</h3>Forscher haben diese Frage untersucht. Denn eigentlich sollte man von einem harten Material wie Edelstahl, das dazu noch einem extra aufwändigen Prozess unterzogen wird, um noch härter gemacht zu werden, doch ohne Probleme weiche Materialien wie Haare problemlos durchtrennen können, ohne dabei stumpf zu werden.&nbsp;<br>Forscher fanden heraus, dass nicht die scharfe Kante der Rasierklinge durch Abrundungen abstumpft, sondern viel mehr kleine Kerben und Risse auf der Schneide dafür sorgen, dass die Schärfe nachlässt. Dabei handelt es sich um winzige Mikrorissen, die sich senkrecht über die Schneide ziehen und schlussendlich zu kleinen Abplatzungen führen.<br>Die Ergebnisse zeigten, dass insbesondere der Winkel, in dem man den Rasierer während der Rasur hält, entscheidend ist. Ein rechter Winkel würde die Lebensdauer der Rasierklinge verlängern. Die Dicke und die Struktur der Haare haben kaum eine Rolle in dem Experiment gespielt. Die Ergebnisse zu diesem Experiment können Sie&nbsp;<a target="_blank" href="https://www.wissenschaft.de/technik-digitales/wie-haare-den-rasierer-stumpf-machen/" rel="noopener">hier</a>&nbsp;nachlesen.<br><br><h3>Sorgen Sie für die richtige Schärfe bei der Rasur</h3>Die Rasierklinge sollte regelmäßig gewechselt werden - so viel ist klar. Denn stumpfe Klingen des Rasierers führen zu unsauberen Rasurergebnissen, Rasurbrand, Hautirritationen und sogar einem erhöhten Risiko, sich zu verletzen, da man automatisch mehr Druck beim Rasieren ausübt. Außerdem werden Klingen bei zu langer Benutzung unhygienisch. Die Rasierklinge regelmäßig heiß abzuspülen und Luft trocknen zu lassen sowie der richtige Winkel bei der Rasur sorgt für eine längere Lebensdauer der Rasierklinge. Doch spätestens, wenn Sie bemerken, dass die Haut nach der Rasur rau oder irritiert ist, sie leicht brennt oder Sie sich sogar schneiden, sollten Sie die Rasierklinge wechseln.<br><br><h3>Passende Ersatz Klingen finden Sie bei uns</h3>Wenn Sie auf der Suche nach der passenden Ersatz Rasierklinge für Ihr Gerät sind, sind Sie bei uns richtig. Unser Sortiment umfasst eine große Auswahl an Rasierer Ersatzteile für unterschiedlichste Hersteller, darunter hochwertige Original Klingen namenhafter Marken wie Braun, Philips oder Panasonic. Aber auch komplette&nbsp;<a target="_self" href="/rasierer/rasierkopf/">Scherköpfe</a>, Ersatz&nbsp;<a target="_self" href="/haushalt/rasierer/akku/">Akkus</a>&nbsp;oder&nbsp;<a target="_self" href="/haushalt/rasierer/gehaeuse/">Gehäuseteile</a>&nbsp;für Ihren Rasierer werden Sie bei uns finden. Geben Sie dafür einfach die Modellnummer Ihres Gerätes in die Suchleiste ein und Sie erhalten eine Übersicht über alle passenden Ersatzteile, die kompatibel mit Ihrem Rasierer sind!
 </div>
 </div>
 </div>
@@ -7445,22 +7445,22 @@ Widerrufsbelehrung
 Zahlungsoptionen
 </div>
 <div class="footer-logo is-payment-logo">
-<a href="/#payment" title>
+<a href="/kueche/#payment" title>
 <img src="/media/c4/e3/2b/1696317678/swag_paypal_paypal.svg?ts=1696317678" loading="lazy" class="footer-logo-image" alt="PayPal" title="PayPal" width="64px" height="45px" />
 </a>
 </div>
 <div class="footer-logo is-payment-logo">
-<a href="/#payment" title>
+<a href="/kueche/#payment" title>
 <img src="/media/52/a7/3e/1696436230/twint-icon.svg?ts=1696436230" loading="lazy" class="footer-logo-image" alt="Twint" title="Twint" width="64px" height="45px" />
 </a>
 </div>
 <div class="footer-logo is-payment-logo">
-<a href="/#payment" title>
+<a href="/kueche/#payment" title>
 <img src="/media/00/02/5f/1695568257/creditcard-icon.svg?ts=1695568257" loading="lazy" class="footer-logo-image" alt="Kreditkarte" title="Kreditkarte" width="64px" height="45px" />
 </a>
 </div>
 <div class="footer-logo is-payment-logo">
-<a href="/#payment" title="Apple Pay">
+<a href="/kueche/#payment" title="Apple Pay">
 <img src="/media/4c/50/24/1695568253/applepay-icon.svg?ts=1695568253" loading="lazy" class="footer-logo-image" alt="Apple Pay" title="Apple Pay" width="64px" height="45px" />
 </a>
 </div>

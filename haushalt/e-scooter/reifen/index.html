@@ -27,7 +27,7 @@
 <meta itemprop="image" content="/media/95/0e/44/1721465255/escooterreifen.webp">
 <link rel="alternate" hreflang="x-default" href="/haushalt/e-scooter/reifen/">
 <link rel="alternate" hreflang="de-CH" href="/haushalt/e-scooter/reifen/">
-<link rel="alternate" hreflang="de-DE" href="/e-scooter/reifen/">
+<link rel="alternate" hreflang="de-DE" href="/haushalt/e-scooter/reifen/">
 <link rel="shortcut icon" href="/media/e7/a3/26/1686549756/favicon.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/media/e7/a3/26/1686549756/favicon.png">
 <title itemprop="name">E Scooter Reifen passend nachbestellen - Ersatzteile</title>
@@ -194,7 +194,7 @@ color: #274533;
                     'frontend.cms.page': '/widgets/cms',
                     'frontend.cms.navigation.page': '/widgets/cms/navigation',
                     'frontend.account.addressbook': '/widgets/account/address-book',
-                    'frontend.country.country-data': '/country/country-state-data',
+                    'frontend.country.country-data': '/country/country-state-data.json',
                     'frontend.app-system.generate-token': '/app-system/Placeholder/generate-token',
                     };
                 window.salesChannelId = '018ebd44f64d72b68cb58c170238a4cc';
@@ -239,7 +239,7 @@ color: #274533;
 <div class="row align-items-center header-row">
 <div class="col-auto header-logo-col">
 <div class="header-logo-main">
-<a class="header-logo-main-link" href="/" title="Zur Startseite gehen">
+<a class="header-logo-main-link" href="/kueche/" title="Zur Startseite gehen">
 <img src="/media/48/44/5b/1747717464/artisanshop-header-logo.svg" alt="Zur Startseite gehen" width="250px" height="56px" class="img-fluid header-logo-main-img">
 </a>
 </div>
@@ -302,7 +302,7 @@ Suchen
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24"><use xlink:href="#icons-default-stack" fill="#758CA3" fill-rule="evenodd" /></svg>
 </span>
 </button>
-<a class="header-logo-main-link" href="/" title="Zur Startseite gehen">
+<a class="header-logo-main-link" href="/kueche/" title="Zur Startseite gehen">
 <img src="/media/48/44/5b/1747717464/artisanshop-header-logo.svg" alt="Zur Startseite gehen" width="250px" height="56px" class="img-fluid header-logo-main-img">
 </a>
 </div>
@@ -322,7 +322,7 @@ Suche
 </div>
 <div class="col-auto art-search-widget-col d-none d-lg-block">
 <div class="header-search-widget">
-<a href="/widgets/modelcode" title="So findest Du die Gerätenummer" data-art-offcanvas-appliance-search="true">
+<a href="/service/kundenservice/" title="So findest Du die Gerätenummer" data-art-offcanvas-appliance-search="true">
 Gerätenummer bestimmen
 </a>
 </div>
@@ -371,22 +371,22 @@ oder <a href="/account/login" title="Registrieren">registrieren</a>
 <div class="header-account-menu">
 <div class="card account-menu-inner">
 <div class="list-group list-group-flush account-aside-list-group">
-<a href="/account" title="Übersicht" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/" title="Übersicht" class="list-group-item list-group-item-action account-aside-item">
 Übersicht
 </a>
-<a href="/account/profile" title="Persönliches Profil" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/profile/" title="Persönliches Profil" class="list-group-item list-group-item-action account-aside-item">
 Persönliches Profil
 </a>
-<a href="/account/address" title="Adressen" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/address/" title="Adressen" class="list-group-item list-group-item-action account-aside-item">
 Adressen
 </a>
-<a href="/account/payment" title="Zahlungsarten" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/payment/" title="Zahlungsarten" class="list-group-item list-group-item-action account-aside-item">
 Zahlungsarten
 </a>
-<a href="/account/order" title="Bestellungen" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/order/" title="Bestellungen" class="list-group-item list-group-item-action account-aside-item">
 Bestellungen
 </a>
-<a href="/account/mollie/subscriptions" title="Abonnements" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/mollie/subscriptions/" title="Abonnements" class="list-group-item list-group-item-action account-aside-item">
 Abonnements
 </a>
 </div>
@@ -2076,7 +2076,7 @@ registrieren
 </ul>
 </li>
 <li class="menu-item univers-item has-subitems item-menu-link" data-relevance>
-<a href="/ratgeber/" itemprop="url" class="text">
+<a href="/ratgeber/kaffeemaschine/" itemprop="url" class="text">
 <img src="/media/14/15/a5/1718805078/repairguide-icon.svg" loading="lazy" width="20px" class="category-thumbnails-small" alt="Reifen" title="Reifen" data-object-fit="cover" />
 <span itemprop="name">Reparaturratgeber</span>
 </a>
@@ -2360,8 +2360,8 @@ Schließen
 <ol class="breadcrumb__list" itemscope itemtype="http://schema.org/BreadcrumbList">
 <li class="breadcrumb__item breadcrumb__item--parent breadcrumb__item--first" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
 <div itemprop="item" class="breadcrumb__item-link">
-<a href="/" class="breadcrumb__item-link home-link" title itemprop="item">
-<link itemprop="url" href="/" />
+<a href="/kueche/" class="breadcrumb__item-link home-link" title itemprop="item">
+<link itemprop="url" href="/kueche/" />
 <span itemprop="name">Home</span>
 </a>
 <div class="breadcrumb-placeholder">
@@ -2420,7 +2420,7 @@ Schließen
 <div class="mb-5">
 <h1 class="page_content__title">E Scooter Reifen</h1>
 <p class="page_content__description">
-Um schnell und sicher mit Ihrem E Scooter von A nach B zu gelangen, sind intakte <b>E Scooter Reifen</b> wichtig. Dabei handelt es sich aber um eines der Bauteile, das am meisten beansprucht wird: Abgefahrene Reifenprofile, ein Riss im Mantel, undichte Schläuche oder eine Acht in der Felge können den Fahrspaß mit dem E Scooter beeinträchtigen. Finden Sie bei uns das passende E Scooter Reifen Ersatzteil und genießen Sie schon bald wieder den Fahrtwind mit Ihrem Elektroroller - egal von welcher Marke, wir haben das richtige&nbsp;<a href="/e-scooter/" target="_self">E Scooter Ersatzteil</a>&nbsp;für Sie.
+Um schnell und sicher mit Ihrem E Scooter von A nach B zu gelangen, sind intakte <b>E Scooter Reifen</b> wichtig. Dabei handelt es sich aber um eines der Bauteile, das am meisten beansprucht wird: Abgefahrene Reifenprofile, ein Riss im Mantel, undichte Schläuche oder eine Acht in der Felge können den Fahrspaß mit dem E Scooter beeinträchtigen. Finden Sie bei uns das passende E Scooter Reifen Ersatzteil und genießen Sie schon bald wieder den Fahrtwind mit Ihrem Elektroroller - egal von welcher Marke, wir haben das richtige&nbsp;<a href="/haushalt/e-scooter/" target="_self">E Scooter Ersatzteil</a>&nbsp;für Sie.
 </p>
 </div>
 </div>
@@ -8907,7 +8907,7 @@ Reifen 80029017 Soflow für E-Scooter SO2 Air Mantel 10 Zoll 2.125mm Ersatzteil
 <div class="seo-text my-5">
 <div>
 <h2>Defekten E Scooter Reifen selber tauschen - geht das?</h2>E Scooter Reifen sind ein zentrales Bauteil, das maßgeblich für die Fahrsicherheit und den Komfort verantwortlich ist. Im Laufe der Zeit und durch die regelmäßige Nutzung können jedoch verschiedene Defekte auftreten, die behoben werden müssen, um die Funktionalität Ihres E-Scooters zu gewährleisten. Zu den häufigsten Problemen zählen abgefahrene Profile, Risse im Reifenmantel, poröse oder beschädigte Schläuche sowie defekte Felgen oder Achsen. Aber was ist zu tun, wenn man einen dieser Defekte an seinem eigenen E Scooter feststellt?<br><br>Wir empfehlen die Selbstreparatur Ihres E Scooters - so sparen Sie sich bares Geld und lernen ein paar handwerkliche Kniffe kenne.<br><br><h3>Folgende Defekte können Sie selbst beheben:</h3>Ist das <b>E Scooter Reifenprofil abgenutzt</b>, kann das die Bodenhaftung erheblich verringern, was vor allem bei Nässe gefährlich wird. In diesem Fall sollten Sie den E Scooter Reifen austauschen. Den passenden Ersatz Reifenmantel finden Sie in unserer Kategorie. Überprüfen Sie immer die Passfähigkeit bevor Sie einen E Scooter Reifen kaufen, indem Sie die Typennummer Ihres Modells mit unserer Kompatibilitätsliste abgleichen.<br>Hat der <b>E Scooter Reifenmantel Risse</b> oder ein<b> Loch im E Scooter Schlauch,</b> führt das oft dazu, dass der Reifen Luft verliert und erhöht das Risiko von Pannen. Hier ist es wichtig, nicht nur den Mantel, sondern auch den Schlauch gründlich zu überprüfen und bei Bedarf auszutauschen. Hochwertige Ersatz-Schläuche sind bei uns ebenso erhältlich wie die passenden Reifenmäntel, um Ihren E Scooter Reifen wieder vollständig einsatzbereit zu machen.<br>Auch Felgen und Achsen können durch starke Belastung beschädigt werden. <b>Risse in der E Scooter Felge&nbsp;</b>beeinträchtigen die Stabilität und müssen umgehend ersetzt werden, um weitere Schäden zu vermeiden. In unserem Sortiment finden Sie die passenden Ersatzteile, um die Sicherheit und den Fahrkomfort Ihres E-Scooters wiederherzustellen.
-Ob Sie nun den Reifenmantel, den Schlauch oder die Felge austauschen müssen, bei uns finden Sie alle notwendigen Ersatzteile, um Ihren E Scooter Reifen schnell und effektiv zu reparieren.<br><br><h3>Sicher unterwegs: Passenden E Scooter Reifen kaufen</h3>Zögern Sie nicht, wenn Sie einen defekten Reifen an Ihrem E Scooter entdecken und sorgen Sie dafür, dass Sie sicher im Straßenverkehr unterwegs sind. Intakte Reifen sind aber nicht das einzige Bauteil, dass Sie brauchen, um Ihren E Scooter bei Bedarf zu reparieren. In unserem Sortiment von&nbsp;<a target="_self" href="/e-scooter/">E Scooter Ersatzteilen</a>&nbsp;für zum Beispiel&nbsp;<a target="_self" href="/e-scooter/?manufacturerId=516581a2ce920b9bc16a9c5004a023b8">Xiaomi E Scooter</a>&nbsp;oder&nbsp;<a target="_self" href="/haushalt/e-scooter/soflow/">SoFlow E Scooter</a>&nbsp;finden Sie neben E Scooter Reifen Ersatzteile auch&nbsp;<a target="_self" href="/e-scooter/staender/">Ständer</a>,&nbsp;<a target="_self" href="/e-scooter/bremse/">Bremsbeläge und Bremsscheiben</a>,&nbsp;<a target="_self" href="/e-scooter/schutzblech/">Schutzbleche</a>,&nbsp;<a target="_self" href="/e-scooter/licht/">Scheinwerfer</a>&nbsp;und vieles mehr. Suchen Sie einfach nach der Typennummer Ihres Fahrzeugs und erhalten Sie eine Übersicht über alle passenden Ersatzteile für Ihren E Scooter.
+Ob Sie nun den Reifenmantel, den Schlauch oder die Felge austauschen müssen, bei uns finden Sie alle notwendigen Ersatzteile, um Ihren E Scooter Reifen schnell und effektiv zu reparieren.<br><br><h3>Sicher unterwegs: Passenden E Scooter Reifen kaufen</h3>Zögern Sie nicht, wenn Sie einen defekten Reifen an Ihrem E Scooter entdecken und sorgen Sie dafür, dass Sie sicher im Straßenverkehr unterwegs sind. Intakte Reifen sind aber nicht das einzige Bauteil, dass Sie brauchen, um Ihren E Scooter bei Bedarf zu reparieren. In unserem Sortiment von&nbsp;<a target="_self" href="/haushalt/e-scooter/">E Scooter Ersatzteilen</a>&nbsp;für zum Beispiel&nbsp;<a target="_self" href="/haushalt/e-scooter/?manufacturerId=516581a2ce920b9bc16a9c5004a023b8">Xiaomi E Scooter</a>&nbsp;oder&nbsp;<a target="_self" href="/haushalt/e-scooter/soflow/">SoFlow E Scooter</a>&nbsp;finden Sie neben E Scooter Reifen Ersatzteile auch&nbsp;<a target="_self" href="/haushalt/e-scooter/staender/">Ständer</a>,&nbsp;<a target="_self" href="/haushalt/e-scooter/bremse/">Bremsbeläge und Bremsscheiben</a>,&nbsp;<a target="_self" href="/haushalt/e-scooter/schutzblech/">Schutzbleche</a>,&nbsp;<a target="_self" href="/haushalt/e-scooter/licht/">Scheinwerfer</a>&nbsp;und vieles mehr. Suchen Sie einfach nach der Typennummer Ihres Fahrzeugs und erhalten Sie eine Übersicht über alle passenden Ersatzteile für Ihren E Scooter.
 </div>
 </div>
 </div>
@@ -9091,22 +9091,22 @@ Widerrufsbelehrung
 Zahlungsoptionen
 </div>
 <div class="footer-logo is-payment-logo">
-<a href="/#payment" title>
+<a href="/kueche/#payment" title>
 <img src="/media/c4/e3/2b/1696317678/swag_paypal_paypal.svg" loading="lazy" class="footer-logo-image" alt="PayPal" title="PayPal" width="64px" height="45px" />
 </a>
 </div>
 <div class="footer-logo is-payment-logo">
-<a href="/#payment" title>
+<a href="/kueche/#payment" title>
 <img src="/media/52/a7/3e/1696436230/twint-icon.svg" loading="lazy" class="footer-logo-image" alt="Twint" title="Twint" width="64px" height="45px" />
 </a>
 </div>
 <div class="footer-logo is-payment-logo">
-<a href="/#payment" title>
+<a href="/kueche/#payment" title>
 <img src="/media/00/02/5f/1695568257/creditcard-icon.svg" loading="lazy" class="footer-logo-image" alt="Kreditkarte" title="Kreditkarte" width="64px" height="45px" />
 </a>
 </div>
 <div class="footer-logo is-payment-logo">
-<a href="/#payment" title>
+<a href="/kueche/#payment" title>
 <img src="/media/4c/50/24/1695568253/applepay-icon.svg" loading="lazy" class="footer-logo-image" alt="Apple Pay" title="Apple Pay" width="64px" height="45px" />
 </a>
 </div>

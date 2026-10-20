@@ -27,7 +27,7 @@
 <meta itemprop="image" content="/media/b8/39/63/1723540596/rasiererakku.webp">
 <link rel="alternate" hreflang="x-default" href="/haushalt/rasierer/akku/">
 <link rel="alternate" hreflang="de-CH" href="/haushalt/rasierer/akku/">
-<link rel="alternate" hreflang="de-DE" href="/rasierer/akku/">
+<link rel="alternate" hreflang="de-DE" href="/haushalt/rasierer/akku/">
 <link rel="shortcut icon" href="/media/e7/a3/26/1686549756/favicon.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/media/e7/a3/26/1686549756/favicon.png">
 <title itemprop="name">Rasierer Akku  passend nachbestellen - Ersatzteile</title>
@@ -194,7 +194,7 @@ color: #274533;
                     'frontend.cms.page': '/widgets/cms',
                     'frontend.cms.navigation.page': '/widgets/cms/navigation',
                     'frontend.account.addressbook': '/widgets/account/address-book',
-                    'frontend.country.country-data': '/country/country-state-data',
+                    'frontend.country.country-data': '/country/country-state-data.json',
                     'frontend.app-system.generate-token': '/app-system/Placeholder/generate-token',
                     };
                 window.salesChannelId = '018ebd44f64d72b68cb58c170238a4cc';
@@ -239,7 +239,7 @@ color: #274533;
 <div class="row align-items-center header-row">
 <div class="col-auto header-logo-col">
 <div class="header-logo-main">
-<a class="header-logo-main-link" href="/" title="Zur Startseite gehen">
+<a class="header-logo-main-link" href="/kueche/" title="Zur Startseite gehen">
 <img src="/media/48/44/5b/1747717464/artisanshop-header-logo.svg" alt="Zur Startseite gehen" width="250px" height="56px" class="img-fluid header-logo-main-img">
 </a>
 </div>
@@ -302,7 +302,7 @@ Suchen
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24"><use xlink:href="#icons-default-stack" fill="#758CA3" fill-rule="evenodd" /></svg>
 </span>
 </button>
-<a class="header-logo-main-link" href="/" title="Zur Startseite gehen">
+<a class="header-logo-main-link" href="/kueche/" title="Zur Startseite gehen">
 <img src="/media/48/44/5b/1747717464/artisanshop-header-logo.svg" alt="Zur Startseite gehen" width="250px" height="56px" class="img-fluid header-logo-main-img">
 </a>
 </div>
@@ -322,7 +322,7 @@ Suche
 </div>
 <div class="col-auto art-search-widget-col d-none d-lg-block">
 <div class="header-search-widget">
-<a href="/widgets/modelcode" title="So findest Du die Gerätenummer" data-art-offcanvas-appliance-search="true">
+<a href="/service/kundenservice/" title="So findest Du die Gerätenummer" data-art-offcanvas-appliance-search="true">
 Gerätenummer bestimmen
 </a>
 </div>
@@ -371,22 +371,22 @@ oder <a href="/account/login" title="Registrieren">registrieren</a>
 <div class="header-account-menu">
 <div class="card account-menu-inner">
 <div class="list-group list-group-flush account-aside-list-group">
-<a href="/account" title="Übersicht" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/" title="Übersicht" class="list-group-item list-group-item-action account-aside-item">
 Übersicht
 </a>
-<a href="/account/profile" title="Persönliches Profil" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/profile/" title="Persönliches Profil" class="list-group-item list-group-item-action account-aside-item">
 Persönliches Profil
 </a>
-<a href="/account/address" title="Adressen" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/address/" title="Adressen" class="list-group-item list-group-item-action account-aside-item">
 Adressen
 </a>
-<a href="/account/payment" title="Zahlungsarten" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/payment/" title="Zahlungsarten" class="list-group-item list-group-item-action account-aside-item">
 Zahlungsarten
 </a>
-<a href="/account/order" title="Bestellungen" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/order/" title="Bestellungen" class="list-group-item list-group-item-action account-aside-item">
 Bestellungen
 </a>
-<a href="/account/mollie/subscriptions" title="Abonnements" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/mollie/subscriptions/" title="Abonnements" class="list-group-item list-group-item-action account-aside-item">
 Abonnements
 </a>
 </div>
@@ -2076,7 +2076,7 @@ registrieren
 </ul>
 </li>
 <li class="menu-item univers-item has-subitems item-menu-link" data-relevance>
-<a href="/ratgeber/" itemprop="url" class="text">
+<a href="/ratgeber/kaffeemaschine/" itemprop="url" class="text">
 <img src="/media/14/15/a5/1718805078/repairguide-icon.svg" loading="lazy" width="20px" class="category-thumbnails-small" alt="Akku" title="Akku" data-object-fit="cover" />
 <span itemprop="name">Reparaturratgeber</span>
 </a>
@@ -2360,8 +2360,8 @@ Schließen
 <ol class="breadcrumb__list" itemscope itemtype="http://schema.org/BreadcrumbList">
 <li class="breadcrumb__item breadcrumb__item--parent breadcrumb__item--first" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
 <div itemprop="item" class="breadcrumb__item-link">
-<a href="/" class="breadcrumb__item-link home-link" title itemprop="item">
-<link itemprop="url" href="/" />
+<a href="/kueche/" class="breadcrumb__item-link home-link" title itemprop="item">
+<link itemprop="url" href="/kueche/" />
 <span itemprop="name">Home</span>
 </a>
 <div class="breadcrumb-placeholder">
@@ -6800,8 +6800,8 @@ Akku 81732531 Braun für Rasierer wiederaufladbare Batterie Ersatzteil
 <div class="page_content__bottom">
 <div class="seo-text my-5">
 <div>
-<h2>Der Rasierer Akku: Alles über den Austausch und Ersatzteile</h2>Wenn der Akku des Rasierers schwach geworden ist, wird es Zeit für einen neuen Rasierer Akku, damit Sie schnell wieder die volle Leistung bei der täglichen Gesichtspflege erhalten. Was Sie über den Austausch und die passenden Rasierer Akku Ersatzteile wissen müssen, schauen wir uns gleich einmal gemeinsam an.<br><br><h3>Wann Sie den Rasierer Akku austauschen sollten</h3>Es gibt verschiedene Anzeichen, dass der Akku Ihres Rasierers beeinträchtigt ist. Woran Sie erkennen, dass es an der Zeit für einen neuen Rasierer Akku ist, haben wir Ihnen hier einmal dargestellt:<br><br><b>Kurze Laufzeit:</b> Wenn der Rasierer nach einer vollen Ladung viel kürzer läuft als gewohnt, hat der Rasierer Akku an Kapazität verloren.<br><b>Lädt nicht vollständig:</b> Ihr Rasierer wird nicht mehr vollständig aufgeladen oder die Ladeanzeige zeigt plötzlich ungewöhnliches Verhalten (z. B. blinkt oder leuchtet nicht)? Dann ist dies schon ein Hinweis auf einen defekten Akku.<br><b>Eingeschränkte Leistung:</b> Die Leistung Ihres Rasierers war schon mal besser? Wenn der Rasierer an Leistung verliert oder nicht mehr gleichmäßig läuft, könnte der Akku das Problem sein.<br><b>Überhitzung:</b> Ein Akku, der beim Laden oder Gebrauch ungewöhnlich heiß wird, kann ebenfalls defekt sein.<br><b>Alter des Akkus:</b> Wenn der Akku sehr alt ist, hat er möglicherweise das Ende seiner Lebensdauer erreicht und sollte ersetzt werden. Im Allgemeinen halten die meisten wiederaufladbaren Akkus etwa 2 bis 5 Jahre - je nach Nutzungshäufigkeit und Pflege.<br><br><h3>So wechseln Sie den Akku Ihres Rasierers</h3>Mit ein wenig Geschick können Sie den Rasierer Akku sogar selbst austauschen. Das Austauschen des Akkus eines Rasierers kann je nach Modell und Hersteller unterschiedlich sein. Hier sind einige allgemeine Schritte, die Sie beim Austausch befolgen können:<br><br><b>1. Rasierer ausschalten und trennen:</b> Stellen Sie als erstes einmal sicher, dass der Rasierer ausgeschaltet und nicht mit dem Ladegerät verbunden ist.<br><b>2. Gehäuse öffnen:</b> Suchen Sie nach Schrauben an der Unterseite oder Rückseite des Rasierers, die das&nbsp;<a target="_self" href="/rasierer/gehaeuse/">Gehäuse</a>&nbsp;zusammenhalten. Entfernen Sie diese vorsichtig mit einem geeigneten Schraubendreher. Wenn es keine sichtbaren Schrauben gibt, sind Teile des Gehäuses möglicherweise eingerastet.<br><b>3. Akku entfernen: </b>Sobald das Gehäuse geöffnet ist, lokalisieren Sie den Akku. Er kann festgelötet oder gesteckt sein. Wenn der Akku festgelötet ist, benötigen Sie eventuell zusätzlich einen Lötkolben, um die Verbindungen zu lösen. Notieren Sie dazu die Position der Kabel, um den neuen Akku korrekt anzuschließen.<br><b>4. Neuen Akku einsetzen:</b> Setzen Sie nun den neuen Akku an die gleiche Stelle und schließen die Kabel an (und löten sie, falls erforderlich, wieder an die entsprechenden Stellen). Achten Sie darauf, dass alle Verbindungen fest und korrekt sind.<br><b>5. Gehäuse schließen:</b> Anschließend setzen Sie das Gehäuse wieder zusammen und schrauben alle Schrauben ein. Hierbei ist es wichtig, dass alle Teile richtig sitzen und nichts locker ist.<br><b>6. Rasierer testen:</b> Schalten Sie den Rasierer ein, um zu prüfen, ob er ordnungsgemäß funktioniert und der Akku geladen wird.<br><br>Das war es schon. Sollten Sie sich unsicher sein, ist es oft am besten, professionelle Hilfe in Anspruch zu nehmen, um Schäden am Gerät oder Verletzungen zu vermeiden.
-Beachten Sie außerdem, dass das Öffnen des Rasierers und das Ersetzen des Akkus möglicherweise die Garantie erlöschen lassen könnte. Prüfen Sie vorher also lieber die Anweisungen des Herstellers.<br><br><h3>Der passenden Rasierer Akku als Ersatzteil</h3>In unserem Onlineshop bieten wir eine breite Auswahl an Rasierer Akkus verschiedener Hersteller an. Darunter:<br><a target="_self" href="/rasierer/akku/philips/">Philips Rasierer Akku</a><br><a href="/rasierer/akku/panasonic/" target="_self">Panasonic Rasierer Akku</a><br><a target="_self" href="/rasierer/akku/?manufacturerId=0d178dd9904716651a1b0cd7c9882568">Braun Rasierer Akku</a><br><a target="_self" href="/rasierer/akku/remington/">Remington Rasierer Akku</a><br><a target="_self" href="/rasierer/akku/grundig/">Grundig Rasierer Akku</a><br>und weitere. Berücksichtigen Sie bei der Suche nach einem Ersatz Rasierer Akku die Modellnummer Ihres Rasierers, damit Sie auch das exakt passende Rasierer Ersatzteil erhalten.
+<h2>Der Rasierer Akku: Alles über den Austausch und Ersatzteile</h2>Wenn der Akku des Rasierers schwach geworden ist, wird es Zeit für einen neuen Rasierer Akku, damit Sie schnell wieder die volle Leistung bei der täglichen Gesichtspflege erhalten. Was Sie über den Austausch und die passenden Rasierer Akku Ersatzteile wissen müssen, schauen wir uns gleich einmal gemeinsam an.<br><br><h3>Wann Sie den Rasierer Akku austauschen sollten</h3>Es gibt verschiedene Anzeichen, dass der Akku Ihres Rasierers beeinträchtigt ist. Woran Sie erkennen, dass es an der Zeit für einen neuen Rasierer Akku ist, haben wir Ihnen hier einmal dargestellt:<br><br><b>Kurze Laufzeit:</b> Wenn der Rasierer nach einer vollen Ladung viel kürzer läuft als gewohnt, hat der Rasierer Akku an Kapazität verloren.<br><b>Lädt nicht vollständig:</b> Ihr Rasierer wird nicht mehr vollständig aufgeladen oder die Ladeanzeige zeigt plötzlich ungewöhnliches Verhalten (z. B. blinkt oder leuchtet nicht)? Dann ist dies schon ein Hinweis auf einen defekten Akku.<br><b>Eingeschränkte Leistung:</b> Die Leistung Ihres Rasierers war schon mal besser? Wenn der Rasierer an Leistung verliert oder nicht mehr gleichmäßig läuft, könnte der Akku das Problem sein.<br><b>Überhitzung:</b> Ein Akku, der beim Laden oder Gebrauch ungewöhnlich heiß wird, kann ebenfalls defekt sein.<br><b>Alter des Akkus:</b> Wenn der Akku sehr alt ist, hat er möglicherweise das Ende seiner Lebensdauer erreicht und sollte ersetzt werden. Im Allgemeinen halten die meisten wiederaufladbaren Akkus etwa 2 bis 5 Jahre - je nach Nutzungshäufigkeit und Pflege.<br><br><h3>So wechseln Sie den Akku Ihres Rasierers</h3>Mit ein wenig Geschick können Sie den Rasierer Akku sogar selbst austauschen. Das Austauschen des Akkus eines Rasierers kann je nach Modell und Hersteller unterschiedlich sein. Hier sind einige allgemeine Schritte, die Sie beim Austausch befolgen können:<br><br><b>1. Rasierer ausschalten und trennen:</b> Stellen Sie als erstes einmal sicher, dass der Rasierer ausgeschaltet und nicht mit dem Ladegerät verbunden ist.<br><b>2. Gehäuse öffnen:</b> Suchen Sie nach Schrauben an der Unterseite oder Rückseite des Rasierers, die das&nbsp;<a target="_self" href="/haushalt/rasierer/gehaeuse/">Gehäuse</a>&nbsp;zusammenhalten. Entfernen Sie diese vorsichtig mit einem geeigneten Schraubendreher. Wenn es keine sichtbaren Schrauben gibt, sind Teile des Gehäuses möglicherweise eingerastet.<br><b>3. Akku entfernen: </b>Sobald das Gehäuse geöffnet ist, lokalisieren Sie den Akku. Er kann festgelötet oder gesteckt sein. Wenn der Akku festgelötet ist, benötigen Sie eventuell zusätzlich einen Lötkolben, um die Verbindungen zu lösen. Notieren Sie dazu die Position der Kabel, um den neuen Akku korrekt anzuschließen.<br><b>4. Neuen Akku einsetzen:</b> Setzen Sie nun den neuen Akku an die gleiche Stelle und schließen die Kabel an (und löten sie, falls erforderlich, wieder an die entsprechenden Stellen). Achten Sie darauf, dass alle Verbindungen fest und korrekt sind.<br><b>5. Gehäuse schließen:</b> Anschließend setzen Sie das Gehäuse wieder zusammen und schrauben alle Schrauben ein. Hierbei ist es wichtig, dass alle Teile richtig sitzen und nichts locker ist.<br><b>6. Rasierer testen:</b> Schalten Sie den Rasierer ein, um zu prüfen, ob er ordnungsgemäß funktioniert und der Akku geladen wird.<br><br>Das war es schon. Sollten Sie sich unsicher sein, ist es oft am besten, professionelle Hilfe in Anspruch zu nehmen, um Schäden am Gerät oder Verletzungen zu vermeiden.
+Beachten Sie außerdem, dass das Öffnen des Rasierers und das Ersetzen des Akkus möglicherweise die Garantie erlöschen lassen könnte. Prüfen Sie vorher also lieber die Anweisungen des Herstellers.<br><br><h3>Der passenden Rasierer Akku als Ersatzteil</h3>In unserem Onlineshop bieten wir eine breite Auswahl an Rasierer Akkus verschiedener Hersteller an. Darunter:<br><a target="_self" href="/rasierer/akku/philips/">Philips Rasierer Akku</a><br><a href="/rasierer/akku/panasonic/" target="_self">Panasonic Rasierer Akku</a><br><a target="_self" href="/haushalt/rasierer/akku/?manufacturerId=0d178dd9904716651a1b0cd7c9882568">Braun Rasierer Akku</a><br><a target="_self" href="/rasierer/akku/remington/">Remington Rasierer Akku</a><br><a target="_self" href="/rasierer/akku/grundig/">Grundig Rasierer Akku</a><br>und weitere. Berücksichtigen Sie bei der Suche nach einem Ersatz Rasierer Akku die Modellnummer Ihres Rasierers, damit Sie auch das exakt passende Rasierer Ersatzteil erhalten.
 </div>
 </div>
 </div>
@@ -6985,22 +6985,22 @@ Widerrufsbelehrung
 Zahlungsoptionen
 </div>
 <div class="footer-logo is-payment-logo">
-<a href="/#payment" title>
+<a href="/kueche/#payment" title>
 <img src="/media/c4/e3/2b/1696317678/swag_paypal_paypal.svg" loading="lazy" class="footer-logo-image" alt="PayPal" title="PayPal" width="64px" height="45px" />
 </a>
 </div>
 <div class="footer-logo is-payment-logo">
-<a href="/#payment" title>
+<a href="/kueche/#payment" title>
 <img src="/media/52/a7/3e/1696436230/twint-icon.svg" loading="lazy" class="footer-logo-image" alt="Twint" title="Twint" width="64px" height="45px" />
 </a>
 </div>
 <div class="footer-logo is-payment-logo">
-<a href="/#payment" title>
+<a href="/kueche/#payment" title>
 <img src="/media/00/02/5f/1695568257/creditcard-icon.svg" loading="lazy" class="footer-logo-image" alt="Kreditkarte" title="Kreditkarte" width="64px" height="45px" />
 </a>
 </div>
 <div class="footer-logo is-payment-logo">
-<a href="/#payment" title>
+<a href="/kueche/#payment" title>
 <img src="/media/4c/50/24/1695568253/applepay-icon.svg" loading="lazy" class="footer-logo-image" alt="Apple Pay" title="Apple Pay" width="64px" height="45px" />
 </a>
 </div>

@@ -28,7 +28,7 @@
 <meta name="theme-color" content="#fafafa">
 <link rel="alternate" hreflang="x-default" href="/kueche/ofen/dichtung/">
 <link rel="alternate" hreflang="de-CH" href="/kueche/ofen/dichtung/">
-<link rel="alternate" hreflang="de-DE" href="/ofen/dichtung/">
+<link rel="alternate" hreflang="de-DE" href="/kueche/ofen/dichtung/">
 <link rel="shortcut icon" href="/media/e7/a3/26/1686549756/favicon.png?ts=1724642430">
 <link rel="apple-touch-icon" sizes="180x180" href="/media/e7/a3/26/1686549756/favicon.png?ts=1724642430">
 <title itemprop="name">Backofen Dichtung passend nachbestellen - Ersatzteile</title>
@@ -201,7 +201,7 @@ color: #274533;
                     'frontend.cms.page': '/widgets/cms',
                     'frontend.cms.navigation.page': '/widgets/cms/navigation',
                     'frontend.account.addressbook': '/widgets/account/address-book',
-                    'frontend.country.country-data': '/country/country-state-data',
+                    'frontend.country.country-data': '/country/country-state-data.json',
                     'frontend.app-system.generate-token': '/app-system/Placeholder/generate-token',
                     };
                 window.salesChannelId = '018ebd44f64d72b68cb58c170238a4cc';
@@ -251,7 +251,7 @@ Zum Hauptinhalt springen
 <div class="row align-items-center header-row">
 <div class="col-auto header-logo-col">
 <div class="header-logo-main">
-<a class="header-logo-main-link" href="/" title="Zur Startseite gehen">
+<a class="header-logo-main-link" href="/kueche/" title="Zur Startseite gehen">
 <img src="/media/48/44/5b/1747717464/artisanshop-header-logo.svg" alt="Zur Startseite gehen" width="250px" height="56px" class="img-fluid header-logo-main-img">
 </a>
 </div>
@@ -321,7 +321,7 @@ Suchen
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24"><use xlink:href="#icons-default-stack" fill="#758CA3" fill-rule="evenodd" /></svg>
 </span>
 </button>
-<a class="header-logo-main-link" href="/" title="Zur Startseite gehen">
+<a class="header-logo-main-link" href="/kueche/" title="Zur Startseite gehen">
 <img src="/media/48/44/5b/1747717464/artisanshop-header-logo.svg" alt="Zur Startseite gehen" width="250px" height="56px" class="img-fluid header-logo-main-img">
 </a>
 </div>
@@ -341,7 +341,7 @@ Suche
 </div>
 <div class="col-auto art-search-widget-col d-none d-lg-block">
 <div class="header-search-widget">
-<a href="/widgets/model-code" title="So findest Du die Gerätenummer" data-art-offcanvas-appliance-search="true">
+<a href="/service/kundenservice/" title="So findest Du die Gerätenummer" data-art-offcanvas-appliance-search="true">
 Gerätenummer bestimmen
 </a>
 </div>
@@ -390,22 +390,22 @@ oder <a href="/account/login" title="Registrieren">registrieren</a>
 <div class="header-account-menu">
 <div class="card account-menu-inner">
 <div class="list-group list-group-flush account-aside-list-group">
-<a href="/account" title="Übersicht" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/" title="Übersicht" class="list-group-item list-group-item-action account-aside-item">
 Übersicht
 </a>
-<a href="/account/profile" title="Persönliches Profil" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/profile/" title="Persönliches Profil" class="list-group-item list-group-item-action account-aside-item">
 Persönliches Profil
 </a>
-<a href="/account/address" title="Adressen" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/address/" title="Adressen" class="list-group-item list-group-item-action account-aside-item">
 Adressen
 </a>
-<a href="/account/payment" title="Zahlungsarten" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/payment/" title="Zahlungsarten" class="list-group-item list-group-item-action account-aside-item">
 Zahlungsarten
 </a>
-<a href="/account/order" title="Bestellungen" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/order/" title="Bestellungen" class="list-group-item list-group-item-action account-aside-item">
 Bestellungen
 </a>
-<a href="/account/mollie/subscriptions" title="Abonnements" class="list-group-item list-group-item-action account-aside-item">
+<a href="/account/mollie/subscriptions/" title="Abonnements" class="list-group-item list-group-item-action account-aside-item">
 Abonnements
 </a>
 </div>
@@ -2095,7 +2095,7 @@ registrieren
 </ul>
 </li>
 <li class="menu-item univers-item has-subitems item-menu-link" data-relevance>
-<a href="/ratgeber/" itemprop="url" class="text">
+<a href="/ratgeber/kaffeemaschine/" itemprop="url" class="text">
 <img src="/media/14/15/a5/1718805078/repairguide-icon.svg?ts=1718805078" loading="lazy" width="20px" class="category-thumbnails-small" alt="Dichtung" title="Dichtung" data-object-fit="cover" />
 <span itemprop="name">Reparaturratgeber</span>
 </a>
@@ -2391,8 +2391,8 @@ Schließen
 <ol class="breadcrumb__list" itemscope itemtype="http://schema.org/BreadcrumbList">
 <li class="breadcrumb__item breadcrumb__item--parent breadcrumb__item--first" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
 <div itemprop="item" class="breadcrumb__item-link">
-<a href="/" class="breadcrumb__item-link home-link" title itemprop="item">
-<link itemprop="url" href="/" />
+<a href="/kueche/" class="breadcrumb__item-link home-link" title itemprop="item">
+<link itemprop="url" href="/kueche/" />
 <span itemprop="name">Home</span>
 </a>
 <div class="breadcrumb-placeholder">
@@ -7744,16 +7744,16 @@ Whirlpool Indesit 488000738192 Backofentürdichtung - C00738192 backofentürdich
 <div class="seo-text my-5">
 <div>
 <h2>Backofen Dichtung: Die Bedeutung von Dichtungen in Haushaltsgeräten</h2>
-<p>In fast jedem Winkel unseres Zuhauses arbeiten Haushaltsgeräte unermüdlich für unseren Komfort und unsere Bequemlichkeit. Doch während wir oft die glänzenden Oberflächen oder digitalen Displays bewundern, sind es die unscheinbaren Bauteile, die dafür sorgen, dass der Backofen oder auch die Waschmaschine richtig funktionieren.&nbsp;<br><span style="letter-spacing: 0px;">Von der</span><strong style="letter-spacing: 0px;">&nbsp;Backofen Dichtung</strong><span style="letter-spacing: 0px;">, die sicherstellt, dass Ihr Sonntagsbraten perfekt gelingt, bis hin zur&nbsp;</span><a style="letter-spacing: 0px;" href="/waschmaschine/dichtung/" target="_self">Waschmaschinendichtung</a><span style="letter-spacing: 0px;">, die Sie vor Wasserschäden schützt - Dichtungen sind unschätzbare Bauteile vieler Geräte.&nbsp;</span><span style="letter-spacing: 0px;">Bei Ihrem Backofen gewährleistet die Dichtung beispielsweise, dass die Hitze im Inneren des Ofens eingeschlossen bleibt. Ohne eine funktionierende Dichtung Backofen würden Ihre Energiekosten steigen und das Backergebnis nicht wie gewünscht ausfallen.</span></p><p><span style="letter-spacing: 0px;"><br></span></p>
+<p>In fast jedem Winkel unseres Zuhauses arbeiten Haushaltsgeräte unermüdlich für unseren Komfort und unsere Bequemlichkeit. Doch während wir oft die glänzenden Oberflächen oder digitalen Displays bewundern, sind es die unscheinbaren Bauteile, die dafür sorgen, dass der Backofen oder auch die Waschmaschine richtig funktionieren.&nbsp;<br><span style="letter-spacing: 0px;">Von der</span><strong style="letter-spacing: 0px;">&nbsp;Backofen Dichtung</strong><span style="letter-spacing: 0px;">, die sicherstellt, dass Ihr Sonntagsbraten perfekt gelingt, bis hin zur&nbsp;</span><a style="letter-spacing: 0px;" href="/haushalt/waschmaschine/dichtung/" target="_self">Waschmaschinendichtung</a><span style="letter-spacing: 0px;">, die Sie vor Wasserschäden schützt - Dichtungen sind unschätzbare Bauteile vieler Geräte.&nbsp;</span><span style="letter-spacing: 0px;">Bei Ihrem Backofen gewährleistet die Dichtung beispielsweise, dass die Hitze im Inneren des Ofens eingeschlossen bleibt. Ohne eine funktionierende Dichtung Backofen würden Ihre Energiekosten steigen und das Backergebnis nicht wie gewünscht ausfallen.</span></p><p><span style="letter-spacing: 0px;"><br></span></p>
 <h3>Weitere Haushaltsgeräte, die auf effektive Dichtungen angewiesen sind</h3>
 <p>Dichtungen spielen eine unverzichtbare Rolle in zahlreichen Haushaltsgeräten, nicht nur in Ihrem Backofen. Einige Beispiele sind:</p>
 <ul>
-<li><b><u>Waschmaschinen</u>:&nbsp;</b><a href="/waschmaschine/dichtung/" target="_self" style>Waschmaschinendichtungen</a><b>&nbsp;</b>verhindern den Wasseraustritt, schützen die Elektronik und gewährleisten einen geräuscharmen Betrieb.</li>
-<li><b><u>Kühlschränke</u>:</b>&nbsp;<a href="/kuehlschrank/dichtung/" target="_self">Kühlschrankdichtungen</a>&nbsp;bewahren die Kälte, sorgen für Energieeffizienz und verhindern Kondenswasserbildung.</li>
-<li><b><u>Geschirrspüler</u>:</b>&nbsp;<a href="/geschirrspueler/dichtungen/" target="_self">Geschirrspülerdichtungen</a>&nbsp;halten Wasser und Wasserdampf im Inneren und sorgen für ein sauberes und effizientes Spülergebnis.</li>
-<li><b><u>Kaffeemaschinen</u>:&nbsp;</b><a style href="/kaffeemaschine/dichtung/" target="_self">Dichtungen von Kaffeemaschinen</a>&nbsp;verhindern das Austreten von Wasser oder Dampf und sorgen für einen optimalen Brühdruck.</li>
+<li><b><u>Waschmaschinen</u>:&nbsp;</b><a href="/haushalt/waschmaschine/dichtung/" target="_self" style>Waschmaschinendichtungen</a><b>&nbsp;</b>verhindern den Wasseraustritt, schützen die Elektronik und gewährleisten einen geräuscharmen Betrieb.</li>
+<li><b><u>Kühlschränke</u>:</b>&nbsp;<a href="/kueche/kuehlschrank/dichtung/" target="_self">Kühlschrankdichtungen</a>&nbsp;bewahren die Kälte, sorgen für Energieeffizienz und verhindern Kondenswasserbildung.</li>
+<li><b><u>Geschirrspüler</u>:</b>&nbsp;<a href="/kueche/geschirrspueler/dichtungen/" target="_self">Geschirrspülerdichtungen</a>&nbsp;halten Wasser und Wasserdampf im Inneren und sorgen für ein sauberes und effizientes Spülergebnis.</li>
+<li><b><u>Kaffeemaschinen</u>:&nbsp;</b><a style href="/kueche/kaffeemaschine/dichtung/" target="_self">Dichtungen von Kaffeemaschinen</a>&nbsp;verhindern das Austreten von Wasser oder Dampf und sorgen für einen optimalen Brühdruck.</li>
 </ul>
-<p>Während die Backofen Dichtung speziell dafür entwickelt wurde, Hitze optimal im Ofen zu bewahren, ist die Funktion von Dichtungen in anderen Geräten genauso entscheidend. Daher ist es wichtig, regelmäßig den Zustand der Dichtungen zu überprüfen und sie bei Bedarf auszutauschen, um die Effizienz Ihrer Küchen- und Haushaltsgeräte zu gewährleisten.<br><br></p><h3>Ihre neue Backofen Dichtung aus unserem Shop</h3>Haben Sie festgestellt, dass Ihre Backofen Dichtung defekt ist, wird es Zeit für den Backofen Dichtung Wechsel. Die Türdichtung Ihres Ofens zu tauschen, ist in den meisten Fällen kinderleicht, da diese nur mit ein paar Haken am Türrahmen befestigt werden. Geben Sie einfach die Modellnummer Ihres Gerätes in unsere Suchleiste ein und erhalten Sie einen Überblick über alle kompatiblen Backofen Ersatzteile für Ihr Gerät. Unser Sortiment umfasst des Weiteren aber auch:&nbsp;<br><a href="/ofen/dichtung/?manufacturerId=fb5c29a4832f49bb8a6ff29b523b21cb" target="_self">Bosch Backofen Dichtung</a><span style="letter-spacing: 0px;"><br></span><a href="/ofen/dichtung/?manufacturerId=6f7664b284c91ea1f1a1dc2834c83d7e" target="_self">AEG Backofen Dichtung</a><span style="letter-spacing: 0px;"><br></span><a href="/ofen/dichtung/?manufacturerId=4b7276c7f3fe3144b7e6f313009b1468" target="_self">Whirlpool Indesit Backofen Dichtung</a><span style="letter-spacing: 0px;"><br></span><a href="/ofen/dichtung/?manufacturerId=7b3ef5d06a026a5d460f9d9bed12f10e" target="_self">Gorenje Backofen Dichtung</a><span style="letter-spacing: 0px;"><br>und viele weitere. Die passende Backofen Dichtung kaufen Sie bei uns - schnell, einfach und effizient die Selbstreparatur durchführen!</span><p></p>
+<p>Während die Backofen Dichtung speziell dafür entwickelt wurde, Hitze optimal im Ofen zu bewahren, ist die Funktion von Dichtungen in anderen Geräten genauso entscheidend. Daher ist es wichtig, regelmäßig den Zustand der Dichtungen zu überprüfen und sie bei Bedarf auszutauschen, um die Effizienz Ihrer Küchen- und Haushaltsgeräte zu gewährleisten.<br><br></p><h3>Ihre neue Backofen Dichtung aus unserem Shop</h3>Haben Sie festgestellt, dass Ihre Backofen Dichtung defekt ist, wird es Zeit für den Backofen Dichtung Wechsel. Die Türdichtung Ihres Ofens zu tauschen, ist in den meisten Fällen kinderleicht, da diese nur mit ein paar Haken am Türrahmen befestigt werden. Geben Sie einfach die Modellnummer Ihres Gerätes in unsere Suchleiste ein und erhalten Sie einen Überblick über alle kompatiblen Backofen Ersatzteile für Ihr Gerät. Unser Sortiment umfasst des Weiteren aber auch:&nbsp;<br><a href="/kueche/ofen/dichtung/?manufacturerId=fb5c29a4832f49bb8a6ff29b523b21cb" target="_self">Bosch Backofen Dichtung</a><span style="letter-spacing: 0px;"><br></span><a href="/kueche/ofen/dichtung/?manufacturerId=6f7664b284c91ea1f1a1dc2834c83d7e" target="_self">AEG Backofen Dichtung</a><span style="letter-spacing: 0px;"><br></span><a href="/kueche/ofen/dichtung/?manufacturerId=4b7276c7f3fe3144b7e6f313009b1468" target="_self">Whirlpool Indesit Backofen Dichtung</a><span style="letter-spacing: 0px;"><br></span><a href="/kueche/ofen/dichtung/?manufacturerId=7b3ef5d06a026a5d460f9d9bed12f10e" target="_self">Gorenje Backofen Dichtung</a><span style="letter-spacing: 0px;"><br>und viele weitere. Die passende Backofen Dichtung kaufen Sie bei uns - schnell, einfach und effizient die Selbstreparatur durchführen!</span><p></p>
 </div>
 </div>
 </div>
@@ -7937,22 +7937,22 @@ Widerrufsbelehrung
 Zahlungsoptionen
 </div>
 <div class="footer-logo is-payment-logo">
-<a href="/#payment" title>
+<a href="/kueche/#payment" title>
 <img src="/media/c4/e3/2b/1696317678/swag_paypal_paypal.svg?ts=1696317678" loading="lazy" class="footer-logo-image" alt="PayPal" title="PayPal" width="64px" height="45px" />
 </a>
 </div>
 <div class="footer-logo is-payment-logo">
-<a href="/#payment" title>
+<a href="/kueche/#payment" title>
 <img src="/media/52/a7/3e/1696436230/twint-icon.svg?ts=1696436230" loading="lazy" class="footer-logo-image" alt="Twint" title="Twint" width="64px" height="45px" />
 </a>
 </div>
 <div class="footer-logo is-payment-logo">
-<a href="/#payment" title>
+<a href="/kueche/#payment" title>
 <img src="/media/00/02/5f/1695568257/creditcard-icon.svg?ts=1695568257" loading="lazy" class="footer-logo-image" alt="Kreditkarte" title="Kreditkarte" width="64px" height="45px" />
 </a>
 </div>
 <div class="footer-logo is-payment-logo">
-<a href="/#payment" title="Apple Pay">
+<a href="/kueche/#payment" title="Apple Pay">
 <img src="/media/4c/50/24/1695568253/applepay-icon.svg?ts=1695568253" loading="lazy" class="footer-logo-image" alt="Apple Pay" title="Apple Pay" width="64px" height="45px" />
 </a>
 </div>

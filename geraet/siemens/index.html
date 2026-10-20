@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="de-CH"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Gerätemodelle: Siemens | ArtisanShop</title><link rel="stylesheet" href="/theme/70f6c4feb09e74b6b88d7a2f53c717b2/css/all.css">
+<style>body{background:#f7f8f5;color:#274533}main{max-width:1100px;margin:2rem auto;padding:1rem}.panel{background:#fff;border:1px solid #dfe5df;border-radius:12px;padding:clamp(1rem,3vw,2rem)}ul{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:.75rem}li a{display:block;padding:1rem;border:1px solid #e0e5e0;border-radius:8px;color:#245e40;background:#fff}li a:hover,li a:focus{border-color:#36815a}input{width:100%;max-width:42rem;padding:.8rem;border:1px solid #748477;border-radius:6px;font:inherit}</style></head>
+<body><main><section class="panel"><h1>Gerätemodelle: Siemens</h1><p>21 erfasste Modellseiten für Siemens.</p><label for="model-search">Gerät suchen</label><br><input type="search" id="model-search" placeholder="Modell oder Gerätenummer eingeben" autocomplete="off"><p id="result-count" role="status" aria-live="polite">21 Einträge</p><ul id="entry-list">
+      <li class="entry"><a href="/geraet/siemens/e-14.44-wm14e442-04.html">E 14.44 (WM14E442/04) Ersatzteile</a></li>
+      <li class="entry"><a href="/geraet/siemens/e-14.4m-wm14e4m2-10.html">Siemens E 14.4M (WM14E4M2/10) Ersatzteile</a></li>
+      <li class="entry"><a href="/geraet/siemens/e14.4wm-varioperfect-wm14e4wm-18.html">Siemens E14.4WM varioPerfect (WM14E4WM/18) Ersatzteile</a></li>
+      <li class="entry"><a href="/geraet/siemens/ecoexklusiv-varioperfect-iq300-wm14e4s5-17.html">ecoExklusiv varioPerfect IQ300 (WM14E4S5/17) Ersatzteile</a></li>
+      <li class="entry"><a href="/geraet/siemens/extraklasse-e-14.39-varioperfect-wm14e39f-18.html">Extraklasse E 14.39 varioPerfect (WM14E39F/18) Ersatzteile</a></li>
+      <li class="entry"><a href="/geraet/siemens/iq100-wm12l2681w-01.html">IQ100 (WM12L2681W/01) Ersatzteile</a></li>
+      <li class="entry"><a href="/geraet/siemens/iq300-varioperfect-wm14e4s6-27.html">Siemens iQ300 varioPerfect (WM14E4S6/27) Ersatzteile</a></li>
+      <li class="entry"><a href="/geraet/siemens/iq700-iq-drive-varioperfect-wm16s440au-12.html">IQ700 iQ Drive VarioPerfect (WM16S440AU/12) Ersatzteile</a></li>
+      <li class="entry"><a href="/geraet/siemens/iq700-iq-drive-varioperfect-wm16s440au-13.html">IQ700 iQ Drive VarioPerfect (WM16S440AU/13) Ersatzteile</a></li>
+      <li class="entry"><a href="/geraet/siemens/iq700-iq-drive-varioperfect-wm16s440au-23.html">Siemens IQ700 iQ Drive VarioPerfect (WM16S440AU/23) Ersatzteile</a></li>
+      <li class="entry"><a href="/geraet/siemens/jubilee-varioperfect-wm14e34u-25.html">Siemens Jubilee VarioPerfect (WM14E34U/25) Ersatzteile</a></li>
+      <li class="entry"><a href="/geraet/siemens/kg26v71nl-02.html">Siemens KG26V71NL/02 Ersatzteile</a></li>
+      <li class="entry"><a href="/geraet/siemens/kg36eaw40-16.html">KG36EAW40/16 Ersatzteile</a></li>
+      <li class="entry"><a href="/geraet/siemens/ki28m441ie-04.html">KI28M441IE/04 Ersatzteile</a></li>
+      <li class="entry"><a href="/geraet/siemens/km46fa30ti-09.html">KM46FA30TI/09 Ersatzteile</a></li>
+      <li class="entry"><a href="/geraet/siemens/kt18r10gb-01.html">Siemens KT18R10GB/01 Ersatzteile</a></li>
+      <li class="entry"><a href="/geraet/siemens/outdoor-winner-varioperfect-wm14e4f4-19.html">Outdoor Winner varioPerfect (WM14E4F4/19) Ersatzteile</a></li>
+      <li class="entry"><a href="/geraet/siemens/outdoorplus-xl144p-wxl144p-19.html">outdoorPlus XL144P (WXL144P/19) Ersatzteile</a></li>
+      <li class="entry"><a href="/geraet/siemens/s14.44-wm14s440-10.html">Siemens S14.44 (WM14S440/10) Ersatzteile</a></li>
+      <li class="entry"><a href="/geraet/siemens/wm14g491-17.html">Siemens WM14G491/17 Ersatzteile</a></li>
+      <li class="entry"><a href="/geraet/siemens/wm14ur5em-08.html">Siemens WM14UR5EM/08 Ersatzteile</a></li>
+</ul><p><a href="/kueche/">Startseite</a> · <a href="/produkte/">Produkte</a> · <a href="/service/">Service</a></p></section></main><script>
+const input=document.getElementById('model-search'),items=[...document.querySelectorAll('.entry')],count=document.getElementById('result-count');
+const norm=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase('de');
+input.addEventListener('input',()=>{{const q=norm(input.value.trim());let n=0;for(const li of items){{const ok=norm(li.textContent).includes(q);li.hidden=!ok;if(ok)n++;}}count.textContent=`${{n}} von {len(links)} Einträgen`;}});
+</script></body></html>
