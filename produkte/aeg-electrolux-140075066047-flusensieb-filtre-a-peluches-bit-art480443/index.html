@@ -7,6 +7,7 @@
 
                                 
     <head>
+<script src="/site-base.js"></script>
     <script>window.addEventListener('error',function(e){if(e.target&&e.target.tagName==='IMG'&&!e.target.dataset.fbtried){e.target.dataset.fbtried='1';e.target.removeAttribute('srcset');e.target.removeAttribute('sizes');e.target.src='/theme/d441972980a04301a1841688eafa4274/assets/images/fallback-image.png';}},true);</script>
         	<meta charset="utf-8"><meta name="viewport"
 		  content="width=device-width, initial-scale=1, shrink-to-fit=no, interactive-widget=overlays-content"><meta name="author"
@@ -6508,7 +6509,7 @@ Sentry.init({
   tracesSampleRate: 0.2,
   replaysSessionSampleRate: 0.2,
   replaysOnErrorSampleRate: 1.0,
-  tracePropagationTargets: [/^https:\/\/www\.artisanshop\.ch/],
+  tracePropagationTargets: [window.SITE_BASE_URL],
 });
 </script>    </body>
 </html>

@@ -2,6 +2,10 @@
 
 This is a static recovery of the German-language ArtisanShop site. It contains saved product, category, help, guide, and service pages plus captured media and theme assets.
 
+## Base URL configuration
+
+Internal links and captured resources use local paths. The early-loading `/site-base.js` resolves them against the current browser origin by default, so a domain change requires no file-by-file edits. To force a deployment origin, set `configuredBaseUrl` near the top of `site-base.js` to the site root, for example `https://example.com/`; local development can use `http://localhost:8081/`. Leave it empty to follow the active host. Do not set it to the former ArtisanShop domain.
+
 ## Local preview
 
 Run a static file server from this directory, then open `http://localhost:8081/`:

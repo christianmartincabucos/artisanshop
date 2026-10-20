@@ -41,3 +41,12 @@ Audit date: 2026-10-20. Target: local static recovery at `http://localhost:8081/
 ## Status definitions
 
 `FIXED` means a navigation defect was corrected and the route returned HTTP 200. `PASS` means the recovered static page or endpoint was present and served. `BLOCKED_CONTENT` means a fallback responds but the original content/service is unavailable. `FAIL` means a referenced local page target returned HTTP 404.
+
+## Configurable base URL update (2026-10-21)
+
+- Added `site-base.js` and loaded it synchronously at the start of the `<head>` on all 2,085 saved HTML documents. Its `configuredBaseUrl` is the single override; leave it empty to use `window.location.origin`, or set a root URL such as `https://example.com/` or `http://localhost:8081/`. It rejects non-HTTP(S) overrides and falls back to the active origin.
+- Replaced 3,134 captured first-party absolute URL references across 1,153 pages with local paths. These included thumbnail/media URLs and captured API/widget URLs; query strings and fragments were retained. The Sentry trace target now uses the configured base URL.
+- Fixed 9,229 malformed protocol-relative local URLs (for example `//media/...`) to root-relative paths. Third-party `widget.trustpilot.com` and other external service URLs were preserved.
+- Scanned text files for URL-shaped ArtisanShop domains: none remain. Plain `artisanshop.ch` brand text remains in archived page titles/descriptions and metadata; it is not used as a URL or navigation target.
+- Ran the local HTTP route check against all 2,086 saved `.html` routes: all returned HTTP 200. `site-base.js` returned HTTP 200 and passed `node --check`. A VM-level origin check confirmed defaults for `localhost:8081` and `preview.example.vercel.app`, and an explicit `https://example.com/` override.
+- A resource-path inventory found 14,351 unique local `src`/stylesheet/font targets; 11,698 paths do not exist in this recovered export, consistent with the missing media captured in the existing asset inventory. Browser console/network diagnostics were not available through the attached browser controls. A real custom production domain cannot be tested until deployed; the local origin and explicit override were checked in the resolver simulation.
