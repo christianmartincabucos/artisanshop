@@ -27,6 +27,7 @@
       <label for="product-search">Produkt suchen</label><br>
       <input class="catalog-search" id="product-search" type="search" autocomplete="off" placeholder="Produktname oder Artikelnummer eingeben">
       <p class="catalog-meta" id="results" role="status" aria-live="polite">1218 Produkte</p>
+      <p id="no-results" role="status" aria-live="polite" hidden>Keine Produkte gefunden. Prüfe den Suchbegriff oder gib eine Artikelnummer ein.</p>
       <ul class="catalog-list" id="product-list">
       <li class="product"><a href="/produkte/192038-mikroschalter-mikroschalter-monitor-art328815/">192038 Mikroschalter - Mikroschalter monitor</a></li>
       <li class="product"><a href="/produkte/346837-filter-art27049/">346837 - Filter</a></li>
@@ -1258,6 +1259,7 @@
     const input = document.getElementById('product-search');
     const entries = Array.from(document.querySelectorAll('.product'));
     const results = document.getElementById('results');
+    const noResults = document.getElementById('no-results');
     const normalize = value => value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLocaleLowerCase('de');
     input.addEventListener('input', () => {
       const query = normalize(input.value.trim());
@@ -1267,7 +1269,8 @@
         entry.hidden = !match;
         if (match) visible++;
       }
-      results.textContent = `${visible} von 1218 Produkten`;
+      results.textContent = `${visible} von ${entries.length} Produkten`;
+      noResults.hidden = visible !== 0;
     });
   </script>
 </body>
