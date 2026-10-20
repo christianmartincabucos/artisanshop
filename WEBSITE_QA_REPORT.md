@@ -1,52 +1,44 @@
-# Website-wide QA and repair report
+# Website-wide recovery and QA report
 
-Audit date: 2026-10-20. Target: local static recovery at `http://localhost:8081/`.
+Audit date: 2026-10-21. Target: local static site at `http://localhost:8081/`. Historical recovery source: Internet Archive captures before `2025-08-25 13:25:36` only. No page or asset was fetched from the current live ArtisanShop domain.
 
-## Test coverage and results
+## Recovery completed
 
-- Directly requested all **2,084 saved HTML routes** from `WEBSITE_ROUTE_STATUS.csv`; all returned HTTP 200 with non-empty HTML responses. The country-state JSON endpoint returned valid JSON and HTTP 200. A representative search query URL also returned HTTP 200.
-- The route inventory contains **35,954 entries**: 1,909 `FIXED`, 30 `PASS`, 147 `BLOCKED_CONTENT`, and 33,868 `FAIL`. The FAIL entries are distinct unresolved local link targets; each returned HTTP 404 when requested. They represent 57,733 page-link references from recovered pages. The complete list and referring pages are in `WEBSITE_UNRESOLVED_ROUTES.csv`.
-- Added 128 indexes for directories that previously exposed directory listings. These made 642 previously unresolved references reachable as explicit content/listing pages. Missing product/article content is identified as unavailable, not invented.
-- Checked the 1,221 distinct backend endpoint paths with safe GET requests: 1,219 returned HTTP 404 and two returned static HTML. A product-page “In den Warenkorb” click POSTed to `/checkout/line-item/add` and reproduced HTTP 501 `Unsupported method ('POST')`.
-- In the in-app browser, inspected the homepage, account fallback, search results, product catalog and a product detail page. Global search displayed its backend dependency notice. Catalog filtering for “bosch” returned 265 products; a no-match query displayed the new empty-results message. A product link opened its detail page. Back and forward navigation were exercised on the catalog. The home logo now resolves to `/`.
-- Inspected the homepage at the available desktop viewport. Mobile/tablet viewport controls and browser console/network diagnostics were unavailable in the attached browser interface, so those checks remain unverified.
-- All **59 JavaScript files** passed `node --check`. The country-state JSON parsed successfully. Sampled CSS, JS, logo and fallback-image assets returned successfully. No build/test configuration or package manifest exists, so no production build or existing test suite could be run.
+- Added `tools/recover_wayback_resources.py`, which searches exact paths in cached 2024/2025 Wayback CDX indexes, accepts only archive-host requests and redirects, validates response type/signatures, and records outcomes in `WAYBACK_RECOVERY_INVENTORY.csv`.
+- Recovered **27 HTML pages** and **244 image variants** (243 WebP, 1 JPEG). The page captures are dated 2025-01/04 and the images are generally dated 2025-06; the exact timestamps and local destinations are in the recovery inventory. Captured HTML has first-party absolute URLs normalized to local paths and loads `/site-base.js`.
+- All **271 recovered files** returned HTTP 200 from the local server. The 27 archived pages use `text/html`; the image files use `image/webp` or `image/jpeg`.
+- Audited local resource references from the 27 recovered pages, including `src`, `srcset`, stylesheet/preload/icon links, and CSS `url(...)`: 1,238 references were checked and 91 distinct paths were still absent. These include unavailable images and one font. Exact-path archive lookup found no further recoverable files for the supplemental paths.
 
-## Repairs made
+## Local validation
 
-- Corrected 3,817 header logo links and 2,869 breadcrumb “Home” links that incorrectly led to `/kueche/`; those now point to `/`.
-- Added the empty-results message and live result count behavior to `/produkte/`.
-- Added 128 indexes to prevent directory listings, plus honest missing-content notices for unavailable product/article paths.
-- Removed self-links masquerading as official company-page links from fallback pages.
-- Removed the leftover JSON payload saved as `country/country-state-data/index.html`; the data endpoint is the correctly typed `country/country-state-data.json`.
-- Kept page references root-relative. The casino-linked `.ch` host is not used as a production link, and `robots.txt` does not advertise a sitemap until a safe public base URL is configured.
+- All **326 `.html` files present on disk** returned HTTP 200 from `http://localhost:8081/`. This count is the actual local file set, not all route-inventory destinations.
+- All 3 local CSS files and all 60 JavaScript files were previously checked for successful local serving. All 60 JavaScript files pass `node --check`; `tools/recover_wayback_resources.py` passes Python compilation.
+- All 271 Wayback inventory entries were individually checked over HTTP after recovery; none failed.
+- The route status inventory has **35,954 entries**: 1,909 `FIXED`, 255 `PASS`, 147 `BLOCKED_CONTENT`, and 33,643 `FAIL`. A filesystem check confirmed none of the remaining `FAIL` routes now exists locally. The unresolved list represents **57,166 references**.
+- `WEBSITE_MISSING_ASSETS.csv` currently lists **44,988 distinct missing asset paths** with **70,582 references**. This includes 28 missing font paths (613 references). Missing original media was not replaced with unrelated files.
+- Browser console/network diagnostics, responsive viewport checks, and a deployed custom-domain test were not completed in this pass.
 
-## Files and change groups
+## Domain and base URL
 
-- Shared page HTML: corrected header and breadcrumb destinations across the recovered pages.
-- `produkte/index.html`: catalog search empty-state message and dynamic result count.
-- 128 new directory `index.html` files: section listings or explicit unavailable-content notices.
-- `unternehmen/*/index.html`: removed unverified self-links from company fallbacks.
-- `country/country-state-data/index.html`: removed malformed JSON-as-HTML; `country/country-state-data.json` is the endpoint.
-- `WEBSITE_ROUTE_STATUS.csv`, `WEBSITE_UNRESOLVED_ROUTES.csv`, `WEBSITE_BACKEND_DEPENDENCIES.csv`, `WEBSITE_QA_REPORT.md`, and `README.md`: refreshed route, backend, and audit records.
+- `site-base.js` is the centralized base URL resolver. It defaults to the current browser origin (`window.location.origin`) and accepts a single optional `configuredBaseUrl` override. For example, the same root-relative `/produkte/` path resolves under `https://example.com/produkte/`, `https://example.vercel.app/produkte/`, or `http://localhost:8081/produkte/` as appropriate.
+- No active website page, stylesheet, or asset points to the problematic ArtisanShop domain. The only URL-shaped matches in the source scan are intentional historical-host patterns in `tools/recover_wayback_resources.py`; they are used to normalize archived first-party links. The program’s network allow-list permits requests only to `web.archive.org`.
+- Plain ArtisanShop brand strings may remain in recovered page copy and metadata; they are not internal URL destinations.
 
-## Remaining problems
+## Repairs and inventories
 
-- The recovered project is a static export and has no Shopware server, database, authentication, or payment integration. Cart, checkout, account actions, live search, appliance lookup and other backend operations remain blocked. The POST endpoint still responds with 501 on the current Python static server; implementing a real purchase flow needs the original backend or a deliberate replacement with verified product, inventory, shipping, tax and payment rules.
-- **33,868 local page destinations remain missing** (57,733 references). These point mostly to product and editorial pages whose source files were not recovered. The exact list and referring pages are in `WEBSITE_UNRESOLVED_ROUTES.csv`.
-- **70,850 asset references across 45,180 distinct URLs** remain unresolved. Missing product media is substantial; fallback imagery cannot restore the originals. See `WEBSITE_MISSING_ASSETS.csv`.
-- **146 HTML fallback pages** respond but lack original content/backend data; one is the Impressum placeholder, which is not legally valid. `BLOCKED_CONTENT` entries in the route inventory identify these limits.
-- Responsive behavior, browser console/network logs, and a production build remain unverified for the reasons above.
+- Restored the 27 matching archive pages and 244 image variants without overwriting existing local files.
+- Updated route and asset inventories so recovered paths are no longer represented as unresolved where those records existed. Added supplemental missing image references discovered from the restored pages.
+- Retained the earlier website fixes: local root-relative navigation, directory-index and not-found handling, and the dynamic product catalog empty state.
+- `README.md` documents the base URL behavior and the archive-only recovery utility.
+
+## Remaining limitations
+
+- **33,643 local page destinations remain unresolved** (57,166 references), mostly missing product and editorial pages. They returned 404 when tested in the earlier full-route audit; no matching content was available in the searched archive captures.
+- **44,988 asset paths remain missing** (70,582 references), including product media and 28 font files. The recovered pages themselves still contain 91 distinct absent asset paths; exact-path archive lookup had no additional matches for those paths.
+- The project is a static export without the Shopware server, database, authentication, inventory, or payment integrations. Cart submission to `/checkout/line-item/add` still receives HTTP 501 from the static Python server. A functional cart/checkout requires the original backend or a separately designed replacement with verified business rules.
+- `BLOCKED_CONTENT` routes respond with fallback content but do not reproduce unavailable source data or services. The static Impressum placeholder is not a verified legal notice.
+- Production hosting behavior, browser console/network diagnostics, and responsive layouts remain unverified.
 
 ## Status definitions
 
-`FIXED` means a navigation defect was corrected and the route returned HTTP 200. `PASS` means the recovered static page or endpoint was present and served. `BLOCKED_CONTENT` means a fallback responds but the original content/service is unavailable. `FAIL` means a referenced local page target returned HTTP 404.
-
-## Configurable base URL update (2026-10-21)
-
-- Added `site-base.js` and loaded it synchronously at the start of the `<head>` on all 2,085 saved HTML documents. Its `configuredBaseUrl` is the single override; leave it empty to use `window.location.origin`, or set a root URL such as `https://example.com/` or `http://localhost:8081/`. It rejects non-HTTP(S) overrides and falls back to the active origin.
-- Replaced 3,134 captured first-party absolute URL references across 1,153 pages with local paths. These included thumbnail/media URLs and captured API/widget URLs; query strings and fragments were retained. The Sentry trace target now uses the configured base URL.
-- Fixed 9,229 malformed protocol-relative local URLs (for example `//media/...`) to root-relative paths. Third-party `widget.trustpilot.com` and other external service URLs were preserved.
-- Scanned text files for URL-shaped ArtisanShop domains: none remain. Plain `artisanshop.ch` brand text remains in archived page titles/descriptions and metadata; it is not used as a URL or navigation target.
-- Ran the local HTTP route check against all 2,086 saved `.html` routes: all returned HTTP 200. `site-base.js` returned HTTP 200 and passed `node --check`. A VM-level origin check confirmed defaults for `localhost:8081` and `preview.example.vercel.app`, and an explicit `https://example.com/` override.
-- A resource-path inventory found 14,351 unique local `src`/stylesheet/font targets; 11,698 paths do not exist in this recovered export, consistent with the missing media captured in the existing asset inventory. Browser console/network diagnostics were not available through the attached browser controls. A real custom production domain cannot be tested until deployed; the local origin and explicit override were checked in the resolver simulation.
+`FIXED` means a known navigation or fallback issue was repaired and its local file responds. `PASS` means the local route or resource is present and served. `BLOCKED_CONTENT` means a fallback responds but original content or backend functionality is unavailable. `FAIL` means a referenced local page destination remains absent.

@@ -2086,16 +2086,16 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /anleitungen/geschirrspueler/miele-spuelmaschine-f70-wasseraustritt-miele-geschirrspueler-fehler-f70-zuruecksetzen-diy-anleitung/,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /anleitungen/waschmaschine/tuerdichtung-waschmaschine-wechseln-reparieren/,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /produkte/aeg-electrolux-50214722006-wasserablaufreiniger-art470900,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/ratgeber/e-scooter/soflow-fehlercode-liste.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/ratgeber/e-scooter/was-ist-der-ideale-e-scooter-reifendruck-und-wie-messe-ich-den.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/ratgeber/e-scooter/e-scooter-luftreifen-oder-vollgummi-welche-reifen-sind-besser.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/ratgeber/e-scooter/soflow-s04-fehlercode-2.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/ratgeber/e-scooter/wie-den-e-scooter-reifen-wechseln.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/ratgeber/e-scooter/soflow-fehlercode-liste.html,ratgeber/e-scooter/soflow-fehlercode-liste.html,200,text/html,290448,PASS,Recovered and validated from Wayback capture 20250420002230.
+/ratgeber/e-scooter/was-ist-der-ideale-e-scooter-reifendruck-und-wie-messe-ich-den.html,ratgeber/e-scooter/was-ist-der-ideale-e-scooter-reifendruck-und-wie-messe-ich-den.html,200,text/html,446817,PASS,Recovered and validated from Wayback capture 20250419234820.
+/ratgeber/e-scooter/e-scooter-luftreifen-oder-vollgummi-welche-reifen-sind-besser.html,ratgeber/e-scooter/e-scooter-luftreifen-oder-vollgummi-welche-reifen-sind-besser.html,200,text/html,449839,PASS,Recovered and validated from Wayback capture 20250420011056.
+/ratgeber/e-scooter/soflow-s04-fehlercode-2.html,ratgeber/e-scooter/soflow-s04-fehlercode-2.html,200,text/html,283604,PASS,Recovered and validated from Wayback capture 20250420000428.
+/ratgeber/e-scooter/wie-den-e-scooter-reifen-wechseln.html,ratgeber/e-scooter/wie-den-e-scooter-reifen-wechseln.html,200,text/html,449786,PASS,Recovered and validated from Wayback capture 20250419233023.
 /anleitungen/geschirrspueler/korbrollen-und-klappstacheln-wechseln/,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/ratgeber/e-scooter/ist-der-soflow-so4-pro-regen-tauglich.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/ratgeber/e-scooter/was-ist-der-ideale-soflow-so4-pro-luftdruck.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/ratgeber/e-scooter/wie-die-soflow-handyhalterung-anbringen.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/ratgeber/e-scooter/wie-ist-die-soflow-s06-ladezeit.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/ratgeber/e-scooter/ist-der-soflow-so4-pro-regen-tauglich.html,ratgeber/e-scooter/ist-der-soflow-so4-pro-regen-tauglich.html,200,text/html,281067,PASS,Recovered and validated from Wayback capture 20250420000351.
+/ratgeber/e-scooter/was-ist-der-ideale-soflow-so4-pro-luftdruck.html,ratgeber/e-scooter/was-ist-der-ideale-soflow-so4-pro-luftdruck.html,200,text/html,407622,PASS,Recovered and validated from Wayback capture 20250419232615.
+/ratgeber/e-scooter/wie-die-soflow-handyhalterung-anbringen.html,ratgeber/e-scooter/wie-die-soflow-handyhalterung-anbringen.html,200,text/html,357068,PASS,Recovered and validated from Wayback capture 20250420004013.
+/ratgeber/e-scooter/wie-ist-die-soflow-s06-ladezeit.html,ratgeber/e-scooter/wie-ist-die-soflow-s06-ladezeit.html,200,text/html,392251,PASS,Recovered and validated from Wayback capture 20250419232844.
 /anleitungen/backofen/backofen-drehknopf-tauschen-wechsel-herd-knebel-versenkbar/,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /anleitungen/geschirrspueler/geschirrspueler-reinigt-nicht-richtig-technische-probleme-beheben/,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /produkte/delonghi-5525101500-filterset-f881-f885v-fuer-f8-d8-f1000-art474384,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -2122,8 +2122,8 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /media/32/22/64/1700910901/ART522653-1.jpg,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /media/37/7d/25/1700910651/ART516048-1.jpg,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /produkte/aeg-electrolux-2230614055-befestigungsteil-halter-klappe-gefrierfach-art468168,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/ratgeber/rasierer/braun-series-9-einschaltknopf-rausgefallen-was-tun.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/ratgeber/rasierer/was-tun-wenn-braun-series-9-reinigungsstation-probleme-macht.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/ratgeber/rasierer/braun-series-9-einschaltknopf-rausgefallen-was-tun.html,ratgeber/rasierer/braun-series-9-einschaltknopf-rausgefallen-was-tun.html,200,text/html,321990,PASS,Recovered and validated from Wayback capture 20250117220756.
+/ratgeber/rasierer/was-tun-wenn-braun-series-9-reinigungsstation-probleme-macht.html,ratgeber/rasierer/was-tun-wenn-braun-series-9-reinigungsstation-probleme-macht.html,200,text/html,323348,PASS,Recovered and validated from Wayback capture 20250218193401.
 /ratgeber/rasierer/wie-kann-ich-einen-braun-series-9-langhaarschneider-defekt-beheben.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /cookie/offcanvas,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /media/ca/0f/55/1700909622/ART490198-1.jpg,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -2143,7 +2143,7 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /navigation/5ee9bac8207b33adaa1930c1aa6ffd56,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /produkte/ablaufschlauch-11023391-bosch-siemens-fuer-waschmaschine-laenge-2-6m-ersatzteil-art475173,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /produkte/eiswuerfelform-11008387-bosch-siemens-fuer-gefrierschrank-eiswuerfelschale-ersatzteil-art473921,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/ratgeber/e-scooter/e-scooter-akku-entlaedt-sich.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/ratgeber/e-scooter/e-scooter-akku-entlaedt-sich.html,ratgeber/e-scooter/e-scooter-akku-entlaedt-sich.html,200,text/html,305792,PASS,Recovered and validated from Wayback capture 20250420002154.
 /geraet/delonghi/f28533-0125503704.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /geraet/tefal/fritteuse-fz70000012eactifry-fz70000012e.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /geraet/tefal/fritteuse-fz70000112bactifry-fz70000112b.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -2152,7 +2152,7 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /geraet/tefal/fritteuse-fz70003412gactifry-fz70003412g.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /kueche/geschirrspueler/dosierkammer/,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /media/5e/16/36/1700908963/ART31364-1.jpg,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/ratgeber/e-scooter/soflow-fehler-e2.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/ratgeber/e-scooter/soflow-fehler-e2.html,ratgeber/e-scooter/soflow-fehler-e2.html,200,text/html,300196,PASS,Recovered and validated from Wayback capture 20250513165946.
 /anleitungen/0191280ddd0b7a32b72ab3912ac96e7a,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /anleitungen/geschirrspueler/geschirrspu-ler-startet-nicht-fehlerdiagnose-spuelmaschine-geht-nicht-an/,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /anleitungen/geschirrspueler/so-funktioniert-der-austausch-reparatur-einer-tu-rverriegelung-eines-bosch-einbau-geschirrspuelers/,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -2191,7 +2191,7 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /geraet/braun/series-9-9399cc.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /media/47/73/43/1700910606/ART514732-1.jpg,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /media/c4/32/43/1704965823/ART177553-1.jpg,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/ratgeber/e-scooter/soflow-fehlercode-4.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/ratgeber/e-scooter/soflow-fehlercode-4.html,ratgeber/e-scooter/soflow-fehlercode-4.html,200,text/html,299808,PASS,Recovered and validated from Wayback capture 20250425151913.
 /anleitungen/backofen/backofen-unterhitze-unteres-heizelement-tauschen/,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /anleitungen/backofen/oberhitze-heizelement-backofen-pruefen-wechseln/,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /anleitungen/backofen/ofen-ringheizkoerper-wechseln-umluft-heizelement-tauschen/,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -2241,8 +2241,8 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /produkte/whirlpool-488000522313-klappe-gefrierfach-c00522313-gefrierfachtuer-inklusive.-dichtung-art480583,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /produkte/whirlpool-indesit-481246668942-gefrierschranktuerdichtung-c00311915-magnetdichtung-art467638,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /produkte/whirlpool-indesit-481253029495-verbindungsschlauch-c00313144-ablaufbalg-bottich-pumpe-passend-fuer-eureka-art478959,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/ratgeber/e-scooter/soflow-fehler-e3.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/ratgeber/geschirrspueler/geschirrspueler-reinigt-nicht-richtig.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/ratgeber/e-scooter/soflow-fehler-e3.html,ratgeber/e-scooter/soflow-fehler-e3.html,200,text/html,300250,PASS,Recovered and validated from Wayback capture 20250419235821.
+/ratgeber/geschirrspueler/geschirrspueler-reinigt-nicht-richtig.html,ratgeber/geschirrspueler/geschirrspueler-reinigt-nicht-richtig.html,200,text/html,485052,PASS,Recovered and validated from Wayback capture 20250717084753.
 /geraet/aeg/tpflege-ih-91609779700.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /geraet/soflow/so6.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /geraet/tefal/fritteuse-al80000012cactifry-al80000012c.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -2258,8 +2258,8 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /produkte/panasonic-n2qayb001109-fernbedienung-art43885,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /produkte/soflow-so4-pro-kleber-fuer-gummimatte-80021209-fuer-e-scooter-klebepapier-trittbrett-ersatzteil-art336828,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /rasierer/rasierkopf/,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/ratgeber/e-scooter/soflow-fehlercode-5.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/ratgeber/e-scooter/soflow-nimmt-kein-gas-an.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/ratgeber/e-scooter/soflow-fehlercode-5.html,ratgeber/e-scooter/soflow-fehlercode-5.html,200,text/html,292637,PASS,Recovered and validated from Wayback capture 20250420003720.
+/ratgeber/e-scooter/soflow-nimmt-kein-gas-an.html,ratgeber/e-scooter/soflow-nimmt-kein-gas-an.html,200,text/html,318438,PASS,Recovered and validated from Wayback capture 20250619183713.
 /geraet/aeg/710-d-m-94211831100.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /geraet/aeg/favorit-55097-i-d-91192563700.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /geraet/aeg/favorit-88015-visl-91193460602.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -2482,7 +2482,7 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /produkte/whirlpool-indesit-488000495800-klappe-gefrierfach-c00495800-freezer-flap-2-uf70-art33739,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /produkte/whirlpool-indesit-488000629789-innenscheibe-c00629789-scheibe-innen-pyro-mtr-art501462,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /produkte/youlong-1060062-isolation-induktionsplatte-induction-coil-art29568,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/ratgeber/geschirrspueler/spuelmaschine-geht-nicht-an.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/ratgeber/geschirrspueler/spuelmaschine-geht-nicht-an.html,ratgeber/geschirrspueler/spuelmaschine-geht-nicht-an.html,200,text/html,395723,PASS,Recovered and validated from Wayback capture 20250717100631.
 /anleitungen/01918effc5847f3caed48a6232617e38/category,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /anleitungen/staubsauger/dyson-blinkt-rot-dyson-staubsauger-leuchtet-rot-dyson-bodenstaubsauger-dyson-akku-sauger-diy/,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /geraet/aeg/710-d-b-94211831000.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -2802,9 +2802,9 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /produkte/whirlpool-indesit-488000629722-luftfilter-c00629722-hyg002-er-kuehlschrank-filter-passend-fuer-bauknecht-art469845,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /produkte/whirlpool-indesit-zulaufschlauch-warmwasser-481010439191-c00324319-fuer-waschmaschine-ersatzteil-art38342,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /produkte/whirlpool-w-pro-484000008650-kohlefilter-c00424799-ncf201-ecologic-aktivkohlefilter-47x57-cm-220g-m2-art472502,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/ratgeber/e-scooter/soflow-lenkstange-wackelt.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/ratgeber/rasierer/braun-rasierer-geht-immer-wieder-aus.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/ratgeber/waschmaschine/wie-kann-ich-effektiv-die-waschmaschine-reinigen.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/ratgeber/e-scooter/soflow-lenkstange-wackelt.html,ratgeber/e-scooter/soflow-lenkstange-wackelt.html,200,text/html,296627,PASS,Recovered and validated from Wayback capture 20250420011200.
+/ratgeber/rasierer/braun-rasierer-geht-immer-wieder-aus.html,ratgeber/rasierer/braun-rasierer-geht-immer-wieder-aus.html,200,text/html,281422,PASS,Recovered and validated from Wayback capture 20250117213824.
+/ratgeber/waschmaschine/wie-kann-ich-effektiv-die-waschmaschine-reinigen.html,ratgeber/waschmaschine/wie-kann-ich-effektiv-die-waschmaschine-reinigen.html,200,text/html,142748,PASS,Recovered and validated from Wayback capture 20240925062322.
 /anleitungen/staubsauger/dyson-akku-dyson-v10-akku-wechseln-staubsauger-akkutausch/,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /e-scooter/ladegeraet/soflow/,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /geraet/aeg/63456iu-mn-94794206700.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -7202,7 +7202,7 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /produkte/zulaufdichtung-mit-sieb-fuer-geschirrspueler-wie-bosch-siemens-bsh-00166671-ersatzteil-art55718,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /produkte/zulaufschlauch-50295663004-aeg-electrolux-fuer-geschirrspueler-einlaufschlauch-aquastop-1-8m-ersatzteil-art487859,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /produkte/zulaufschlauchfilter-481948053059-fuer-geschirrspueler-waschmaschine-wie-whirlpool-ersatzteil-art55295,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/ratgeber/e-scooter/e-scooter-laedt-nicht.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/ratgeber/e-scooter/e-scooter-laedt-nicht.html,ratgeber/e-scooter/e-scooter-laedt-nicht.html,200,text/html,317974,PASS,Recovered and validated from Wayback capture 20250515130250.
 /ratgeber/gefrierschrank/wie-kann-ich-das-gefrierfach-abtauen.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /ratgeber/geschirrspueler/siemens-geschirrspueler-fehler-e09.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /ratgeber/geschirrspueler/siemens-geschirrspueler-fehler-e15.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -11446,7 +11446,7 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /ratgeber/rasierer/braun-rasierer-leuchtet-orange.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /ratgeber/rasierer/braun-rasierer-piept.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /ratgeber/rasierer/philips-rasierer-blinkt.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/ratgeber/rasierer/philips-rasierer-geht-immer-wieder-aus.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/ratgeber/rasierer/philips-rasierer-geht-immer-wieder-aus.html,ratgeber/rasierer/philips-rasierer-geht-immer-wieder-aus.html,200,text/html,284754,PASS,Recovered and validated from Wayback capture 20250117223353.
 /ratgeber/rasierer/philips-rasierer-scherkopf-symbol-blinkt.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /ratgeber/saugroboter/wie-entleere-ich-den-saugroboter.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /ratgeber/saugroboter/wie-reinige-ich-meinen-saugroboter.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -34030,8 +34030,8 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /rasierer/netzteil/philips/,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /rasierer/rasierkopf/braun/,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /ratgeber/b23ba182258b49d2249b4e31db13d6ec/category,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/ratgeber/e-scooter/e-scooter-laedt-nicht-ladegeraet-zeigt-gruen.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/ratgeber/e-scooter/e-scooter-licht-geht-nicht-aus.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/ratgeber/e-scooter/e-scooter-laedt-nicht-ladegeraet-zeigt-gruen.html,ratgeber/e-scooter/e-scooter-laedt-nicht-ladegeraet-zeigt-gruen.html,200,text/html,310539,PASS,Recovered and validated from Wayback capture 20250419233848.
+/ratgeber/e-scooter/e-scooter-licht-geht-nicht-aus.html,ratgeber/e-scooter/e-scooter-licht-geht-nicht-aus.html,200,text/html,305052,PASS,Recovered and validated from Wayback capture 20250419232932.
 /ratgeber/e-scooter/kann-ich-den-e-scooter-reparieren.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /ratgeber/gefrierschrank/gefrierschrank-kontrollleuchte-aus.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /ratgeber/gefrierschrank/gefrierschrank-kuehlt-nicht-mehr-richtig.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -34100,7 +34100,7 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /ratgeber/staubsauger/staubsauger-geht-aus.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /ratgeber/staubsauger/staubsauger-stinkt.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /ratgeber/staubsauger/was-tun-wenn-der-dyson-v10-akku-schnell-leer-ist.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/ratgeber/trockner/trockner-braucht-laenger-als-angezeigt.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/ratgeber/trockner/trockner-braucht-laenger-als-angezeigt.html,ratgeber/trockner/trockner-braucht-laenger-als-angezeigt.html,200,text/html,295927,PASS,Recovered and validated from Wayback capture 20250218200327.
 /ratgeber/trockner/trockner-ueberhitzt.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /ratgeber/waschmaschine/flecken-nach-dem-waschen.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /ratgeber/waschmaschine/miele-w-3241-zulauf-ablauf-pruefen-blinkt-was-tun.html,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -34617,28 +34617,28 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/4f/f1/8f/1694196486/ART472268-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/50/04/32/1724765956/ART281286-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/50/04/32/1724765956/ART281286-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/50/51/07/1705065617/ART198946-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/50/51/07/1705065617/ART198946-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/50/51/07/1705065617/ART198946-1_300x300.webp,thumbnail/50/51/07/1705065617/ART198946-1_300x300.webp,200,image/webp,4312,PASS,Recovered and validated from Wayback capture 20250610165800.
+/thumbnail/50/51/07/1705065617/ART198946-1_90x90.webp,thumbnail/50/51/07/1705065617/ART198946-1_90x90.webp,200,image/webp,948,PASS,Recovered and validated from Wayback capture 20250610165800.
 /thumbnail/50/5f/f6/1721274224/ART226733-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/50/5f/f6/1721274224/ART226733-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/50/ba/7e/1700864460/ART63947-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/50/ba/7e/1700864460/ART63947-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/50/bf/ea/1719700626/ART467432-3_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/50/bf/ea/1719700626/ART467432-3_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/50/f8/11/1724922346/ART334164-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/50/f8/11/1724922346/ART334164-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/51/60/47/1700908320/ART467495-3_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/51/60/47/1700908320/ART467495-3_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/50/f8/11/1724922346/ART334164-1_300x300.webp,thumbnail/50/f8/11/1724922346/ART334164-1_300x300.webp,200,image/webp,5566,PASS,Recovered and validated from Wayback capture 20250610172130.
+/thumbnail/50/f8/11/1724922346/ART334164-1_90x90.webp,thumbnail/50/f8/11/1724922346/ART334164-1_90x90.webp,200,image/webp,1008,PASS,Recovered and validated from Wayback capture 20250610171950.
+/thumbnail/51/60/47/1700908320/ART467495-3_300x300.webp,thumbnail/51/60/47/1700908320/ART467495-3_300x300.webp,200,image/webp,3420,PASS,Recovered and validated from Wayback capture 20250610093441.
+/thumbnail/51/60/47/1700908320/ART467495-3_90x90.webp,thumbnail/51/60/47/1700908320/ART467495-3_90x90.webp,200,image/webp,848,PASS,Recovered and validated from Wayback capture 20250610093441.
 /thumbnail/51/d9/04/1705088386/ART203950-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/51/d9/04/1705088386/ART203950-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/51/f7/52/1716368022/ART311976-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/51/f7/52/1716368022/ART311976-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/51/f7/52/1716368022/ART311976-1_300x300.webp,thumbnail/51/f7/52/1716368022/ART311976-1_300x300.webp,200,image/webp,6356,PASS,Recovered and validated from Wayback capture 20250610174541.
+/thumbnail/51/f7/52/1716368022/ART311976-1_90x90.webp,thumbnail/51/f7/52/1716368022/ART311976-1_90x90.webp,200,image/webp,1360,PASS,Recovered and validated from Wayback capture 20250610174541.
 /thumbnail/52/24/2e/1725061360/ART481320-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/52/24/2e/1725061360/ART481320-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/52/2c/d2/1694326140/ART536322-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/52/2c/d2/1694326140/ART536322-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/52/2e/d9/1738029554/ART894379-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/52/2e/d9/1738029554/ART894379-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/52/2e/d9/1738029554/ART894379-1_300x300.webp,thumbnail/52/2e/d9/1738029554/ART894379-1_300x300.webp,200,image/webp,6660,PASS,Recovered and validated from Wayback capture 20250610173357.
+/thumbnail/52/2e/d9/1738029554/ART894379-1_90x90.webp,thumbnail/52/2e/d9/1738029554/ART894379-1_90x90.webp,200,image/webp,1286,PASS,Recovered and validated from Wayback capture 20250610173357.
 /thumbnail/52/bb/7d/1694155944/ART478113-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/52/bb/7d/1694155944/ART478113-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/52/e7/24/1694199248/ART512534-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -34661,8 +34661,8 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/55/c3/95/1722503476/ART647267-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/56/16/4c/1732036540/ART468231-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/56/16/4c/1732036540/ART468231-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/56/b3/75/1703559544/ART32814-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/56/b3/75/1703559544/ART32814-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/56/b3/75/1703559544/ART32814-1_300x300.webp,thumbnail/56/b3/75/1703559544/ART32814-1_300x300.webp,200,image/webp,1942,PASS,Recovered and validated from Wayback capture 20250610092402.
+/thumbnail/56/b3/75/1703559544/ART32814-1_90x90.webp,thumbnail/56/b3/75/1703559544/ART32814-1_90x90.webp,200,image/webp,392,PASS,Recovered and validated from Wayback capture 20250610092402.
 /thumbnail/56/e3/29/1720361012/ART473445-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/56/e3/29/1720361012/ART473445-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/56/f8/48/1705058751/ART196977-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -34677,8 +34677,8 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/57/5c/9c/1718820798/ART89660-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/57/b6/c4/1705262215/ART233570-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/57/b6/c4/1705262215/ART233570-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/57/cc/f3/1735699928/ART30484-482000000727-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/57/cc/f3/1735699928/ART30484-482000000727-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/57/cc/f3/1735699928/ART30484-482000000727-1_300x300.webp,thumbnail/57/cc/f3/1735699928/ART30484-482000000727-1_300x300.webp,200,image/webp,2752,PASS,Recovered and validated from Wayback capture 20250609100710.
+/thumbnail/57/cc/f3/1735699928/ART30484-482000000727-1_90x90.webp,thumbnail/57/cc/f3/1735699928/ART30484-482000000727-1_90x90.webp,200,image/webp,798,PASS,Recovered and validated from Wayback capture 20250609100710.
 /thumbnail/57/dd/70/1707201671/ART110478-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/57/dd/70/1707201671/ART110478-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/57/ef/34/1725129526/ART186964-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -34691,8 +34691,8 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/58/a2/d8/1704335778/ART26116-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/58/c3/47/1693986068/ART29041-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/58/c3/47/1693986068/ART29041-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/58/dc/2b/1705191836/ART222830-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/58/dc/2b/1705191836/ART222830-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/58/dc/2b/1705191836/ART222830-1_300x300.webp,thumbnail/58/dc/2b/1705191836/ART222830-1_300x300.webp,200,image/webp,2318,PASS,Recovered and validated from Wayback capture 20250609100706.
+/thumbnail/58/dc/2b/1705191836/ART222830-1_90x90.webp,thumbnail/58/dc/2b/1705191836/ART222830-1_90x90.webp,200,image/webp,664,PASS,Recovered and validated from Wayback capture 20250609100706.
 /thumbnail/58/e8/fe/1704045359/ART32867-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/58/e8/fe/1704045359/ART32867-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/59/61/98/1722505426/ART647411-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -34707,28 +34707,28 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/5b/07/e5/1728496485/ART540825-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/5b/2e/98/1709980102/ART26558-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/5b/2e/98/1709980102/ART26558-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/5b/74/3c/1709983289/ART531340-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/5b/74/3c/1709983289/ART531340-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/5b/e5/d6/1710049902/ART37382-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/5b/e5/d6/1710049902/ART37382-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/5b/74/3c/1709983289/ART531340-1_300x300.webp,thumbnail/5b/74/3c/1709983289/ART531340-1_300x300.webp,200,image/webp,880,PASS,Recovered and validated from Wayback capture 20250609113930.
+/thumbnail/5b/74/3c/1709983289/ART531340-1_90x90.webp,thumbnail/5b/74/3c/1709983289/ART531340-1_90x90.webp,200,image/webp,234,PASS,Recovered and validated from Wayback capture 20250609113930.
+/thumbnail/5b/e5/d6/1710049902/ART37382-1_300x300.webp,thumbnail/5b/e5/d6/1710049902/ART37382-1_300x300.webp,200,image/webp,4378,PASS,Recovered and validated from Wayback capture 20250609100710.
+/thumbnail/5b/e5/d6/1710049902/ART37382-1_90x90.webp,thumbnail/5b/e5/d6/1710049902/ART37382-1_90x90.webp,200,image/webp,892,PASS,Recovered and validated from Wayback capture 20250609100709.
 /thumbnail/5c/10/35/1705037386/ART189793-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/5c/10/35/1705037386/ART189793-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/5c/2a/af/1704302677/ART78310-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/5c/2a/af/1704302677/ART78310-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/5c/2a/af/1704302677/ART78310-1_300x300.webp,thumbnail/5c/2a/af/1704302677/ART78310-1_300x300.webp,200,image/webp,1940,PASS,Recovered and validated from Wayback capture 20250610165824.
+/thumbnail/5c/2a/af/1704302677/ART78310-1_90x90.webp,thumbnail/5c/2a/af/1704302677/ART78310-1_90x90.webp,200,image/webp,450,PASS,Recovered and validated from Wayback capture 20250610165824.
 /thumbnail/5c/8a/77/1723038388/ART473504-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/5c/8a/77/1723038388/ART473504-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/5c/a5/e3/1702993669/ART31237-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/5c/a5/e3/1702993669/ART31237-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/5d/67/0e/1703703738/ART75688-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/5d/67/0e/1703703738/ART75688-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/5d/83/96/1705385167/ART249599-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/5d/83/96/1705385167/ART249599-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/5c/a5/e3/1702993669/ART31237-1_300x300.webp,thumbnail/5c/a5/e3/1702993669/ART31237-1_300x300.webp,200,image/webp,6180,PASS,Recovered and validated from Wayback capture 20250610093335.
+/thumbnail/5c/a5/e3/1702993669/ART31237-1_90x90.webp,thumbnail/5c/a5/e3/1702993669/ART31237-1_90x90.webp,200,image/webp,1118,PASS,Recovered and validated from Wayback capture 20250610093335.
+/thumbnail/5d/67/0e/1703703738/ART75688-1_300x300.webp,thumbnail/5d/67/0e/1703703738/ART75688-1_300x300.webp,200,image/webp,1478,PASS,Recovered and validated from Wayback capture 20250610093315.
+/thumbnail/5d/67/0e/1703703738/ART75688-1_90x90.webp,thumbnail/5d/67/0e/1703703738/ART75688-1_90x90.webp,200,image/webp,388,PASS,Recovered and validated from Wayback capture 20250610093315.
+/thumbnail/5d/83/96/1705385167/ART249599-1_300x300.webp,thumbnail/5d/83/96/1705385167/ART249599-1_300x300.webp,200,image/webp,842,PASS,Recovered and validated from Wayback capture 20250609113228.
+/thumbnail/5d/83/96/1705385167/ART249599-1_90x90.webp,thumbnail/5d/83/96/1705385167/ART249599-1_90x90.webp,200,image/webp,218,PASS,Recovered and validated from Wayback capture 20250609113227.
 /thumbnail/5d/91/5b/1710316033/ART467493-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/5d/91/5b/1710316033/ART467493-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/5d/91/b2/1700910266/ART509726-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/5d/91/b2/1700910266/ART509726-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/5d/a5/1f/1701028406/ART26384-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/5d/a5/1f/1701028406/ART26384-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/5d/a5/1f/1701028406/ART26384-1_300x300.webp,thumbnail/5d/a5/1f/1701028406/ART26384-1_300x300.webp,200,image/webp,802,PASS,Recovered and validated from Wayback capture 20250610093323.
+/thumbnail/5d/a5/1f/1701028406/ART26384-1_90x90.webp,thumbnail/5d/a5/1f/1701028406/ART26384-1_90x90.webp,200,image/webp,226,PASS,Recovered and validated from Wayback capture 20250610093323.
 /thumbnail/5d/bc/73/1705607807/ART268478-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/5d/bc/73/1705607807/ART268478-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/5e/16/36/1700908963/ART31364-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -34737,8 +34737,8 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/5e/8f/76/1735652748/ART503600-00645102-0_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/5e/b5/b0/1693979127/ART25938-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/5e/b5/b0/1693979127/ART25938-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/5e/cf/84/1700910619/ART515252-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/5e/cf/84/1700910619/ART515252-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/5e/cf/84/1700910619/ART515252-1_300x300.webp,thumbnail/5e/cf/84/1700910619/ART515252-1_300x300.webp,200,image/webp,4106,PASS,Recovered and validated from Wayback capture 20250609100706.
+/thumbnail/5e/cf/84/1700910619/ART515252-1_90x90.webp,thumbnail/5e/cf/84/1700910619/ART515252-1_90x90.webp,200,image/webp,780,PASS,Recovered and validated from Wayback capture 20250609100706.
 /thumbnail/5e/ef/17/1706691869/ART26188-1741690800-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/5e/ef/17/1706691869/ART26188-1741690800-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/5f/ee/b2/1694239776/ART527179-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -34749,8 +34749,8 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/60/83/f5/1701629461/ART505094-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/61/8e/56/1735742013/ART56665-9010227-6_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/61/8e/56/1735742013/ART56665-9010227-6_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/61/c0/78/1705028253/ART187206-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/61/c0/78/1705028253/ART187206-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/61/c0/78/1705028253/ART187206-1_300x300.webp,thumbnail/61/c0/78/1705028253/ART187206-1_300x300.webp,200,image/webp,2862,PASS,Recovered and validated from Wayback capture 20250609111500.
+/thumbnail/61/c0/78/1705028253/ART187206-1_90x90.webp,thumbnail/61/c0/78/1705028253/ART187206-1_90x90.webp,200,image/webp,662,PASS,Recovered and validated from Wayback capture 20250609111500.
 /thumbnail/61/c9/6a/1694189219/ART503351-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/61/c9/6a/1694189219/ART503351-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/62/29/05/1710383285/ART508222-5_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -34765,8 +34765,8 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/62/f8/98/1694345507/ART548493-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/63/5b/60/1731286887/ART146624-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/63/5b/60/1731286887/ART146624-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/64/0b/35/1704930079/ART171985-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/64/0b/35/1704930079/ART171985-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/64/0b/35/1704930079/ART171985-1_300x300.webp,thumbnail/64/0b/35/1704930079/ART171985-1_300x300.webp,200,image/webp,1526,PASS,Recovered and validated from Wayback capture 20250610165812.
+/thumbnail/64/0b/35/1704930079/ART171985-1_90x90.webp,thumbnail/64/0b/35/1704930079/ART171985-1_90x90.webp,200,image/webp,402,PASS,Recovered and validated from Wayback capture 20250610165811.
 /thumbnail/64/30/de/1725066271/ART483752-3_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/64/30/de/1725066271/ART483752-3_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/64/75/d0/1716369941/ART337013-4_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -34779,8 +34779,8 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/64/fa/58/1721373427/ART138738-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/64/fc/ca/1719046697/ART490652-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/64/fc/ca/1719046697/ART490652-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/65/52/ae/1724316702/ART555406-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/65/52/ae/1724316702/ART555406-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/65/52/ae/1724316702/ART555406-1_300x300.webp,thumbnail/65/52/ae/1724316702/ART555406-1_300x300.webp,200,image/webp,6760,PASS,Recovered and validated from Wayback capture 20250609100702.
+/thumbnail/65/52/ae/1724316702/ART555406-1_90x90.webp,thumbnail/65/52/ae/1724316702/ART555406-1_90x90.webp,200,image/webp,1400,PASS,Recovered and validated from Wayback capture 20250609100702.
 /thumbnail/65/5e/93/1735741709/ART56665-9010227-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/65/5e/93/1735741709/ART56665-9010227-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/66/29/63/1722509761/ART647565-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -34791,10 +34791,10 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/66/ed/dc/1735485020/ART797609-C002100011400-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/66/fc/90/1694167490/ART481114-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/66/fc/90/1694167490/ART481114-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/67/12/98/1700911404/ART538632-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/67/12/98/1700911404/ART538632-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/67/38/1d/1705482473/ART259633-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/67/38/1d/1705482473/ART259633-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/67/12/98/1700911404/ART538632-1_300x300.webp,thumbnail/67/12/98/1700911404/ART538632-1_300x300.webp,200,image/webp,1436,PASS,Recovered and validated from Wayback capture 20250610093309.
+/thumbnail/67/12/98/1700911404/ART538632-1_90x90.webp,thumbnail/67/12/98/1700911404/ART538632-1_90x90.webp,200,image/webp,392,PASS,Recovered and validated from Wayback capture 20250610093244.
+/thumbnail/67/38/1d/1705482473/ART259633-1_300x300.webp,thumbnail/67/38/1d/1705482473/ART259633-1_300x300.webp,200,image/webp,2892,PASS,Recovered and validated from Wayback capture 20250609100707.
+/thumbnail/67/38/1d/1705482473/ART259633-1_90x90.webp,thumbnail/67/38/1d/1705482473/ART259633-1_90x90.webp,200,image/webp,704,PASS,Recovered and validated from Wayback capture 20250609100707.
 /thumbnail/67/c8/62/1723886990/ART484478-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/67/c8/62/1723886990/ART484478-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/68/00/ee/1709660296/ART511566-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -34821,16 +34821,16 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/6b/a0/97/1722709946/ART170064-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/6b/c7/0b/1732100943/ART469444.-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/6b/c7/0b/1732100943/ART469444.-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/6b/f6/27/1703556967/ART542534-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/6b/f6/27/1703556967/ART542534-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/6b/f6/27/1703556967/ART542534-1_300x300.webp,thumbnail/6b/f6/27/1703556967/ART542534-1_300x300.webp,200,image/webp,1038,PASS,Recovered and validated from Wayback capture 20250610092359.
+/thumbnail/6b/f6/27/1703556967/ART542534-1_90x90.webp,thumbnail/6b/f6/27/1703556967/ART542534-1_90x90.webp,200,image/webp,242,PASS,Recovered and validated from Wayback capture 20250610092359.
 /thumbnail/6b/ff/66/1719304004/ART30663-3_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/6b/ff/66/1719304004/ART30663-3_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/6c/03/76/1735706985/ART25688-3577322013-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/6c/03/76/1735706985/ART25688-3577322013-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/6c/25/62/1704904805/ART468453-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/6c/25/62/1704904805/ART468453-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/6c/5f/ba/1703704477/ART497685-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/6c/5f/ba/1703704477/ART497685-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/6c/5f/ba/1703704477/ART497685-1_300x300.webp,thumbnail/6c/5f/ba/1703704477/ART497685-1_300x300.webp,200,image/webp,6094,PASS,Recovered and validated from Wayback capture 20250609115806.
+/thumbnail/6c/5f/ba/1703704477/ART497685-1_90x90.webp,thumbnail/6c/5f/ba/1703704477/ART497685-1_90x90.webp,200,image/webp,1172,PASS,Recovered and validated from Wayback capture 20250609115806.
 /thumbnail/6c/cd/f7/1695615379/ART502904-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/6c/cd/f7/1695615379/ART502904-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/6d/0b/dc/1693986235/ART29750-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -34843,8 +34843,8 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/6d/e7/da/1735713761/ART198204-531226-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/6d/e8/a0/1723038465/ART473504-4_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/6d/e8/a0/1723038465/ART473504-4_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/6d/fb/9e/1722505382/ART647411-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/6d/fb/9e/1722505382/ART647411-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/6d/fb/9e/1722505382/ART647411-1_300x300.webp,thumbnail/6d/fb/9e/1722505382/ART647411-1_300x300.webp,200,image/webp,7954,PASS,Recovered and validated from Wayback capture 20250610173033.
+/thumbnail/6d/fb/9e/1722505382/ART647411-1_90x90.webp,thumbnail/6d/fb/9e/1722505382/ART647411-1_90x90.webp,200,image/webp,1498,PASS,Recovered and validated from Wayback capture 20250610173032.
 /thumbnail/6e/21/b1/1725029935/ART474736-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/6e/21/b1/1725029935/ART474736-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/6e/51/cd/1712005000/ART471561-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -34855,8 +34855,8 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/6e/62/29/1694334333/ART543487-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/6e/7c/87/1725054229/ART228235-4_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/6e/7c/87/1725054229/ART228235-4_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/6e/82/g0/1704544978/ART117435-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/6e/82/g0/1704544978/ART117435-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/6e/82/g0/1704544978/ART117435-1_300x300.webp,thumbnail/6e/82/g0/1704544978/ART117435-1_300x300.webp,200,image/webp,5124,PASS,Recovered and validated from Wayback capture 20250609113215.
+/thumbnail/6e/82/g0/1704544978/ART117435-1_90x90.webp,thumbnail/6e/82/g0/1704544978/ART117435-1_90x90.webp,200,image/webp,1120,PASS,Recovered and validated from Wayback capture 20250609113213.
 /thumbnail/6e/be/0e/1725041549/ART76513-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/6e/be/0e/1725041549/ART76513-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/6f/06/ea/1700909534/ART487602-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -34909,8 +34909,8 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/72/28/c8/1716365386/ART295365-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/72/36/d8/1720693430/ART25755-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/72/36/d8/1720693430/ART25755-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/72/97/d1/1716370675/ART341937-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/72/97/d1/1716370675/ART341937-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/72/97/d1/1716370675/ART341937-1_300x300.webp,thumbnail/72/97/d1/1716370675/ART341937-1_300x300.webp,200,image/webp,3388,PASS,Recovered and validated from Wayback capture 20250609111502.
+/thumbnail/72/97/d1/1716370675/ART341937-1_90x90.webp,thumbnail/72/97/d1/1716370675/ART341937-1_90x90.webp,200,image/webp,810,PASS,Recovered and validated from Wayback capture 20250609111502.
 /thumbnail/72/f6/22/1717937390/ART474263-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/72/f6/22/1717937390/ART474263-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/73/65/fb/1725037835/ART30541-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -34933,8 +34933,8 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/75/15/95/1738920193/ART532266-PSE50296EU-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/75/ba/1c/1723038551/ART473504-6_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/75/ba/1c/1723038551/ART473504-6_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/76/2e/b2/1702817734/ART477111-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/76/2e/b2/1702817734/ART477111-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/76/2e/b2/1702817734/ART477111-1_300x300.webp,thumbnail/76/2e/b2/1702817734/ART477111-1_300x300.webp,200,image/webp,6286,PASS,Recovered and validated from Wayback capture 20250609104522.
+/thumbnail/76/2e/b2/1702817734/ART477111-1_90x90.webp,thumbnail/76/2e/b2/1702817734/ART477111-1_90x90.webp,200,image/webp,1270,PASS,Recovered and validated from Wayback capture 20250609104522.
 /thumbnail/76/40/98/1746642748/ART468909-ADC74625701-4_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/76/40/98/1746642748/ART468909-ADC74625701-4_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/76/5a/11/1723714733/ART32630-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -34949,16 +34949,16 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/77/5a/d5/1700908935/ART30022-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/77/97/7f/1702572762/ART71848-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/77/97/7f/1702572762/ART71848-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/77/a3/46/1704365648/ART89660-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/77/a3/46/1704365648/ART89660-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/77/a3/46/1704365648/ART89660-1_300x300.webp,thumbnail/77/a3/46/1704365648/ART89660-1_300x300.webp,200,image/webp,4898,PASS,Recovered and validated from Wayback capture 20250610165804.
+/thumbnail/77/a3/46/1704365648/ART89660-1_90x90.webp,thumbnail/77/a3/46/1704365648/ART89660-1_90x90.webp,200,image/webp,894,PASS,Recovered and validated from Wayback capture 20250610165803.
 /thumbnail/77/bf/cc/1693991108/ART33705-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/77/bf/cc/1693991108/ART33705-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/78/62/d6/1704554757/ART119364-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/78/62/d6/1704554757/ART119364-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/78/b0/98/1720377236/ART474635-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/78/b0/98/1720377236/ART474635-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/78/c1/62/1700910120/ART508222-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/78/c1/62/1700910120/ART508222-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/78/c1/62/1700910120/ART508222-1_300x300.webp,thumbnail/78/c1/62/1700910120/ART508222-1_300x300.webp,200,image/webp,5008,PASS,Recovered and validated from Wayback capture 20250610093408.
+/thumbnail/78/c1/62/1700910120/ART508222-1_90x90.webp,thumbnail/78/c1/62/1700910120/ART508222-1_90x90.webp,200,image/webp,1226,PASS,Recovered and validated from Wayback capture 20250610093408.
 /thumbnail/78/d8/82/1725977713/ART198946-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/78/d8/82/1725977713/ART198946-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/78/dd/b4/1725033239/ART26639-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -34967,8 +34967,8 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/79/0e/ce/1694161355/ART479647-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/79/59/a9/1731928276/ART137343-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/79/59/a9/1731928276/ART137343-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/79/60/7b/1738509494/SoFlow%20SO6%20Kennzeichenhalter%2080020039%203_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/79/60/7b/1738509494/SoFlow%20SO6%20Kennzeichenhalter%2080020039%203_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/79/60/7b/1738509494/SoFlow%20SO6%20Kennzeichenhalter%2080020039%203_300x300.webp,thumbnail/79/60/7b/1738509494/SoFlow SO6 Kennzeichenhalter 80020039 3_300x300.webp,200,image/webp,2284,PASS,Recovered and validated from Wayback capture 20250609100702.
+/thumbnail/79/60/7b/1738509494/SoFlow%20SO6%20Kennzeichenhalter%2080020039%203_90x90.webp,thumbnail/79/60/7b/1738509494/SoFlow SO6 Kennzeichenhalter 80020039 3_90x90.webp,200,image/webp,666,PASS,Recovered and validated from Wayback capture 20250609100702.
 /thumbnail/79/a5/cf/1702913878/ART468010-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/79/a5/cf/1702913878/ART468010-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/79/a9/82/1716364001/ART293889-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -34977,8 +34977,8 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/79/af/29/1726316147/ART406673-3_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/7a/3c/7f/1721238094/ART624372-3_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/7a/3c/7f/1721238094/ART624372-3_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/7a/4a/1f/1704544958/ART117422-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/7a/4a/1f/1704544958/ART117422-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/7a/4a/1f/1704544958/ART117422-1_300x300.webp,thumbnail/7a/4a/1f/1704544958/ART117422-1_300x300.webp,200,image/webp,1180,PASS,Recovered and validated from Wayback capture 20250610165839.
+/thumbnail/7a/4a/1f/1704544958/ART117422-1_90x90.webp,thumbnail/7a/4a/1f/1704544958/ART117422-1_90x90.webp,200,image/webp,340,PASS,Recovered and validated from Wayback capture 20250610165839.
 /thumbnail/7a/8f/f4/1723072134/ART164220-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/7a/8f/f4/1723072134/ART164220-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/7a/98/1e/1694102864/ART474062-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -34995,16 +34995,16 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/7c/4f/ee/1706853094/ART320350-3_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/7d/49/ac/1728483403/ART471903-5_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/7d/49/ac/1728483403/ART471903-5_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/7d/67/8b/1702876506/ART470434-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/7d/67/8b/1702876506/ART470434-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/7d/67/8b/1702876506/ART470434-1_300x300.webp,thumbnail/7d/67/8b/1702876506/ART470434-1_300x300.webp,200,image/webp,3096,PASS,Recovered and validated from Wayback capture 20250610165804.
+/thumbnail/7d/67/8b/1702876506/ART470434-1_90x90.webp,thumbnail/7d/67/8b/1702876506/ART470434-1_90x90.webp,200,image/webp,608,PASS,Recovered and validated from Wayback capture 20250610165804.
 /thumbnail/7d/95/fc/1694152629/ART477132-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/7d/95/fc/1694152629/ART477132-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/7d/99/ec/1702981126/ART481065-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/7d/99/ec/1702981126/ART481065-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/7d/cc/38/1730203190/ART468557-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/7d/cc/38/1730203190/ART468557-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/7d/f8/6d/1740486600/ART1127366-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/7d/f8/6d/1740486600/ART1127366-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/7d/f8/6d/1740486600/ART1127366-1_300x300.webp,thumbnail/7d/f8/6d/1740486600/ART1127366-1_300x300.webp,200,image/webp,2812,PASS,Recovered and validated from Wayback capture 20250610165754.
+/thumbnail/7d/f8/6d/1740486600/ART1127366-1_90x90.webp,thumbnail/7d/f8/6d/1740486600/ART1127366-1_90x90.webp,200,image/webp,556,PASS,Recovered and validated from Wayback capture 20250619111334.
 /thumbnail/7e/7e/a9/1703874807/ART508696-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/7e/7e/a9/1703874807/ART508696-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/7e/9d/6a/1719198864/ART529474-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -35041,8 +35041,8 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/83/05/75/1746641470/ART477641-00798820-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/83/dd/01/1716369879/ART337013-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/83/dd/01/1716369879/ART337013-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/84/c7/31/1704910978/ART31334-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/84/c7/31/1704910978/ART31334-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/84/c7/31/1704910978/ART31334-1_300x300.webp,thumbnail/84/c7/31/1704910978/ART31334-1_300x300.webp,200,image/webp,5498,PASS,Recovered and validated from Wayback capture 20250609114811.
+/thumbnail/84/c7/31/1704910978/ART31334-1_90x90.webp,thumbnail/84/c7/31/1704910978/ART31334-1_90x90.webp,200,image/webp,904,PASS,Recovered and validated from Wayback capture 20250609114811.
 /thumbnail/84/dc/90/1706193701/ART33111-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/84/dc/90/1706193701/ART33111-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/86/0c/85/1725034143/ART27556-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -35063,8 +35063,8 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/87/a9/0b/1721256726/ART626921-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/87/c0/34/1694185607/ART499688-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/87/c0/34/1694185607/ART499688-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/87/c5/f9/1746640307/ART501209-00713937-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/87/c5/f9/1746640307/ART501209-00713937-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/87/c5/f9/1746640307/ART501209-00713937-1_300x300.webp,thumbnail/87/c5/f9/1746640307/ART501209-00713937-1_300x300.webp,200,image/webp,1868,PASS,Recovered and validated from Wayback capture 20250609100721.
+/thumbnail/87/c5/f9/1746640307/ART501209-00713937-1_90x90.webp,thumbnail/87/c5/f9/1746640307/ART501209-00713937-1_90x90.webp,200,image/webp,564,PASS,Recovered and validated from Wayback capture 20250609100721.
 /thumbnail/88/3b/60/1704507488/ART110408-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/88/3b/60/1704507488/ART110408-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/88/4b/7e/1694102683/ART40516-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -35073,12 +35073,12 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/88/6f/ef/1693987254/ART30509-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/88/9f/65/1719084888/ART535272-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/88/9f/65/1719084888/ART535272-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/88/c1/ab/1704371944/ART90933-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/88/c1/ab/1704371944/ART90933-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/88/c1/ab/1704371944/ART90933-1_300x300.webp,thumbnail/88/c1/ab/1704371944/ART90933-1_300x300.webp,200,image/webp,1870,PASS,Recovered and validated from Wayback capture 20250610165801.
+/thumbnail/88/c1/ab/1704371944/ART90933-1_90x90.webp,thumbnail/88/c1/ab/1704371944/ART90933-1_90x90.webp,200,image/webp,464,PASS,Recovered and validated from Wayback capture 20250610165801.
 /thumbnail/88/eb/67/1721299301/ART469307-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/88/eb/67/1721299301/ART469307-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/8a/7a/34/1731137440/ART1118774-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/8a/7a/34/1731137440/ART1118774-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/8a/7a/34/1731137440/ART1118774-1_300x300.webp,thumbnail/8a/7a/34/1731137440/ART1118774-1_300x300.webp,200,image/webp,7112,PASS,Recovered and validated from Wayback capture 20250610092324.
+/thumbnail/8a/7a/34/1731137440/ART1118774-1_90x90.webp,thumbnail/8a/7a/34/1731137440/ART1118774-1_90x90.webp,200,image/webp,1428,PASS,Recovered and validated from Wayback capture 20250610092324.
 /thumbnail/8a/d4/d8/1729168227/ART136828-3_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/8a/d4/d8/1729168227/ART136828-3_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/8a/ed/8a/1735741867/ART56665-9010227-3_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -35087,8 +35087,8 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/8b/1a/f2/1710286636/ART98456-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/8b/49/47/1722655418/ART493640-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/8b/49/47/1722655418/ART493640-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/8b/7f/72/1701331641/ART470944-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/8b/7f/72/1701331641/ART470944-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/8b/7f/72/1701331641/ART470944-1_300x300.webp,thumbnail/8b/7f/72/1701331641/ART470944-1_300x300.webp,200,image/webp,3438,PASS,Recovered and validated from Wayback capture 20250609112602.
+/thumbnail/8b/7f/72/1701331641/ART470944-1_90x90.webp,thumbnail/8b/7f/72/1701331641/ART470944-1_90x90.webp,200,image/webp,900,PASS,Recovered and validated from Wayback capture 20250609112602.
 /thumbnail/8b/86/d9/1720694153/ART494221-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/8b/86/d9/1720694153/ART494221-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/8b/99/9e/1700909455/ART484478-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -35101,14 +35101,14 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/8c/27/e0/1704610937/ART130665-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/8c/30/6e/1709621941/ART231216-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/8c/30/6e/1709621941/ART231216-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/8c/66/fb/1704590370/ART126675-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/8c/66/fb/1704590370/ART126675-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/8c/66/fb/1704590370/ART126675-1_300x300.webp,thumbnail/8c/66/fb/1704590370/ART126675-1_300x300.webp,200,image/webp,2256,PASS,Recovered and validated from Wayback capture 20250609111503.
+/thumbnail/8c/66/fb/1704590370/ART126675-1_90x90.webp,thumbnail/8c/66/fb/1704590370/ART126675-1_90x90.webp,200,image/webp,558,PASS,Recovered and validated from Wayback capture 20250609111503.
 /thumbnail/8c/6e/91/1725055637/ART210804-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/8c/6e/91/1725055637/ART210804-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/8c/cb/94/1725127431/ART129915-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/8c/cb/94/1725127431/ART129915-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/8d/30/ff/1700909331/ART478978-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/8d/30/ff/1700909331/ART478978-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/8d/30/ff/1700909331/ART478978-1_300x300.webp,thumbnail/8d/30/ff/1700909331/ART478978-1_300x300.webp,200,image/webp,4404,PASS,Recovered and validated from Wayback capture 20250609113932.
+/thumbnail/8d/30/ff/1700909331/ART478978-1_90x90.webp,thumbnail/8d/30/ff/1700909331/ART478978-1_90x90.webp,200,image/webp,922,PASS,Recovered and validated from Wayback capture 20250609113932.
 /thumbnail/8d/68/84/1733847221/80021027_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/8d/68/84/1733847221/80021027_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/8e/76/11/1701086591/ART487655-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -35117,10 +35117,10 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/8e/98/dc/1694239775/ART527179-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/8e/aa/30/1746642834/ART468909-ADC74625701-3_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/8e/aa/30/1746642834/ART468909-ADC74625701-3_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/8e/da/88/1702829062/ART470075-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/8e/da/88/1702829062/ART470075-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/8f/00/48/1705929872/ART292403-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/8f/00/48/1705929872/ART292403-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/8e/da/88/1702829062/ART470075-1_300x300.webp,thumbnail/8e/da/88/1702829062/ART470075-1_300x300.webp,200,image/webp,5108,PASS,Recovered and validated from Wayback capture 20250609100713.
+/thumbnail/8e/da/88/1702829062/ART470075-1_90x90.webp,thumbnail/8e/da/88/1702829062/ART470075-1_90x90.webp,200,image/webp,928,PASS,Recovered and validated from Wayback capture 20250609100713.
+/thumbnail/8f/00/48/1705929872/ART292403-1_300x300.webp,thumbnail/8f/00/48/1705929872/ART292403-1_300x300.webp,200,image/webp,7992,PASS,Recovered and validated from Wayback capture 20250609100709.
+/thumbnail/8f/00/48/1705929872/ART292403-1_90x90.webp,thumbnail/8f/00/48/1705929872/ART292403-1_90x90.webp,200,image/webp,982,PASS,Recovered and validated from Wayback capture 20250609100707.
 /thumbnail/8f/7a/ec/1694150962/ART476628-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/8f/7a/ec/1694150962/ART476628-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/8f/c6/54/1732223855/ART469007.-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -35147,16 +35147,16 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/92/14/1a/1716960313/ART555360-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/92/1d/b0/1724507608/ART32929-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/92/1d/b0/1724507608/ART32929-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/92/21/9b/1705149714/ART215050-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/92/21/9b/1705149714/ART215050-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/92/e9/97/1704670268/ART140259-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/92/e9/97/1704670268/ART140259-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/92/21/9b/1705149714/ART215050-1_300x300.webp,thumbnail/92/21/9b/1705149714/ART215050-1_300x300.webp,200,image/webp,2352,PASS,Recovered and validated from Wayback capture 20250610093443.
+/thumbnail/92/21/9b/1705149714/ART215050-1_90x90.webp,thumbnail/92/21/9b/1705149714/ART215050-1_90x90.webp,200,image/webp,602,PASS,Recovered and validated from Wayback capture 20250610093443.
+/thumbnail/92/e9/97/1704670268/ART140259-1_300x300.webp,thumbnail/92/e9/97/1704670268/ART140259-1_300x300.webp,200,image/webp,3656,PASS,Recovered and validated from Wayback capture 20250609111507.
+/thumbnail/92/e9/97/1704670268/ART140259-1_90x90.webp,thumbnail/92/e9/97/1704670268/ART140259-1_90x90.webp,200,image/webp,832,PASS,Recovered and validated from Wayback capture 20250609111507.
 /thumbnail/93/06/92/1693980283/ART26622-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/93/06/92/1693980283/ART26622-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/93/54/8c/1725032594/ART26167-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/93/54/8c/1725032594/ART26167-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/93/bd/90/1704531106/ART114335-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/93/bd/90/1704531106/ART114335-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/93/54/8c/1725032594/ART26167-2_300x300.webp,thumbnail/93/54/8c/1725032594/ART26167-2_300x300.webp,200,image/webp,2956,PASS,Recovered and validated from Wayback capture 20250609111500.
+/thumbnail/93/54/8c/1725032594/ART26167-2_90x90.webp,thumbnail/93/54/8c/1725032594/ART26167-2_90x90.webp,200,image/webp,790,PASS,Recovered and validated from Wayback capture 20250609111500.
+/thumbnail/93/bd/90/1704531106/ART114335-1_300x300.webp,thumbnail/93/bd/90/1704531106/ART114335-1_300x300.webp,200,image/webp,1304,PASS,Recovered and validated from Wayback capture 20250609114229.
+/thumbnail/93/bd/90/1704531106/ART114335-1_90x90.webp,thumbnail/93/bd/90/1704531106/ART114335-1_90x90.webp,200,image/webp,308,PASS,Recovered and validated from Wayback capture 20250609114229.
 /thumbnail/93/f0/a2/1693986156/ART29400-3_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/93/f0/a2/1693986156/ART29400-3_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/94/33/ba/1700765547/ART62884-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -35173,10 +35173,10 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/95/bd/b3/1735667939/ART471137-481010567263-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/95/c5/53/1710394605/ART485620-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/95/c5/53/1710394605/ART485620-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/96/27/82/1735735574/ART647089-80021112-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/96/27/82/1735735574/ART647089-80021112-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/96/2c/99/1704965698/ART177451-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/96/2c/99/1704965698/ART177451-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/96/27/82/1735735574/ART647089-80021112-1_300x300.webp,thumbnail/96/27/82/1735735574/ART647089-80021112-1_300x300.webp,200,image/webp,2416,PASS,Recovered and validated from Wayback capture 20250610172554.
+/thumbnail/96/27/82/1735735574/ART647089-80021112-1_90x90.webp,thumbnail/96/27/82/1735735574/ART647089-80021112-1_90x90.webp,200,image/webp,598,PASS,Recovered and validated from Wayback capture 20250610172554.
+/thumbnail/96/2c/99/1704965698/ART177451-1_300x300.webp,thumbnail/96/2c/99/1704965698/ART177451-1_300x300.webp,200,image/webp,2272,PASS,Recovered and validated from Wayback capture 20250609102633.
+/thumbnail/96/2c/99/1704965698/ART177451-1_90x90.webp,thumbnail/96/2c/99/1704965698/ART177451-1_90x90.webp,200,image/webp,650,PASS,Recovered and validated from Wayback capture 20250609102633.
 /thumbnail/96/e0/2e/1730881239/ART741673-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/96/e0/2e/1730881239/ART741673-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/96/e9/g0/1725054841/ART475898-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -35197,20 +35197,20 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/98/9e/06/1694199773/ART513135-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/98/e2/a6/1694126447/ART43707-4_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/98/e2/a6/1694126447/ART43707-4_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/98/f1/0d/1706823073/ART315432-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/98/f1/0d/1706823073/ART315432-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/98/f1/0d/1706823073/ART315432-1_300x300.webp,thumbnail/98/f1/0d/1706823073/ART315432-1_300x300.webp,200,image/webp,11490,PASS,Recovered and validated from Wayback capture 20250610165805.
+/thumbnail/98/f1/0d/1706823073/ART315432-1_90x90.webp,thumbnail/98/f1/0d/1706823073/ART315432-1_90x90.webp,200,image/webp,778,PASS,Recovered and validated from Wayback capture 20250610165805.
 /thumbnail/99/43/4f/1733395487/ART535645-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/99/43/4f/1733395487/ART535645-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/99/56/57/1704600233/ART128567-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/99/56/57/1704600233/ART128567-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/99/69/a2/1705271352/ART235018-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/99/69/a2/1705271352/ART235018-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/99/56/57/1704600233/ART128567-1_300x300.webp,thumbnail/99/56/57/1704600233/ART128567-1_300x300.webp,200,image/webp,5258,PASS,Recovered and validated from Wayback capture 20250610165808.
+/thumbnail/99/56/57/1704600233/ART128567-1_90x90.webp,thumbnail/99/56/57/1704600233/ART128567-1_90x90.webp,200,image/webp,860,PASS,Recovered and validated from Wayback capture 20250610165807.
+/thumbnail/99/69/a2/1705271352/ART235018-1_300x300.webp,thumbnail/99/69/a2/1705271352/ART235018-1_300x300.webp,200,image/webp,2004,PASS,Recovered and validated from Wayback capture 20250609100705.
+/thumbnail/99/69/a2/1705271352/ART235018-1_90x90.webp,thumbnail/99/69/a2/1705271352/ART235018-1_90x90.webp,200,image/webp,572,PASS,Recovered and validated from Wayback capture 20250609100705.
 /thumbnail/9a/5b/c5/1731137440/ART1118774-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/9a/5b/c5/1731137440/ART1118774-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/9a/df/b0/1733438752/ART407244-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/9a/df/b0/1733438752/ART407244-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/9b/2e/88/1700909638/ART491282-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/9b/2e/88/1700909638/ART491282-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/9b/2e/88/1700909638/ART491282-1_300x300.webp,thumbnail/9b/2e/88/1700909638/ART491282-1_300x300.webp,200,image/webp,1666,PASS,Recovered and validated from Wayback capture 20250610165832.
+/thumbnail/9b/2e/88/1700909638/ART491282-1_90x90.webp,thumbnail/9b/2e/88/1700909638/ART491282-1_90x90.webp,200,image/webp,454,PASS,Recovered and validated from Wayback capture 20250610165831.
 /thumbnail/9b/6a/e7/1703873858/ART76050-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/9b/6a/e7/1703873858/ART76050-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/9b/c0/94/1710375405/ART104391-3_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -35221,12 +35221,12 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/9b/f9/ca/1693990300/ART31278-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/9c/05/f5/1719389417/ART173346-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/9c/05/f5/1719389417/ART173346-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/9c/25/17/1704947015/ART173346-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/9c/25/17/1704947015/ART173346-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/9c/25/17/1704947015/ART173346-1_300x300.webp,thumbnail/9c/25/17/1704947015/ART173346-1_300x300.webp,200,image/webp,1880,PASS,Recovered and validated from Wayback capture 20250610165814.
+/thumbnail/9c/25/17/1704947015/ART173346-1_90x90.webp,thumbnail/9c/25/17/1704947015/ART173346-1_90x90.webp,200,image/webp,502,PASS,Recovered and validated from Wayback capture 20250610165814.
 /thumbnail/9c/4c/12/1704614222/02226411_00704396_2_def-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/9c/4c/12/1704614222/02226411_00704396_2_def-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/9c/83/96/1704544977/ART117433-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/9c/83/96/1704544977/ART117433-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/9c/83/96/1704544977/ART117433-1_300x300.webp,thumbnail/9c/83/96/1704544977/ART117433-1_300x300.webp,200,image/webp,4144,PASS,Recovered and validated from Wayback capture 20250609100717.
+/thumbnail/9c/83/96/1704544977/ART117433-1_90x90.webp,thumbnail/9c/83/96/1704544977/ART117433-1_90x90.webp,200,image/webp,966,PASS,Recovered and validated from Wayback capture 20250609100717.
 /thumbnail/9c/a9/e2/1707202775/ART471697-3_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/9c/a9/e2/1707202775/ART471697-3_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/9c/ef/6d/1741444243/ART591385-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -35239,8 +35239,8 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/9e/b8/6d/1725038866/ART31334-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/9e/cc/1d/1733439272/ART364216-4_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/9e/cc/1d/1733439272/ART364216-4_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/9f/19/6f/1738484477/Segway%20Ninebot%20C2%20Ladegerat%20AB50003419_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/9f/19/6f/1738484477/Segway%20Ninebot%20C2%20Ladegerat%20AB50003419_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/9f/19/6f/1738484477/Segway%20Ninebot%20C2%20Ladegerat%20AB50003419_300x300.webp,thumbnail/9f/19/6f/1738484477/Segway Ninebot C2 Ladegerat AB50003419_300x300.webp,200,image/webp,4600,PASS,Recovered and validated from Wayback capture 20250609100707.
+/thumbnail/9f/19/6f/1738484477/Segway%20Ninebot%20C2%20Ladegerat%20AB50003419_90x90.webp,thumbnail/9f/19/6f/1738484477/Segway Ninebot C2 Ladegerat AB50003419_90x90.webp,200,image/webp,792,PASS,Recovered and validated from Wayback capture 20250609100709.
 /thumbnail/9f/3c/ae/1700909699/ART494221-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/9f/3c/ae/1700909699/ART494221-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/9f/5d/1e/1694153217/ART477313-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -35263,12 +35263,12 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/a0/ed/78/1702571512/ART469307-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/a0/f5/b2/1708764147/ART241348-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/a0/f5/b2/1708764147/ART241348-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/a1/3f/g0/1709934188/ART34926-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/a1/3f/g0/1709934188/ART34926-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/a1/3f/g0/1709934188/ART34926-1_300x300.webp,thumbnail/a1/3f/g0/1709934188/ART34926-1_300x300.webp,200,image/webp,2040,PASS,Recovered and validated from Wayback capture 20250609100712.
+/thumbnail/a1/3f/g0/1709934188/ART34926-1_90x90.webp,thumbnail/a1/3f/g0/1709934188/ART34926-1_90x90.webp,200,image/webp,426,PASS,Recovered and validated from Wayback capture 20250609100711.
 /thumbnail/a1/51/81/1725034327/ART231600-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/a1/51/81/1725034327/ART231600-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/a1/8c/7b/1737992943/ART894057-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/a1/8c/7b/1737992943/ART894057-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/a1/8c/7b/1737992943/ART894057-1_300x300.webp,thumbnail/a1/8c/7b/1737992943/ART894057-1_300x300.webp,200,image/webp,11696,PASS,Recovered and validated from Wayback capture 20250610171949.
+/thumbnail/a1/8c/7b/1737992943/ART894057-1_90x90.webp,thumbnail/a1/8c/7b/1737992943/ART894057-1_90x90.webp,200,image/webp,1940,PASS,Recovered and validated from Wayback capture 20250610171949.
 /thumbnail/a1/96/e0/1693994896/ART36507-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/a1/96/e0/1693994896/ART36507-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/a1/c4/f9/1693979541/ART26181-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -35297,8 +35297,8 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/a6/20/0c/1742841134/ART34514-3577343019-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/a6/41/cc/1694337428/ART545609-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/a6/41/cc/1694337428/ART545609-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/a6/9c/ce/1704727881/ART148000-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/a6/9c/ce/1704727881/ART148000-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/a6/9c/ce/1704727881/ART148000-1_300x300.webp,thumbnail/a6/9c/ce/1704727881/ART148000-1_300x300.webp,200,image/webp,2792,PASS,Recovered and validated from Wayback capture 20250609100701.
+/thumbnail/a6/9c/ce/1704727881/ART148000-1_90x90.webp,thumbnail/a6/9c/ce/1704727881/ART148000-1_90x90.webp,200,image/webp,538,PASS,Recovered and validated from Wayback capture 20250609100649.
 /thumbnail/a6/cd/64/1733847727/80021013_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/a6/cd/64/1733847727/80021013_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/a7/11/5c/1704557173/ART119854-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -35311,14 +35311,14 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/a7/dc/40/1694155593/ART478004-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/a7/e1/19/1725123485/ART72204-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/a7/e1/19/1725123485/ART72204-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/a7/f1/6e/1709873251/ART520474-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/a7/f1/6e/1709873251/ART520474-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/a7/f1/6e/1709873251/ART520474-1_300x300.webp,thumbnail/a7/f1/6e/1709873251/ART520474-1_300x300.webp,200,image/webp,1292,PASS,Recovered and validated from Wayback capture 20250610165830.
+/thumbnail/a7/f1/6e/1709873251/ART520474-1_90x90.webp,thumbnail/a7/f1/6e/1709873251/ART520474-1_90x90.webp,200,image/webp,360,PASS,Recovered and validated from Wayback capture 20250610165830.
 /thumbnail/a8/3d/a9/1702674821/ART67264-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/a8/3d/a9/1702674821/ART67264-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/a8/59/e6/1704334872/ART84290-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/a8/59/e6/1704334872/ART84290-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/a9/5a/3a/1704341807/ART513260-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/a9/5a/3a/1704341807/ART513260-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/a9/5a/3a/1704341807/ART513260-1_300x300.webp,thumbnail/a9/5a/3a/1704341807/ART513260-1_300x300.webp,200,image/webp,3050,PASS,Recovered and validated from Wayback capture 20250610174140.
+/thumbnail/a9/5a/3a/1704341807/ART513260-1_90x90.webp,thumbnail/a9/5a/3a/1704341807/ART513260-1_90x90.webp,200,image/webp,816,PASS,Recovered and validated from Wayback capture 20250610174034.
 /thumbnail/a9/70/9f/1694181360/ART494454-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/a9/70/9f/1694181360/ART494454-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/a9/b4/18/1735701891/ART301555-80070016-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -35335,24 +35335,24 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/aa/8f/f7/1704897427/ART32136-3_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/ab/09/10/1725047665/ART38173-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/ab/09/10/1725047665/ART38173-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/ab/59/28/1716363790/ART293867-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/ab/59/28/1716363790/ART293867-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/ab/59/28/1716363790/ART293867-1_300x300.webp,thumbnail/ab/59/28/1716363790/ART293867-1_300x300.webp,200,image/webp,1486,PASS,Recovered and validated from Wayback capture 20250609111505.
+/thumbnail/ab/59/28/1716363790/ART293867-1_90x90.webp,thumbnail/ab/59/28/1716363790/ART293867-1_90x90.webp,200,image/webp,414,PASS,Recovered and validated from Wayback capture 20250609111505.
 /thumbnail/ab/5b/46/1706075056/ART300989-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/ab/5b/46/1706075056/ART300989-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/ab/60/53/1703667825/ART75076-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/ab/60/53/1703667825/ART75076-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/ab/60/53/1703667825/ART75076-1_300x300.webp,thumbnail/ab/60/53/1703667825/ART75076-1_300x300.webp,200,image/webp,3244,PASS,Recovered and validated from Wayback capture 20250610092334.
+/thumbnail/ab/60/53/1703667825/ART75076-1_90x90.webp,thumbnail/ab/60/53/1703667825/ART75076-1_90x90.webp,200,image/webp,932,PASS,Recovered and validated from Wayback capture 20250610092334.
 /thumbnail/ab/77/a0/1735741944/ART56665-9010227-4_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/ab/77/a0/1735741944/ART56665-9010227-4_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/ab/be/32/1704657618/ART138360-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/ab/be/32/1704657618/ART138360-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/ab/ef/e1/1693985668/ART27696-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/ab/ef/e1/1693985668/ART27696-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/ac/1b/a3/1700957671/ART542777-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/ac/1b/a3/1700957671/ART542777-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/ac/1b/a3/1700957671/ART542777-1_300x300.webp,thumbnail/ac/1b/a3/1700957671/ART542777-1_300x300.webp,200,image/webp,2440,PASS,Recovered and validated from Wayback capture 20250609100700.
+/thumbnail/ac/1b/a3/1700957671/ART542777-1_90x90.webp,thumbnail/ac/1b/a3/1700957671/ART542777-1_90x90.webp,200,image/webp,632,PASS,Recovered and validated from Wayback capture 20250609100700.
 /thumbnail/ac/22/f9/1731280202/ART281286-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/ac/22/f9/1731280202/ART281286-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/ac/5e/91/1733408029/soflow_so4_2nd_handyhalter_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/ac/5e/91/1733408029/soflow_so4_2nd_handyhalter_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/ac/5e/91/1733408029/soflow_so4_2nd_handyhalter_300x300.webp,thumbnail/ac/5e/91/1733408029/soflow_so4_2nd_handyhalter_300x300.webp,200,image/webp,3680,PASS,Recovered and validated from Wayback capture 20250609100704.
+/thumbnail/ac/5e/91/1733408029/soflow_so4_2nd_handyhalter_90x90.webp,thumbnail/ac/5e/91/1733408029/soflow_so4_2nd_handyhalter_90x90.webp,200,image/webp,848,PASS,Recovered and validated from Wayback capture 20250609100704.
 /thumbnail/ac/aa/b2/1722507933/ART647546-3_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/ac/aa/b2/1722507933/ART647546-3_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/ae/b7/02/1723144058/ART476353-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -35369,22 +35369,22 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/af/8b/0c/1693986204/ART29620-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/af/bf/93/1706900660/ART331484-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/af/bf/93/1706900660/ART331484-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/b0/1b/3d/1704862334/ART161338-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/b0/1b/3d/1704862334/ART161338-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/b0/1b/3d/1704862334/ART161338-1_300x300.webp,thumbnail/b0/1b/3d/1704862334/ART161338-1_300x300.webp,200,image/webp,1518,PASS,Recovered and validated from Wayback capture 20250610092332.
+/thumbnail/b0/1b/3d/1704862334/ART161338-1_90x90.webp,thumbnail/b0/1b/3d/1704862334/ART161338-1_90x90.webp,200,image/webp,372,PASS,Recovered and validated from Wayback capture 20250610092332.
 /thumbnail/b0/37/fd/1704756669/ART94736-3_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/b0/37/fd/1704756669/ART94736-3_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/b0/67/13/1718901426/ART467797-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/b0/67/13/1718901426/ART467797-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/b0/e9/26/1693979912/ART26380-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/b0/e9/26/1693979912/ART26380-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/b1/25/fd/1724839449/ART300572-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/b1/25/fd/1724839449/ART300572-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/b1/25/fd/1724839449/ART300572-1_300x300.webp,thumbnail/b1/25/fd/1724839449/ART300572-1_300x300.webp,200,image/webp,722,PASS,Recovered and validated from Wayback capture 20250609111505.
+/thumbnail/b1/25/fd/1724839449/ART300572-1_90x90.webp,thumbnail/b1/25/fd/1724839449/ART300572-1_90x90.webp,200,image/webp,202,PASS,Recovered and validated from Wayback capture 20250609111505.
 /thumbnail/b1/48/47/1733484078/ART381435-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/b1/48/47/1733484078/ART381435-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/b1/48/7e/1694102904/ART41664-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/b1/48/7e/1694102904/ART41664-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/b1/6c/2f/1704958232/ART33870-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/b1/6c/2f/1704958232/ART33870-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/b1/6c/2f/1704958232/ART33870-1_300x300.webp,thumbnail/b1/6c/2f/1704958232/ART33870-1_300x300.webp,200,image/webp,902,PASS,Recovered and validated from Wayback capture 20250610092402.
+/thumbnail/b1/6c/2f/1704958232/ART33870-1_90x90.webp,thumbnail/b1/6c/2f/1704958232/ART33870-1_90x90.webp,200,image/webp,198,PASS,Recovered and validated from Wayback capture 20250610092402.
 /thumbnail/b1/c1/39/1710271677/ART467889-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/b1/c1/39/1710271677/ART467889-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/b1/f0/a9/1702751712/ART470768-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -35413,8 +35413,8 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/b5/47/14/1695615702/ART518651-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/b5/86/a0/1702932216/ART497845-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/b5/86/a0/1702932216/ART497845-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/b5/cb/64/1703460208/ART74593-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/b5/cb/64/1703460208/ART74593-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/b5/cb/64/1703460208/ART74593-1_300x300.webp,thumbnail/b5/cb/64/1703460208/ART74593-1_300x300.webp,200,image/webp,3442,PASS,Recovered and validated from Wayback capture 20250609121032.
+/thumbnail/b5/cb/64/1703460208/ART74593-1_90x90.webp,thumbnail/b5/cb/64/1703460208/ART74593-1_90x90.webp,200,image/webp,708,PASS,Recovered and validated from Wayback capture 20250609120134.
 /thumbnail/b5/e9/78/1725105244/ART531922-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/b5/e9/78/1725105244/ART531922-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/b5/ef/b4/1695615787/ART519251-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -35427,8 +35427,8 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/b7/3c/08/1728496486/ART540825-3_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/b7/3d/b2/1694185607/ART499688-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/b7/3d/b2/1694185607/ART499688-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/b7/62/c4/1700908856/ART26167-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/b7/62/c4/1700908856/ART26167-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/b7/62/c4/1700908856/ART26167-1_300x300.webp,thumbnail/b7/62/c4/1700908856/ART26167-1_300x300.webp,200,image/webp,8816,PASS,Recovered and validated from Wayback capture 20250609111500.
+/thumbnail/b7/62/c4/1700908856/ART26167-1_90x90.webp,thumbnail/b7/62/c4/1700908856/ART26167-1_90x90.webp,200,image/webp,1772,PASS,Recovered and validated from Wayback capture 20250609111500.
 /thumbnail/b7/ff/18/1738920081/ART532266-PSE50296EU-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/b7/ff/18/1738920081/ART532266-PSE50296EU-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/b8/0b/8b/1735655861/ART482632.-00668114-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -35483,8 +35483,8 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/bc/cf/c5/1735764016/ART507117-00172686-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/bc/fc/2e/1723724556/ART476093-3_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/bc/fc/2e/1723724556/ART476093-3_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/bd/08/d1/1701202757/ART30491-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/bd/08/d1/1701202757/ART30491-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/bd/08/d1/1701202757/ART30491-1_300x300.webp,thumbnail/bd/08/d1/1701202757/ART30491-1_300x300.webp,200,image/webp,2846,PASS,Recovered and validated from Wayback capture 20250609112724.
+/thumbnail/bd/08/d1/1701202757/ART30491-1_90x90.webp,thumbnail/bd/08/d1/1701202757/ART30491-1_90x90.webp,200,image/webp,714,PASS,Recovered and validated from Wayback capture 20250609112722.
 /thumbnail/bd/72/b5/1701387192/ART485397-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/bd/72/b5/1701387192/ART485397-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/be/86/45/1693990310/ART31333-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -35509,8 +35509,8 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/c1/80/6f/1704376630/ART475711-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/c1/d2/99/1704473234/ART103468-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/c1/d2/99/1704473234/ART103468-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/c1/e9/7d/1702504249/ART26993-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/c1/e9/7d/1702504249/ART26993-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/c1/e9/7d/1702504249/ART26993-1_300x300.webp,thumbnail/c1/e9/7d/1702504249/ART26993-1_300x300.webp,200,image/webp,4224,PASS,Recovered and validated from Wayback capture 20250609100709.
+/thumbnail/c1/e9/7d/1702504249/ART26993-1_90x90.webp,thumbnail/c1/e9/7d/1702504249/ART26993-1_90x90.webp,200,image/webp,838,PASS,Recovered and validated from Wayback capture 20250609100709.
 /thumbnail/c2/ec/34/1710280869/ART514456-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/c2/ec/34/1710280869/ART514456-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/c3/08/be/1694162419/ART479953-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -35561,8 +35561,8 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/ca/0f/55/1700909622/ART490198-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/ca/7d/74/1741970482/ART468241-481010585335-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/ca/7d/74/1741970482/ART468241-481010585335-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/cb/6d/0c/1707629666/ART358524-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/cb/6d/0c/1707629666/ART358524-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/cb/6d/0c/1707629666/ART358524-1_300x300.webp,thumbnail/cb/6d/0c/1707629666/ART358524-1_300x300.webp,200,image/webp,2616,PASS,Recovered and validated from Wayback capture 20250609100709.
+/thumbnail/cb/6d/0c/1707629666/ART358524-1_90x90.webp,thumbnail/cb/6d/0c/1707629666/ART358524-1_90x90.webp,200,image/webp,508,PASS,Recovered and validated from Wayback capture 20250609100709.
 /thumbnail/cb/6d/27/1716365146/ART294742-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/cb/6d/27/1716365146/ART294742-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/cb/7d/2e/1739347341/Kaltgerate%20Netzkabel%20Schuko%20EU%201%2C8m%20schwarz%2010A%20250V%20Ersatzteil_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -35581,20 +35581,20 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/cc/48/8f/1722320149/ART146629-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/cd/00/be/1724250367/ART493569-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/cd/00/be/1724250367/ART493569-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/cd/21/2f/1704311436/ART500716-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/cd/21/2f/1704311436/ART500716-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/cd/4d/35/1704947115/ART173421-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/cd/4d/35/1704947115/ART173421-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/cd/75/ff/1709931807/ART535645-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/cd/75/ff/1709931807/ART535645-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/cd/8e/61/1710101538/ART517822-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/cd/8e/61/1710101538/ART517822-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/cd/21/2f/1704311436/ART500716-1_300x300.webp,thumbnail/cd/21/2f/1704311436/ART500716-1_300x300.webp,200,image/webp,3888,PASS,Recovered and validated from Wayback capture 20250610093341.
+/thumbnail/cd/21/2f/1704311436/ART500716-1_90x90.webp,thumbnail/cd/21/2f/1704311436/ART500716-1_90x90.webp,200,image/webp,776,PASS,Recovered and validated from Wayback capture 20250610093341.
+/thumbnail/cd/4d/35/1704947115/ART173421-1_300x300.webp,thumbnail/cd/4d/35/1704947115/ART173421-1_300x300.webp,200,image/webp,2150,PASS,Recovered and validated from Wayback capture 20250610092331.
+/thumbnail/cd/4d/35/1704947115/ART173421-1_90x90.webp,thumbnail/cd/4d/35/1704947115/ART173421-1_90x90.webp,200,image/webp,488,PASS,Recovered and validated from Wayback capture 20250610092331.
+/thumbnail/cd/75/ff/1709931807/ART535645-1_300x300.webp,thumbnail/cd/75/ff/1709931807/ART535645-1_300x300.webp,200,image/webp,1850,PASS,Recovered and validated from Wayback capture 20250609100712.
+/thumbnail/cd/75/ff/1709931807/ART535645-1_90x90.webp,thumbnail/cd/75/ff/1709931807/ART535645-1_90x90.webp,200,image/webp,430,PASS,Recovered and validated from Wayback capture 20250609100712.
+/thumbnail/cd/8e/61/1710101538/ART517822-1_300x300.webp,thumbnail/cd/8e/61/1710101538/ART517822-1_300x300.webp,200,image/webp,9716,PASS,Recovered and validated from Wayback capture 20250610165803.
+/thumbnail/cd/8e/61/1710101538/ART517822-1_90x90.webp,thumbnail/cd/8e/61/1710101538/ART517822-1_90x90.webp,200,image/webp,830,PASS,Recovered and validated from Wayback capture 20250610165803.
 /thumbnail/cd/bb/5c/1704477134/ART467644-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/cd/bb/5c/1704477134/ART467644-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/cd/cc/10/1716365386/ART295367-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/cd/cc/10/1716365386/ART295367-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/cd/f1/c7/1700908330/ART467672-3_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/cd/f1/c7/1700908330/ART467672-3_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/cd/f1/c7/1700908330/ART467672-3_300x300.webp,thumbnail/cd/f1/c7/1700908330/ART467672-3_300x300.webp,200,image/webp,6160,PASS,Recovered and validated from Wayback capture 20250609100707.
+/thumbnail/cd/f1/c7/1700908330/ART467672-3_90x90.webp,thumbnail/cd/f1/c7/1700908330/ART467672-3_90x90.webp,200,image/webp,1246,PASS,Recovered and validated from Wayback capture 20250609100708.
 /thumbnail/ce/30/df/1720555165/ART514732-3_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/ce/30/df/1720555165/ART514732-3_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/ce/84/95/1694318806/ART531140-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -35623,8 +35623,8 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/d0/e8/70/1694199773/ART513135-3_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/d1/89/00/1700662051/ART61549-3_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/d1/89/00/1700662051/ART61549-3_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/d2/bd/29/1705062447/ART198061-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/d2/bd/29/1705062447/ART198061-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/d2/bd/29/1705062447/ART198061-1_300x300.webp,thumbnail/d2/bd/29/1705062447/ART198061-1_300x300.webp,200,image/webp,5626,PASS,Recovered and validated from Wayback capture 20250610165804.
+/thumbnail/d2/bd/29/1705062447/ART198061-1_90x90.webp,thumbnail/d2/bd/29/1705062447/ART198061-1_90x90.webp,200,image/webp,1148,PASS,Recovered and validated from Wayback capture 20250610165804.
 /thumbnail/d2/c3/08/1693990425/ART467595-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/d2/c3/08/1693990425/ART467595-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/d3/4f/5a/1731928276/ART137343-3_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -35641,8 +35641,8 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/d5/00/42/1722500000/ART647073-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/d5/8e/3c/1704715157/ART146620-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/d5/8e/3c/1704715157/ART146620-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/d5/96/20/1700908895/ART28191-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/d5/96/20/1700908895/ART28191-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/d5/96/20/1700908895/ART28191-1_300x300.webp,thumbnail/d5/96/20/1700908895/ART28191-1_300x300.webp,200,image/webp,2048,PASS,Recovered and validated from Wayback capture 20250610092314.
+/thumbnail/d5/96/20/1700908895/ART28191-1_90x90.webp,thumbnail/d5/96/20/1700908895/ART28191-1_90x90.webp,200,image/webp,448,PASS,Recovered and validated from Wayback capture 20250610092314.
 /thumbnail/d5/b6/a9/1710383225/ART508222-3_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/d5/b6/a9/1710383225/ART508222-3_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/d5/c0/29/1743691915/ART480443-140075066047-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -35665,8 +35665,8 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/d6/68/90/1722925948/ART406670-3_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/d6/d2/f2/1720796852/ART73972-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/d6/d2/f2/1720796852/ART73972-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/d7/34/67/1701040291/ART550311-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/d7/34/67/1701040291/ART550311-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/d7/34/67/1701040291/ART550311-1_300x300.webp,thumbnail/d7/34/67/1701040291/ART550311-1_300x300.webp,200,image/webp,7744,PASS,Recovered and validated from Wayback capture 20250610092322.
+/thumbnail/d7/34/67/1701040291/ART550311-1_90x90.webp,thumbnail/d7/34/67/1701040291/ART550311-1_90x90.webp,200,image/webp,1688,PASS,Recovered and validated from Wayback capture 20250610092322.
 /thumbnail/d7/47/3c/1736421248/ART493749-00481710-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/d7/47/3c/1736421248/ART493749-00481710-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/d7/d9/1d/1731172794/ART808760-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -35719,10 +35719,10 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/e0/d4/62/1732204241/ART536709-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/e1/03/d2/1738509881/ART300529-80027005-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/e1/03/d2/1738509881/ART300529-80027005-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/e1/38/9a/1704445927/ART100351-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/e1/38/9a/1704445927/ART100351-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/e2/5d/8e/1706810767/ART312377-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/e2/5d/8e/1706810767/ART312377-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/e1/38/9a/1704445927/ART100351-1_300x300.webp,thumbnail/e1/38/9a/1704445927/ART100351-1_300x300.webp,200,image/webp,3498,PASS,Recovered and validated from Wayback capture 20250609111506.
+/thumbnail/e1/38/9a/1704445927/ART100351-1_90x90.webp,thumbnail/e1/38/9a/1704445927/ART100351-1_90x90.webp,200,image/webp,730,PASS,Recovered and validated from Wayback capture 20250609111506.
+/thumbnail/e2/5d/8e/1706810767/ART312377-1_300x300.webp,thumbnail/e2/5d/8e/1706810767/ART312377-1_300x300.webp,200,image/webp,5826,PASS,Recovered and validated from Wayback capture 20250610165758.
+/thumbnail/e2/5d/8e/1706810767/ART312377-1_90x90.webp,thumbnail/e2/5d/8e/1706810767/ART312377-1_90x90.webp,200,image/webp,964,PASS,Recovered and validated from Wayback capture 20250610165758.
 /thumbnail/e2/6d/7a/1719700593/ART467432-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/e2/6d/7a/1719700593/ART467432-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/e2/b7/20/1704841310/ART97943-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -35731,20 +35731,20 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/e3/31/be/1731928296/ART409962-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/e3/eb/66/1722498876/ART647007-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/e3/eb/66/1722498876/ART647007-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/e4/80/f2/1703121928/ART467889-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/e4/80/f2/1703121928/ART467889-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/e4/80/f2/1703121928/ART467889-1_300x300.webp,thumbnail/e4/80/f2/1703121928/ART467889-1_300x300.webp,200,image/webp,6188,PASS,Recovered and validated from Wayback capture 20250610165805.
+/thumbnail/e4/80/f2/1703121928/ART467889-1_90x90.webp,thumbnail/e4/80/f2/1703121928/ART467889-1_90x90.webp,200,image/webp,1068,PASS,Recovered and validated from Wayback capture 20250610165805.
 /thumbnail/e4/b1/6b/1700662047/ART61549-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/e4/b1/6b/1700662047/ART61549-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/e4/c3/5d/1700913929/ART514596-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/e4/c3/5d/1700913929/ART514596-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/e4/cc/d9/1721262264/ART627585-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/e4/cc/d9/1721262264/ART627585-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/e4/cc/d9/1721262264/ART627585-1_300x300.webp,thumbnail/e4/cc/d9/1721262264/ART627585-1_300x300.webp,200,image/webp,6194,PASS,Recovered and validated from Wayback capture 20250609103429.
+/thumbnail/e4/cc/d9/1721262264/ART627585-1_90x90.webp,thumbnail/e4/cc/d9/1721262264/ART627585-1_90x90.webp,200,image/webp,1018,PASS,Recovered and validated from Wayback capture 20250609103428.
 /thumbnail/e5/a6/03/1735710077/ART230698-81772822-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/e5/a6/03/1735710077/ART230698-81772822-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/e5/a8/f1/1725016291/ART468010-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/e5/a8/f1/1725016291/ART468010-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/e5/ed/df/1716368240/ART314311-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/e5/ed/df/1716368240/ART314311-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/e5/ed/df/1716368240/ART314311-1_300x300.webp,thumbnail/e5/ed/df/1716368240/ART314311-1_300x300.webp,200,image/webp,1662,PASS,Recovered and validated from Wayback capture 20250609111510.
+/thumbnail/e5/ed/df/1716368240/ART314311-1_90x90.webp,thumbnail/e5/ed/df/1716368240/ART314311-1_90x90.webp,200,image/webp,434,PASS,Recovered and validated from Wayback capture 20250609111510.
 /thumbnail/e6/59/64/1729168226/ART136828-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/e6/59/64/1729168226/ART136828-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/e6/80/74/1718826943/ART530854-3_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -35757,8 +35757,8 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/e6/e3/91/1705026277/ART186964-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/e7/02/c4/1725061023/ART481065-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/e7/02/c4/1725061023/ART481065-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/e7/2f/e1/1704574399/ART123817-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/e7/2f/e1/1704574399/ART123817-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/e7/2f/e1/1704574399/ART123817-1_300x300.webp,thumbnail/e7/2f/e1/1704574399/ART123817-1_300x300.webp,200,image/webp,4560,PASS,Recovered and validated from Wayback capture 20250609100702.
+/thumbnail/e7/2f/e1/1704574399/ART123817-1_90x90.webp,thumbnail/e7/2f/e1/1704574399/ART123817-1_90x90.webp,200,image/webp,1056,PASS,Recovered and validated from Wayback capture 20250609100702.
 /thumbnail/e7/5a/92/1694199883/ART513486-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/e7/5a/92/1694199883/ART513486-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/e7/97/d0/1719295265/ART514252-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -35767,12 +35767,12 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/e7/bd/40/1736423856/ART883009-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/e9/33/a6/1725038753/ART106733-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/e9/33/a6/1725038753/ART106733-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/e9/3b/3a/1704669398/ART468551-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/e9/3b/3a/1704669398/ART468551-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/e9/3b/3a/1704669398/ART468551-1_300x300.webp,thumbnail/e9/3b/3a/1704669398/ART468551-1_300x300.webp,200,image/webp,2730,PASS,Recovered and validated from Wayback capture 20250609111501.
+/thumbnail/e9/3b/3a/1704669398/ART468551-1_90x90.webp,thumbnail/e9/3b/3a/1704669398/ART468551-1_90x90.webp,200,image/webp,728,PASS,Recovered and validated from Wayback capture 20250609111501.
 /thumbnail/e9/53/25/1742832779/ART475446-5610468034-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/e9/53/25/1742832779/ART475446-5610468034-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/e9/ae/35/1705396135/ART250695-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/e9/ae/35/1705396135/ART250695-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/e9/ae/35/1705396135/ART250695-1_300x300.webp,thumbnail/e9/ae/35/1705396135/ART250695-1_300x300.webp,200,image/webp,2380,PASS,Recovered and validated from Wayback capture 20250609113739.
+/thumbnail/e9/ae/35/1705396135/ART250695-1_90x90.webp,thumbnail/e9/ae/35/1705396135/ART250695-1_90x90.webp,200,image/webp,600,PASS,Recovered and validated from Wayback capture 20250609113431.
 /thumbnail/ea/95/af/1693979411/ART26101-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/ea/95/af/1693979411/ART26101-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/ea/a4/da/1702216113/ART469366-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -35787,32 +35787,32 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/eb/aa/49/1693990326/ART31416-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/ec/56/66/1695613381/ART533016-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/ec/56/66/1695613381/ART533016-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/ec/6e/2d/1746641186/ART486251-00672818-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/ec/6e/2d/1746641186/ART486251-00672818-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/ec/6e/2d/1746641186/ART486251-00672818-1_300x300.webp,thumbnail/ec/6e/2d/1746641186/ART486251-00672818-1_300x300.webp,200,image/webp,3328,PASS,Recovered and validated from Wayback capture 20250609100719.
+/thumbnail/ec/6e/2d/1746641186/ART486251-00672818-1_90x90.webp,thumbnail/ec/6e/2d/1746641186/ART486251-00672818-1_90x90.webp,200,image/webp,860,PASS,Recovered and validated from Wayback capture 20250609100719.
 /thumbnail/ec/90/17/1693991108/ART33705-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/ec/90/17/1693991108/ART33705-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/ec/b8/b7/1735674422/ART467855-422203626141-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/ec/b8/b7/1735674422/ART467855-422203626141-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/ec/dc/6d/1695615698/ART513691-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/ec/dc/6d/1695615698/ART513691-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/ed/07/18/1701893073/ART25755-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/ed/07/18/1701893073/ART25755-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/ed/07/18/1701893073/ART25755-1_300x300.webp,thumbnail/ed/07/18/1701893073/ART25755-1_300x300.webp,200,image/webp,3592,PASS,Recovered and validated from Wayback capture 20250609100708.
+/thumbnail/ed/07/18/1701893073/ART25755-1_90x90.webp,thumbnail/ed/07/18/1701893073/ART25755-1_90x90.webp,200,image/webp,798,PASS,Recovered and validated from Wayback capture 20250609100707.
 /thumbnail/ed/44/ec/1703617120/ART476929-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/ed/44/ec/1703617120/ART476929-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/ed/92/af/1705111457/ART207733-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/ed/92/af/1705111457/ART207733-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/ed/92/af/1705111457/ART207733-1_300x300.webp,thumbnail/ed/92/af/1705111457/ART207733-1_300x300.webp,200,image/webp,8054,PASS,Recovered and validated from Wayback capture 20250609103649.
+/thumbnail/ed/92/af/1705111457/ART207733-1_90x90.webp,thumbnail/ed/92/af/1705111457/ART207733-1_90x90.webp,200,image/webp,1478,PASS,Recovered and validated from Wayback capture 20250609103648.
 /thumbnail/ed/98/73/1725033154/ART26604-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/ed/98/73/1725033154/ART26604-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/ed/bc/40/1694102904/ART41664-3_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/ed/bc/40/1694102904/ART41664-3_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/ee/4c/bd/1704615745/01860196_11010054-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/ee/4c/bd/1704615745/01860196_11010054-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/ee/65/42/1701611986/ART469205-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/ee/65/42/1701611986/ART469205-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/ee/65/42/1701611986/ART469205-1_300x300.webp,thumbnail/ee/65/42/1701611986/ART469205-1_300x300.webp,200,image/webp,1898,PASS,Recovered and validated from Wayback capture 20250609100721.
+/thumbnail/ee/65/42/1701611986/ART469205-1_90x90.webp,thumbnail/ee/65/42/1701611986/ART469205-1_90x90.webp,200,image/webp,458,PASS,Recovered and validated from Wayback capture 20250609100722.
 /thumbnail/ee/8b/0c/1704483970/ART105782-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/ee/8b/0c/1704483970/ART105782-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/ef/04/97/1704600224/ART128561-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/ef/04/97/1704600224/ART128561-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/ef/04/97/1704600224/ART128561-1_300x300.webp,thumbnail/ef/04/97/1704600224/ART128561-1_300x300.webp,200,image/webp,1496,PASS,Recovered and validated from Wayback capture 20250609111949.
+/thumbnail/ef/04/97/1704600224/ART128561-1_90x90.webp,thumbnail/ef/04/97/1704600224/ART128561-1_90x90.webp,200,image/webp,410,PASS,Recovered and validated from Wayback capture 20250609111838.
 /thumbnail/ef/11/5e/1713371272/ART537404-3_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/ef/11/5e/1713371272/ART537404-3_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/f0/07/8d/1723906437/ART544993-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -35847,18 +35847,18 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/f4/8a/08/1735675130/ART467367-11035685-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/f4/ee/3e/1694187066/ART501283-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/f4/ee/3e/1694187066/ART501283-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/f4/f9/6a/1724433389/ART63312-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/f4/f9/6a/1724433389/ART63312-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/f4/f9/6a/1724433389/ART63312-2_300x300.webp,thumbnail/f4/f9/6a/1724433389/ART63312-2_300x300.webp,200,image/webp,3748,PASS,Recovered and validated from Wayback capture 20250609100709.
+/thumbnail/f4/f9/6a/1724433389/ART63312-2_90x90.webp,thumbnail/f4/f9/6a/1724433389/ART63312-2_90x90.webp,200,image/webp,1048,PASS,Recovered and validated from Wayback capture 20250609100709.
 /thumbnail/f5/3d/6e/1733395620/ART519432-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/f5/3d/6e/1733395620/ART519432-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/f5/6b/9e/1731928296/ART409962-4_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/f5/6b/9e/1731928296/ART409962-4_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/f5/6e/99/1693986126/ART29276-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/f5/6e/99/1693986126/ART29276-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/f5/81/1c/1703680577/ART75520-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/f5/81/1c/1703680577/ART75520-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/f5/83/b6/1739278144/ART489759-0_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/f5/83/b6/1739278144/ART489759-0_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/f5/81/1c/1703680577/ART75520-1_300x300.webp,thumbnail/f5/81/1c/1703680577/ART75520-1_300x300.webp,200,image/webp,3222,PASS,Recovered and validated from Wayback capture 20250609104020.
+/thumbnail/f5/81/1c/1703680577/ART75520-1_90x90.webp,thumbnail/f5/81/1c/1703680577/ART75520-1_90x90.webp,200,image/webp,884,PASS,Recovered and validated from Wayback capture 20250609104009.
+/thumbnail/f5/83/b6/1739278144/ART489759-0_300x300.webp,thumbnail/f5/83/b6/1739278144/ART489759-0_300x300.webp,200,image/webp,4446,PASS,Recovered and validated from Wayback capture 20250609100700.
+/thumbnail/f5/83/b6/1739278144/ART489759-0_90x90.webp,thumbnail/f5/83/b6/1739278144/ART489759-0_90x90.webp,200,image/webp,998,PASS,Recovered and validated from Wayback capture 20250609100700.
 /thumbnail/f5/b4/f5/1721223015/ART485620-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/f5/b4/f5/1721223015/ART485620-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/f5/f6/f4/1728484788/ART146626-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -35871,14 +35871,14 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/f6/a0/d8/1704606767/ART129915-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/f7/17/a5/1702674820/ART67264-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/f7/17/a5/1702674820/ART67264-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/f7/6d/80/1735700789/ART30390-71881-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/f7/6d/80/1735700789/ART30390-71881-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/f7/6d/80/1735700789/ART30390-71881-1_300x300.webp,thumbnail/f7/6d/80/1735700789/ART30390-71881-1_300x300.webp,200,image/webp,3388,PASS,Recovered and validated from Wayback capture 20250609100710.
+/thumbnail/f7/6d/80/1735700789/ART30390-71881-1_90x90.webp,thumbnail/f7/6d/80/1735700789/ART30390-71881-1_90x90.webp,200,image/webp,876,PASS,Recovered and validated from Wayback capture 20250609100710.
 /thumbnail/f7/77/c7/1735735493/ART647089-80021112-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/f7/77/c7/1735735493/ART647089-80021112-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/f7/9a/ef/1735747412/ART550911-00645108-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/f7/9a/ef/1735747412/ART550911-00645108-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/f8/20/fa/1704487471/ART106733-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/f8/20/fa/1704487471/ART106733-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/f8/20/fa/1704487471/ART106733-1_300x300.webp,thumbnail/f8/20/fa/1704487471/ART106733-1_300x300.webp,200,image/webp,3422,PASS,Recovered and validated from Wayback capture 20250609100708.
+/thumbnail/f8/20/fa/1704487471/ART106733-1_90x90.webp,thumbnail/f8/20/fa/1704487471/ART106733-1_90x90.webp,200,image/webp,874,PASS,Recovered and validated from Wayback capture 20250609100708.
 /thumbnail/f8/25/8a/1693991176/ART34007-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/f8/25/8a/1693991176/ART34007-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/f8/3d/6c/1725100868/ART526323-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
@@ -35903,8 +35903,8 @@ route,source_file,http_status,content_type,bytes,qa_status,note
 /thumbnail/fb/73/17/1705271578/ART235105-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/fb/dc/c9/1693985686/ART27758-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/fb/dc/c9/1693985686/ART27758-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/fb/eb/b2/1701751973/ART473123-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
-/thumbnail/fb/eb/b2/1701751973/ART473123-1_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
+/thumbnail/fb/eb/b2/1701751973/ART473123-1_300x300.webp,thumbnail/fb/eb/b2/1701751973/ART473123-1_300x300.webp,200,image/webp,3852,PASS,Recovered and validated from Wayback capture 20250610093241.
+/thumbnail/fb/eb/b2/1701751973/ART473123-1_90x90.webp,thumbnail/fb/eb/b2/1701751973/ART473123-1_90x90.webp,200,image/webp,808,PASS,Recovered and validated from Wayback capture 20250610093216.
 /thumbnail/fc/4c/4c/1718789459/ART72482-2_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/fc/4c/4c/1718789459/ART72482-2_90x90.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.
 /thumbnail/fc/94/00/1705835834/ART285909-1_300x300.webp,,404,text/html,0,FAIL,Referenced local page is absent; see WEBSITE_UNRESOLVED_ROUTES.csv for referring pages.

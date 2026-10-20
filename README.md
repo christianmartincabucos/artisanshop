@@ -21,3 +21,5 @@ The static archive can render captured pages and the local product catalog. The 
 - Sitemap publication is disabled until a verified production domain is configured.
 - `404.html` gives a useful recovery-specific not-found page on hosts that support static 404 files.
 - `WEBSITE_QA_REPORT.md` and `WEBSITE_ROUTE_STATUS.csv` document the route, link, and resource checks.
+- `tools/recover_wayback_resources.py` can recover exact-path files from Internet Archive captures made before `2025-08-25 13:25:36`. Requests are restricted to `web.archive.org`; it never fetches from the live ArtisanShop domain. Captures are selected using the cached CDX indexes under `/tmp/artisanshop-wayback-cdx/`. Run it from the project with `python3 tools/recover_wayback_resources.py`; review `WAYBACK_RECOVERY_INVENTORY.csv` for capture dates and outcomes.
+- The current recovery inventory contains 27 archived HTML pages and 244 image variants. It does not imply that all links on those pages are available; remaining missing targets are listed in the QA CSV inventories.
