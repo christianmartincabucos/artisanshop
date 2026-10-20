@@ -25,3 +25,4 @@ Disallow: */imprint$
 Disallow: */privacy$
 Disallow: */gtc$
 
+Sitemap: https://www.artisanshop.ch/sitemap.xml
