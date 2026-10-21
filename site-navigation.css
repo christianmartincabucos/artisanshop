@@ -1,0 +1,82 @@
+.site-navigation-backdrop[hidden],
+.site-navigation-drawer[hidden] {
+  display: none !important;
+}
+
+.site-navigation-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 1090;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: 0;
+  background: rgb(0 0 0 / 55%);
+}
+
+.site-navigation-drawer {
+  position: fixed;
+  inset: 0 auto 0 0;
+  z-index: 1091;
+  display: block;
+  width: min(88vw, 380px);
+  max-width: 100%;
+  height: 100dvh;
+  overflow: auto;
+  padding: 1rem;
+  background: #fff;
+  box-shadow: 0 0 24px rgb(0 0 0 / 20%);
+  overscroll-behavior: contain;
+}
+
+.site-navigation-drawer .navigation-offcanvas-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.site-navigation-drawer .navigation-offcanvas-link {
+  display: flex;
+  min-height: 48px;
+  align-items: center;
+  justify-content: space-between;
+  padding: .75rem .25rem;
+  border-bottom: 1px solid #dadbd2;
+  color: #274533;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.site-navigation-drawer .navigation-offcanvas-link:hover,
+.site-navigation-drawer .navigation-offcanvas-link:focus-visible {
+  color: #2b6649;
+  text-decoration: underline;
+}
+
+.site-navigation-drawer .offcanvas-header {
+  position: sticky;
+  top: -1rem;
+  z-index: 1;
+  display: flex;
+  justify-content: flex-end;
+  padding: .5rem 0;
+  background: #fff;
+}
+
+.site-navigation-open {
+  overflow: hidden;
+}
+
+.header-logo-main-navigation.richmenu-openclose[role="button"]:focus-visible,
+.site-navigation-drawer :focus-visible {
+  outline: 3px solid #2b6649;
+  outline-offset: 3px;
+}
+
+@media (min-width: 992px) {
+  .site-navigation-backdrop,
+  .site-navigation-drawer {
+    display: none !important;
+  }
+}

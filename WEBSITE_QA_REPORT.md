@@ -27,6 +27,7 @@ Audit date: 2026-10-21. Target: local static site at `http://localhost:8081/`. H
 ## Repairs and inventories
 
 - Restored the 27 matching archive pages and 244 image variants without overwriting existing local files.
+- Fixed the nonresponsive header navigation controls. The recovered HTML referenced Shopware storefront bundles that are missing from this export. Added a local controller and stylesheet to all 2,112 saved HTML documents, so the desktop Navigation control opens/closes the saved rich menu and mobile menu buttons open a keyboard-accessible drawer with the captured category links. Desktop toggle and category-link navigation were checked in the local browser.
 - Updated route and asset inventories so recovered paths are no longer represented as unresolved where those records existed. Added supplemental missing image references discovered from the restored pages.
 - Retained the earlier website fixes: local root-relative navigation, directory-index and not-found handling, and the dynamic product catalog empty state.
 - `README.md` documents the base URL behavior and the archive-only recovery utility.
