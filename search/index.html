@@ -1,25 +1,72 @@
 <!doctype html>
 <html lang="de-CH">
 <head>
-<script src="/site-base.js"></script>
-<link rel="stylesheet" href="/site-navigation.css">
-<script src="/site-navigation.js" defer></script>
+  <script src="/site-base.js"></script>
+  <script src="/local-recovery.js" defer></script>
+  <link rel="stylesheet" href="/site-navigation.css">
+  <script src="/site-navigation.js" defer></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Durchsuche die lokal verfügbaren Seiten des ArtisanShop-Archivs.">
   <title>Suche | ArtisanShop</title>
   <link rel="stylesheet" href="/theme/70f6c4feb09e74b6b88d7a2f53c717b2/css/all.css">
+  <style>
+    .local-search{max-width:52rem;margin:3rem auto;padding:clamp(1.25rem,4vw,2.5rem);background:#fff;border:1px solid #dfe5df;border-radius:14px;color:#274533}
+    .local-search form{display:flex;gap:.6rem;flex-wrap:wrap;margin:1.5rem 0}
+    .local-search input{flex:1 1 16rem;padding:.8rem;border:1px solid #aab8ae;border-radius:6px;font:inherit}
+    .local-search button{padding:.8rem 1.2rem;border:0;border-radius:6px;background:#245e40;color:#fff;font:inherit;cursor:pointer}
+    .local-search li{margin:.7rem 0}.local-search a{color:#245e40}.search-note{color:#536158}
+  </style>
 </head>
-<body class="container py-5">
-  <main class="mx-auto" style="max-width: 48rem">
-    <h1>Suche</h1>
-    <p>Die ursprüngliche Suchfunktion benötigt den ArtisanShop-Server und ist in diesem wiederhergestellten statischen Archiv nicht verfügbar.</p>
-    <p>Du kannst stattdessen die verfügbaren Produkte und Ratgeber direkt öffnen.</p>
-    <ul>
-      <li><a href="/produkte/">Produkte</a></li>
-      <li><a href="/ratgeber/">Ratgeber</a></li>
-      <li><a href="/service/kundenservice/">Kundenservice</a></li>
-    </ul>
-    <p><a href="/">Startseite</a></p>
+<body>
+  <main class="local-search">
+    <p>ArtisanShop Archiv</p>
+    <h1>Seiten durchsuchen</h1>
+    <p class="search-note">Die Suche findet Produkt-, Geräte-, Marken- und Ratgeberseiten, die in diesem Archiv gespeichert sind.</p>
+    <form action="/search/" method="get" role="search">
+      <label for="q" class="visually-hidden">Suchbegriff</label>
+      <input id="q" name="q" type="search" minlength="2" placeholder="Zum Beispiel Bosch, Türdichtung oder Waschmaschine" autocomplete="off" required>
+      <button type="submit">Suchen</button>
+    </form>
+    <p id="search-status" class="search-note" aria-live="polite">Gib mindestens zwei Zeichen ein.</p>
+    <ol id="search-results"></ol>
+    <p><a href="/">Zur Startseite</a></p>
   </main>
+  <script>
+    (function () {
+      const input = document.getElementById('q');
+      const status = document.getElementById('search-status');
+      const results = document.getElementById('search-results');
+      const term = new URLSearchParams(window.location.search).get('q') || new URLSearchParams(window.location.search).get('search') || '';
+      input.value = term;
+      if (term.trim().length < 2) return;
+      status.textContent = 'Archivseiten werden durchsucht …';
+      fetch('/local-search-index.json').then(function (response) {
+        if (!response.ok) throw new Error('Index unavailable');
+        return response.json();
+      }).then(function (pages) {
+        const query = term.trim().toLocaleLowerCase('de');
+        const matches = pages.map(function (page) {
+          const title = page.title.toLocaleLowerCase('de');
+          const url = page.url.toLocaleLowerCase('de');
+          const score = (title.includes(query) ? 3 : 0) + (url.includes(query) ? 1 : 0);
+          return { page: page, score: score };
+        }).filter(function (item) { return item.score > 0; })
+          .sort(function (a, b) { return b.score - a.score || a.page.title.localeCompare(b.page.title, 'de'); })
+          .slice(0, 50);
+        status.textContent = matches.length ? matches.length + ' passende Archivseiten' + (matches.length === 50 ? ' (maximal 50 angezeigt)' : '') + '.' : 'Keine passende gespeicherte Seite gefunden.';
+        matches.forEach(function (item) {
+          const li = document.createElement('li');
+          const link = document.createElement('a');
+          link.href = item.page.url;
+          link.textContent = item.page.title;
+          li.appendChild(link);
+          results.appendChild(li);
+        });
+      }).catch(function () {
+        status.textContent = 'Die lokale Suche ist nicht verfügbar. Bitte starte den Server im Projektordner und lade die Seite erneut.';
+      });
+    })();
+  </script>
 </body>
 </html>

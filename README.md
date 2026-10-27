@@ -8,13 +8,15 @@ Internal links and captured resources use local paths. The early-loading `/site-
 
 ## Local preview
 
-Run a static file server from this directory, then open `http://localhost:8081/`:
+Start the project server, then open `http://localhost:8081/`:
 
 ```bash
-python3 -m http.server 8081
+python3 server.py
 ```
 
-The static archive can render captured pages and the local product catalog. The original Shopware application and database are not included, so account, live search, cart updates, checkout, appliance lookup, reviews, and other backend actions cannot be completed here.
+The server serves files and directory indexes from this project regardless of the shell working directory. It also maps extensionless URLs to matching `.html` files and serves `404.html` only when no file or supported route alias exists. Use `python3 server.py --host 0.0.0.0` to expose the preview on your local network.
+
+The static archive can render captured pages and the local product catalog. `/search/` searches the titles and paths of saved pages locally without Shopware. Listing pagination now divides the locally captured products into working client-side pages; only products present in the saved page are included. If a referenced image is absent, `local-recovery.js` displays a neutral image placeholder. The original Shopware application and database are not included, so account, cart updates, checkout, appliance lookup, reviews, and other transactional backend actions cannot be completed here.
 
 ## Recovery notes
 
@@ -23,4 +25,4 @@ The static archive can render captured pages and the local product catalog. The 
 - `WEBSITE_QA_REPORT.md` and `WEBSITE_ROUTE_STATUS.csv` document the route, link, and resource checks.
 - `tools/recover_wayback_resources.py` can recover exact-path files from Internet Archive captures made before `2025-08-25 13:25:36`. Requests are restricted to `web.archive.org`; it never fetches from the live ArtisanShop domain. Captures are selected using the cached CDX indexes under `/tmp/artisanshop-wayback-cdx/`. Run it from the project with `python3 tools/recover_wayback_resources.py`; review `WAYBACK_RECOVERY_INVENTORY.csv` for capture dates and outcomes.
 - The current recovery inventory contains 27 archived HTML pages and 244 image variants. It does not imply that all links on those pages are available; remaining missing targets are listed in the QA CSV inventories.
-- `site-navigation.js` and `site-navigation.css` provide local desktop and mobile navigation controls because the original Shopware storefront JavaScript is absent. The desktop Navigation control opens the recovered category menu; the mobile menu opens an accessible drawer with the saved category links.
+- `site-navigation.js` and `site-navigation.css` provide local desktop and mobile navigation controls because the original Shopware storefront JavaScript is absent. The desktop Navigation control opens the recovered category menu; the mobile menu opens an accessible drawer with the saved category links. `local-search-index.json` is the generated index used by the local archive search.

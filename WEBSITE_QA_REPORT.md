@@ -43,3 +43,12 @@ Audit date: 2026-10-21. Target: local static site at `http://localhost:8081/`. H
 ## Status definitions
 
 `FIXED` means a known navigation or fallback issue was repaired and its local file responds. `PASS` means the local route or resource is present and served. `BLOCKED_CONTENT` means a fallback responds but original content or backend functionality is unavailable. `FAIL` means a referenced local page destination remains absent.
+
+## Follow-up recovery improvements (2026-10-27)
+
+- Added `server.py` as the local preview server. It serves from the project root, resolves directory indexes and extensionless `.html` aliases, and returns the recovery `404.html` with status 404 only after those lookups fail. Use `python3 server.py` instead of a bare `python3 -m http.server` when previewing locally.
+
+- Added a local, backend-independent search page at `/search/`. It searches titles and paths for 2,109 saved HTML pages using `local-search-index.json`; existing header search forms submit to this page with either `search` or `q` parameters.
+- Added `local-recovery.js` to 2,110 recovered HTML pages. If an image request fails, the page displays an inline neutral placeholder instead of a broken-image icon. This is a visual fallback only; it does not restore original image content or replace source files. The same script now handles static listing pagination client-side over the product cards captured in each category page, with URL/history updates; it does not claim to restore uncaptured Shopware result pages.
+- Existing unresolved-route records point to content absent from this recovery. They continue to use the project's 404 page on hosts configured to serve `404.html`; no substitute product content was fabricated.
+- The Shopware application/database and external services are not part of this project. Search no longer depends on them, but live cart, checkout, account, payment, reviews, and appliance lookup remain unavailable until a real backend is supplied.
